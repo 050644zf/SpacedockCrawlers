@@ -1,0 +1,78 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2102,         70]
+NotebookOptionsPosition[      1792,         56]
+NotebookOutlinePosition[      2149,         72]
+CellTagsIndexPosition[      2106,         69]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"raw", "=", 
+   RowBox[{"URLExecute", "[", 
+    RowBox[{
+    "\"\<http://www.spacedock.info/api/browse?page=1&count=100\>\"", ",", 
+     "\"\<RawJSON\>\""}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"name", "=", 
+   RowBox[{"raw", "[", 
+    RowBox[{"[", 
+     RowBox[{"\"\<result\>\"", ",", "All", ",", "\"\<name\>\""}], "]"}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"ver", "=", 
+   RowBox[{"raw", "[", 
+    RowBox[{"[", 
+     RowBox[{
+     "\"\<result\>\"", ",", "All", ",", "\"\<versions\>\"", ",", "1", ",", 
+      "\"\<game_version\>\""}], "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"excel", "=", 
+   RowBox[{"Transpose", "[", 
+    RowBox[{"{", 
+     RowBox[{"name", ",", "ver"}], "}"}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Export", "[", 
+   RowBox[{"\"\<mod.xlsx\>\"", ",", "excel"}], "]"}], ";"}]}], "Input",
+ CellChangeTimes->{
+  3.7442046365089264`*^9, {3.7442047478410854`*^9, 3.7442047702731695`*^9}, {
+   3.7442048436857505`*^9, 3.744204878811496*^9}, {3.7442049986457453`*^9, 
+   3.744205031125947*^9}},
+ CellLabel->
+  "In[183]:=",ExpressionUUID->"abffb216-686f-41c3-82a3-36c0d58f59f6"]
+},
+WindowSize->{1472, 821},
+WindowMargins->{{-8, Automatic}, {Automatic, -8}},
+FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (2018\:5e743\:670828\
+\:65e5)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 1230, 34, 193, "Input",ExpressionUUID->"abffb216-686f-41c3-82a3-36c0d58f59f6"]
+}
+]
+*)
+
