@@ -10,22 +10,25 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      4717,        139]
-NotebookOptionsPosition[      4060,        118]
-NotebookOutlinePosition[      4417,        134]
-CellTagsIndexPosition[      4374,        131]
+NotebookDataLength[     12906,        331]
+NotebookOptionsPosition[     11963,        307]
+NotebookOutlinePosition[     12320,        323]
+CellTagsIndexPosition[     12277,        320]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
-
-Cell[CellGroupData[{
 Cell[BoxData[{
+ RowBox[{"\"\<\:722c\:4e0bSpacedock\:6240\:6709KSPmod\:5217\:8868\>\"", 
+  ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"name", "=", 
-   RowBox[{"ver", "=", 
-    RowBox[{"game", "=", 
-     RowBox[{"{", "}"}]}]}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"game", "=", 
+    RowBox[{"ver", "=", 
+     RowBox[{"downloads", "=", 
+      RowBox[{"modID", "=", 
+       RowBox[{"verID", "=", 
+        RowBox[{"{", "}"}]}]}]}]}]}]}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"sdUrl", ":=", 
    RowBox[{"TemplateApply", "[", 
@@ -75,8 +78,34 @@ Cell[BoxData[{
          RowBox[{"[", 
           RowBox[{
           "\"\<result\>\"", ",", "All", ",", "\"\<versions\>\"", ",", "1", 
-           ",", "\"\<game_version\>\""}], "]"}], "]"}]}], "}"}], "]"}]}], 
-    ";"}], "\[IndentingNewLine]", ",", 
+           ",", "\"\<game_version\>\""}], "]"}], "]"}]}], "}"}], "]"}]}], ";",
+     "\[IndentingNewLine]", 
+    RowBox[{"downloads", "=", 
+     RowBox[{"Flatten", "[", 
+      RowBox[{"{", 
+       RowBox[{"downloads", ",", 
+        RowBox[{"raw", "[", 
+         RowBox[{"[", 
+          RowBox[{"\"\<result\>\"", ",", "All", ",", "\"\<downloads\>\""}], 
+          "]"}], "]"}]}], "}"}], "]"}]}], ";", "\[IndentingNewLine]", 
+    RowBox[{"modID", "=", 
+     RowBox[{"Flatten", "[", 
+      RowBox[{"{", 
+       RowBox[{"modID", ",", 
+        RowBox[{"raw", "[", 
+         RowBox[{"[", 
+          RowBox[{"\"\<result\>\"", ",", "All", ",", "\"\<id\>\""}], "]"}], 
+         "]"}]}], "}"}], "]"}]}], ";", "\[IndentingNewLine]", 
+    RowBox[{"verID", "=", 
+     RowBox[{"Flatten", "[", 
+      RowBox[{"{", 
+       RowBox[{"verID", ",", 
+        RowBox[{"raw", "[", 
+         RowBox[{"[", 
+          RowBox[{
+          "\"\<result\>\"", ",", "All", ",", "\"\<versions\>\"", ",", "1", 
+           ",", "\"\<id\>\""}], "]"}], "]"}]}], "}"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", ",", 
    RowBox[{"{", 
     RowBox[{"page", ",", "1", ",", "pages"}], "}"}]}], 
   "]"}], "\[IndentingNewLine]", 
@@ -84,37 +113,197 @@ Cell[BoxData[{
   RowBox[{"excel", "=", 
    RowBox[{"Transpose", "[", 
     RowBox[{"{", 
-     RowBox[{"name", ",", "game", ",", "ver"}], "}"}], "]"}]}], 
+     RowBox[{
+     "name", ",", "game", ",", "ver", ",", "downloads", ",", "modID", ",", 
+      "verID"}], "}"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"excel", "=", 
+   RowBox[{"Extract", "[", 
+    RowBox[{"excel", ",", 
+     RowBox[{"Most", "/@", 
+      RowBox[{"Position", "[", 
+       RowBox[{"excel", ",", "\"\<Kerbal Space Program\>\""}], "]"}]}]}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"excel", "=", 
+   RowBox[{"Sort", "[", 
+    RowBox[{"excel", ",", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"#1", "[", 
+        RowBox[{"[", "5", "]"}], "]"}], "<", 
+       RowBox[{"#2", "[", 
+        RowBox[{"[", "5", "]"}], "]"}]}], "&"}]}], "]"}]}], 
   ";"}], "\[IndentingNewLine]", 
- RowBox[{"Export", "[", 
-  RowBox[{"\"\<mod.xlsx\>\"", ",", "excel"}], "]"}]}], "Input",
+ RowBox[{
+  RowBox[{"excel", "=", 
+   RowBox[{"Prepend", "[", 
+    RowBox[{"excel", ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<Name\>\"", ",", "\"\<Game\>\"", ",", "\"\<Game Version\>\"", ",", 
+       "\"\<Downloads\>\"", ",", "\"\<Mod ID\>\"", ",", 
+       "\"\<Version ID\>\""}], "}"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]"}], "Input",
  CellChangeTimes->{
   3.7442046365089264`*^9, {3.7442047478410854`*^9, 3.7442047702731695`*^9}, {
    3.7442048436857505`*^9, 3.744204878811496*^9}, {3.7442049986457453`*^9, 
    3.744205031125947*^9}, {3.7442367914746084`*^9, 3.7442368112005377`*^9}, {
    3.744237720963872*^9, 3.74423781108963*^9}, 3.7442381885499325`*^9, {
    3.744239877613*^9, 3.7442399736694455`*^9}, {3.7442400723728886`*^9, 
-   3.744240254912427*^9}, {3.7442442289693027`*^9, 
-   3.7442442307615356`*^9}},ExpressionUUID->"abffb216-686f-41c3-82a3-\
-36c0d58f59f6"],
-
-Cell[BoxData["\<\"mod.xlsx\"\>"], "Output",
- CellChangeTimes->{3.7442378137216635`*^9, 3.7442398750831633`*^9, 
-  3.74424000715292*^9, 3.7442400693528376`*^9, 3.7442403079226627`*^9},
+   3.744240254912427*^9}, {3.7442442289693027`*^9, 3.7442442307615356`*^9}, {
+   3.7442712901770945`*^9, 3.7442713293684134`*^9}, {3.7442715745533667`*^9, 
+   3.744271730697952*^9}, {3.7442717607134867`*^9, 3.7442718528006744`*^9}, {
+   3.7442742860306263`*^9, 3.7442743912584133`*^9}, {3.744275596682024*^9, 
+   3.7442756970060606`*^9}, {3.744279286967187*^9, 3.744279458922047*^9}, {
+   3.7442797412152076`*^9, 3.7442797460645075`*^9}, {3.744280721930702*^9, 
+   3.7442807251520376`*^9}, {3.744282227344384*^9, 3.7442822342740555`*^9}, {
+   3.7442831909179115`*^9, 3.7442832051612196`*^9}, {3.7442834569261274`*^9, 
+   3.7442835363445015`*^9}, {3.7442839937609897`*^9, 
+   3.7442840630024366`*^9}, {3.7442892137304864`*^9, 3.7442892461774836`*^9}},
  CellLabel->
-  "Out[151]=",ExpressionUUID->"bd9bc4e9-acf0-49e8-b7cd-d7b43580e0aa"]
-}, Open  ]],
+  "In[447]:=",ExpressionUUID->"abffb216-686f-41c3-82a3-36c0d58f59f6"],
 
 Cell[CellGroupData[{
 
-Cell[BoxData[""], "Input",
- CellChangeTimes->{3.744236856286441*^9},
- NumberMarks->False,ExpressionUUID->"a85ba6b3-1029-4de0-bca5-64be25f251ae"],
+Cell[BoxData[{
+ RowBox[{"\"\<\:5bfc\:51fa\:6700\:65b0mod\:5217\:8868\>\"", 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Export", "[", 
+  RowBox[{
+   RowBox[{"SystemDialogInput", "[", 
+    RowBox[{"\"\<FileSave\>\"", ",", 
+     RowBox[{"\"\<mod\>\"", "<>", 
+      RowBox[{"DateString", "[", 
+       RowBox[{"{", 
+        RowBox[{"\"\<Year\>\"", ",", "\"\<Month\>\"", ",", "\"\<Day\>\""}], 
+        "}"}], "]"}], "<>", "\"\<.xlsx\>\""}]}], "]"}], ",", "excel"}], 
+  "]"}]}], "Input",
+ CellChangeTimes->{{3.744283470337423*^9, 3.744283495276059*^9}, {
+   3.7442835395381527`*^9, 3.744283548545927*^9}, {3.7442840418110313`*^9, 
+   3.744284046716919*^9}, {3.744289252944*^9, 3.74428926991371*^9}, 
+   3.744289784020297*^9},
+ CellLabel->
+  "In[488]:=",ExpressionUUID->"d7859eee-df30-4709-b07d-079440417255"],
 
-Cell[BoxData["1"], "Output",
- CellChangeTimes->{3.7442368399250298`*^9},
- CellLabel->"Out[52]=",ExpressionUUID->"f0a2f5a5-25c0-4b26-bff9-2bc78082a544"]
-}, Open  ]]
+Cell[BoxData["\<\"C:\\\\Users\\\\59138\\\\Documents\\\\mod20180827.xlsx\"\>"],\
+ "Output",
+ CellChangeTimes->{3.744290711199647*^9},
+ CellLabel->
+  "Out[489]=",ExpressionUUID->"286f0b01-b8c2-4e4e-9d67-858ad42bbfd6"]
+}, Open  ]],
+
+Cell[BoxData["\[IndentingNewLine]"], "Input",
+ CellChangeTimes->{
+  3.7442898244380774`*^9},ExpressionUUID->"34771bfc-1af6-49e7-bceb-\
+115057f09b89"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"\"\<\:6bd4\:5bf9\:5df2\:6709mod\:5217\:8868\:ff0c\:5bfc\:51famod\
+\:66f4\:65b0\:5217\:8868\>\"", ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"bexcel", "=", 
+   RowBox[{
+    RowBox[{"Import", "[", 
+     RowBox[{
+      RowBox[{"SystemDialogInput", "[", 
+       RowBox[{"\"\<FileOpen\>\"", ",", "\"\<.xlsx\>\""}], "]"}], ",", 
+      "\"\<Data\>\""}], "]"}], "[", 
+    RowBox[{"[", 
+     RowBox[{"1", ",", "All", ",", 
+      RowBox[{"{", 
+       RowBox[{"3", ",", "5", ",", "6"}], "}"}]}], "]"}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"aexcel", "=", 
+   RowBox[{"excel", "[", 
+    RowBox[{"[", 
+     RowBox[{"All", ",", 
+      RowBox[{"{", 
+       RowBox[{"1", ",", "3", ",", "5", ",", "6"}], "}"}]}], "]"}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"nexcel", "=", 
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"If", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"aexcel", "[", 
+         RowBox[{"[", 
+          RowBox[{"i", ",", "4"}], "]"}], "]"}], "\[NotEqual]", 
+        RowBox[{"bexcel", "[", 
+         RowBox[{"[", 
+          RowBox[{"i", ",", "3"}], "]"}], "]"}]}], ",", 
+       RowBox[{"Join", "[", 
+        RowBox[{
+         RowBox[{"aexcel", "[", 
+          RowBox[{"[", "i", "]"}], "]"}], ",", 
+         RowBox[{"bexcel", "[", 
+          RowBox[{"[", 
+           RowBox[{"i", ",", 
+            RowBox[{"{", 
+             RowBox[{"1", ",", "3"}], "}"}]}], "]"}], "]"}]}], "]"}], ",", 
+       "Nothing"}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"i", ",", "2", ",", 
+       RowBox[{"Length", "[", "bexcel", "]"}]}], "}"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"nexcel", "=", 
+   RowBox[{"Prepend", "[", 
+    RowBox[{"nexcel", ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<Name\>\"", ",", "\"\<New Game Version\>\"", ",", "\"\<Mod ID\>\"", 
+       ",", "\"\<New VerID\>\"", ",", "\"\<Old Game Version\>\"", ",", 
+       "\"\<Old VerID\>\""}], "}"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Export", "[", 
+  RowBox[{"\"\<NewModList.xlsx\>\"", ",", "nexcel"}], 
+  "]"}], "\[IndentingNewLine]"}], "Input",
+ CellChangeTimes->{
+  3.7442832136669035`*^9, 3.744283435767563*^9, {3.7442835514412894`*^9, 
+   3.744283637936618*^9}, {3.744283669511777*^9, 3.744283725010113*^9}, 
+   3.7442838109846287`*^9, {3.744284050424613*^9, 3.7442840528052444`*^9}, {
+   3.744284115229893*^9, 3.744284132410062*^9}, {3.744284192254059*^9, 
+   3.7442841968462334`*^9}, {3.744284288188943*^9, 3.744284412850921*^9}, {
+   3.744284528094982*^9, 3.744284555027006*^9}, {3.7442846163183856`*^9, 
+   3.744284622625997*^9}, {3.7442847116845503`*^9, 3.7442847570368996`*^9}, {
+   3.7442847992300606`*^9, 3.744284858858111*^9}, {3.7442849003090835`*^9, 
+   3.74428490160426*^9}, {3.744284954644777*^9, 3.744285026665313*^9}, 
+   3.7442850587426257`*^9, {3.744286260165223*^9, 3.7442862852714186`*^9}, {
+   3.744287015244049*^9, 3.744287240592346*^9}, {3.744287281364707*^9, 
+   3.7442873241779795`*^9}, {3.744287363385653*^9, 3.7442873899536037`*^9}, {
+   3.744287464522295*^9, 3.744287528614802*^9}, 3.744287583869519*^9, {
+   3.744287709536393*^9, 3.7442877704613485`*^9}, {3.744287808303401*^9, 
+   3.7442878380298595`*^9}, {3.744287960662446*^9, 3.7442880080469112`*^9}, {
+   3.7442880604110823`*^9, 3.7442880629182606`*^9}, {3.7442880983854265`*^9, 
+   3.744288226123788*^9}, {3.744288433774151*^9, 3.7442884992100997`*^9}, {
+   3.7442885345863595`*^9, 3.7442886238443623`*^9}, {3.7442886780635676`*^9, 
+   3.744288695977051*^9}, {3.744288760592714*^9, 3.744288964953473*^9}, {
+   3.744289040272024*^9, 3.744289048078847*^9}, {3.7442890874549847`*^9, 
+   3.7442891366018815`*^9}, {3.7442892044799995`*^9, 3.744289206010905*^9}, {
+   3.744289274902441*^9, 3.744289306174086*^9}, {3.744289927634898*^9, 
+   3.744289932700915*^9}, {3.7442899804095073`*^9, 3.744290102271864*^9}, {
+   3.744290353618348*^9, 3.744290377783128*^9}, {3.744290450567917*^9, 
+   3.7442904511114435`*^9}},
+ CellLabel->
+  "In[482]:=",ExpressionUUID->"0fad499a-be4d-4f55-8fd5-5d29558057df"],
+
+Cell[BoxData["\<\"NewModList.xlsx\"\>"], "Output",
+ CellChangeTimes->{
+  3.7442901146584005`*^9, 3.7442902976712217`*^9, {3.744290385294136*^9, 
+   3.74429039517489*^9}, 3.744290457523803*^9, 3.744290639326333*^9},
+ CellLabel->
+  "Out[487]=",ExpressionUUID->"30c77f9c-86be-4084-a8d1-1f2f6d3f01af"]
+}, Open  ]],
+
+Cell[BoxData["\[AliasDelimiter]"], "Input",
+ CellChangeTimes->{
+  3.744290386816844*^9},ExpressionUUID->"af58e401-552f-4c87-8fd2-\
+ea557619422b"]
 },
 WindowSize->{1472, 821},
 WindowMargins->{{-8, Automatic}, {Automatic, -8}},
@@ -133,14 +322,17 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
+Cell[558, 20, 5625, 144, 604, "Input",ExpressionUUID->"abffb216-686f-41c3-82a3-36c0d58f59f6"],
 Cell[CellGroupData[{
-Cell[580, 22, 2860, 76, 379, "Input",ExpressionUUID->"abffb216-686f-41c3-82a3-36c0d58f59f6"],
-Cell[3443, 100, 266, 4, 32, "Output",ExpressionUUID->"bd9bc4e9-acf0-49e8-b7cd-d7b43580e0aa"]
+Cell[6208, 168, 801, 18, 64, "Input",ExpressionUUID->"d7859eee-df30-4709-b07d-079440417255"],
+Cell[7012, 188, 215, 4, 32, "Output",ExpressionUUID->"286f0b01-b8c2-4e4e-9d67-858ad42bbfd6"]
 }, Open  ]],
+Cell[7242, 195, 149, 3, 48, "Input",ExpressionUUID->"34771bfc-1af6-49e7-bceb-115057f09b89"],
 Cell[CellGroupData[{
-Cell[3746, 109, 144, 2, 28, "Input",ExpressionUUID->"a85ba6b3-1029-4de0-bca5-64be25f251ae"],
-Cell[3893, 113, 151, 2, 32, "Output",ExpressionUUID->"f0a2f5a5-25c0-4b26-bff9-2bc78082a544"]
-}, Open  ]]
+Cell[7416, 202, 4083, 90, 233, "Input",ExpressionUUID->"0fad499a-be4d-4f55-8fd5-5d29558057df"],
+Cell[11502, 294, 297, 5, 32, "Output",ExpressionUUID->"30c77f9c-86be-4084-a8d1-1f2f6d3f01af"]
+}, Open  ]],
+Cell[11814, 302, 145, 3, 28, "Input",ExpressionUUID->"af58e401-552f-4c87-8fd2-ea557619422b"]
 }
 ]
 *)
