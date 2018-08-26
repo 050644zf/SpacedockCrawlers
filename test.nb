@@ -1,0 +1,216 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      7499,        206]
+NotebookOptionsPosition[      5910,        170]
+NotebookOutlinePosition[      6265,        186]
+CellTagsIndexPosition[      6222,        183]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"sdUrl", ":=", 
+   RowBox[{"TemplateApply", "[", 
+    RowBox[{
+    "\"\<http://www.spacedock.info/api/browse?page=`p`&count=`c`\>\"", ",", 
+     RowBox[{"<|", 
+      RowBox[{
+       RowBox[{"\"\<p\>\"", "->", "page"}], ",", 
+       RowBox[{"\"\<c\>\"", "\[Rule]", "100"}]}], "|>"}]}], "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.744236365773212*^9, 3.7442364995297937`*^9}, {
+  3.7442366678859744`*^9, 3.744236669642823*^9}},
+ CellLabel->"In[42]:=",ExpressionUUID->"638be597-acc1-474c-894d-b803d33b00c7"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"sdUrl", "[", "2", "]"}]], "Input",
+ CellChangeTimes->{{3.744236505256123*^9, 3.744236509950246*^9}},
+ CellLabel->"In[39]:=",ExpressionUUID->"8fb837a3-45a6-4108-9bbd-74d6871a97d2"],
+
+Cell[BoxData[
+ RowBox[{"\<\"http://www.spacedock.info/api/browse?page=1&count=100\"\>", "[",
+   "2", "]"}]], "Output",
+ CellChangeTimes->{3.744236510663371*^9},
+ CellLabel->"Out[39]=",ExpressionUUID->"3855e318-1eec-45a5-9a35-3ae1f52191c1"]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.744236557309245*^9, 
+  3.744236585134692*^9}},ExpressionUUID->"cc4f95a1-4803-45d8-be85-\
+fbd99f4d45c0"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"page", "=", "6"}], ";", "sdUrl"}]], "Input",
+ CellChangeTimes->{{3.744236593991982*^9, 3.7442366504719205`*^9}, {
+  3.7442366825203238`*^9, 3.7442367118431387`*^9}},
+ CellLabel->"In[44]:=",ExpressionUUID->"f3e078fd-5382-4912-944f-b0d15d676ebf"],
+
+Cell[BoxData["\<\"http://www.spacedock.info/api/browse?page=6&count=100\"\>"],\
+ "Output",
+ CellChangeTimes->{{3.7442366959152966`*^9, 3.744236712630077*^9}},
+ CellLabel->"Out[44]=",ExpressionUUID->"f16c0508-8d5b-4494-8b9c-8fb9976739ee"]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.744237179960947*^9, 
+  3.7442371856784253`*^9}},ExpressionUUID->"3360c385-f3b1-4f72-9846-\
+20468a32073e"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"name", "=", 
+    RowBox[{"ver", "=", 
+     RowBox[{"{", "}"}]}]}], "\[IndentingNewLine]", 
+   RowBox[{"Do", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"sdUrl", ":=", 
+       RowBox[{"TemplateApply", "[", 
+        RowBox[{
+        "\"\<http://www.spacedock.info/api/browse?page=`p`&count=`c`\>\"", 
+         ",", 
+         RowBox[{"<|", 
+          RowBox[{
+           RowBox[{"\"\<p\>\"", "->", "page"}], ",", 
+           RowBox[{"\"\<c\>\"", "\[Rule]", "2"}]}], "|>"}]}], "]"}]}], ";", 
+      RowBox[{"raw", "=", 
+       RowBox[{"URLExecute", "[", 
+        RowBox[{"sdUrl", ",", "\"\<RawJSON\>\""}], "]"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"name", "=", 
+       RowBox[{"Flatten", "[", 
+        RowBox[{"{", 
+         RowBox[{"name", ",", 
+          RowBox[{"raw", "[", 
+           RowBox[{"[", 
+            RowBox[{"\"\<result\>\"", ",", "All", ",", "\"\<name\>\""}], 
+            "]"}], "]"}]}], "}"}], "]"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{"ver", "=", 
+       RowBox[{"Flatten", "[", 
+        RowBox[{"{", 
+         RowBox[{"ver", ",", 
+          RowBox[{"raw", "[", 
+           RowBox[{"[", 
+            RowBox[{
+            "\"\<result\>\"", ",", "All", ",", "\"\<versions\>\"", ",", "1", 
+             ",", "\"\<game_version\>\""}], "]"}], "]"}]}], "}"}], "]"}]}], 
+      ";"}], "\[IndentingNewLine]", ",", 
+     RowBox[{"{", 
+      RowBox[{"page", ",", "1", ",", "4"}], "}"}]}], "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.7442367637864046`*^9, 3.744236776600165*^9}, {
+  3.744236886090947*^9, 3.744236918043899*^9}, {3.7442369615078096`*^9, 
+  3.744237015504212*^9}, {3.74423706098232*^9, 3.7442371681653256`*^9}, {
+  3.744237306226932*^9, 3.7442373762732*^9}, {3.7442374211158714`*^9, 
+  3.744237550077635*^9}},
+ CellLabel->
+  "In[116]:=",ExpressionUUID->"a7e38b02-1e0e-46eb-9d1c-91f1ce2eaeb0"],
+
+Cell[BoxData[
+ RowBox[{"{", "}"}]], "Output",
+ CellChangeTimes->{3.744237554222906*^9},
+ CellLabel->
+  "Out[116]=",ExpressionUUID->"fcce03a2-3b7d-44d7-a12d-45f0aa9f515c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["name"], "Input",
+ CellChangeTimes->{{3.7442374580471916`*^9, 3.7442374616126275`*^9}},
+ CellLabel->
+  "In[115]:=",ExpressionUUID->"19e474e9-c359-4a9b-9801-a99f4868fc54"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"Persistent Trails Continued...\"\>", 
+   ",", "\<\"Semiotic Standard for Kerbal Vessels\"\>", 
+   ",", "\<\"BDArmory Weapons Extension\"\>", 
+   ",", "\<\"Kerbin-SideJobs (Contracts Pack)\"\>", ",", "\<\"Em Drive\"\>", 
+   ",", "\<\"CTTStockRebalance\"\>", ",", "\<\"Kerbalism Simplified\"\>", 
+   ",", "\<\"Deltaglider XR-1 For KSP\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{3.7442374623335266`*^9},
+ CellLabel->
+  "Out[115]=",ExpressionUUID->"a20276ba-d7fb-414c-adb1-2ef221e88f88"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["ver"], "Input",
+ CellChangeTimes->{{3.7442375651178207`*^9, 3.7442375663476763`*^9}},
+ CellLabel->
+  "In[118]:=",ExpressionUUID->"ada3da6f-2456-48ba-8124-dbed867a325a"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"1.4.1\"\>", ",", "\<\"1.4.3\"\>", ",", "\<\"1.3.1\"\>", 
+   ",", "\<\"1.1.2\"\>", ",", "\<\"1.2.2\"\>", ",", "\<\"1.3.0\"\>", 
+   ",", "\<\"1.2.2\"\>", ",", "\<\"1.0.5\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{3.74423756786852*^9},
+ CellLabel->
+  "Out[118]=",ExpressionUUID->"e8e68562-bf38-4a87-bb34-baf63eedf9c3"]
+}, Open  ]]
+},
+WindowSize->{734, 812},
+WindowMargins->{{Automatic, -7}, {Automatic, 0}},
+FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (2018\:5e743\:670828\
+\:65e5)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 545, 13, 66, "Input",ExpressionUUID->"638be597-acc1-474c-894d-b803d33b00c7"],
+Cell[CellGroupData[{
+Cell[1128, 37, 203, 3, 28, "Input",ExpressionUUID->"8fb837a3-45a6-4108-9bbd-74d6871a97d2"],
+Cell[1334, 42, 239, 4, 32, "Output",ExpressionUUID->"3855e318-1eec-45a5-9a35-3ae1f52191c1"]
+}, Open  ]],
+Cell[1588, 49, 152, 3, 28, "Input",ExpressionUUID->"cc4f95a1-4803-45d8-be85-fbd99f4d45c0"],
+Cell[CellGroupData[{
+Cell[1765, 56, 279, 5, 28, "Input",ExpressionUUID->"f3e078fd-5382-4912-944f-b0d15d676ebf"],
+Cell[2047, 63, 237, 3, 32, "Output",ExpressionUUID->"f16c0508-8d5b-4494-8b9c-8fb9976739ee"]
+}, Open  ]],
+Cell[2299, 69, 154, 3, 28, "Input",ExpressionUUID->"3360c385-f3b1-4f72-9846-20468a32073e"],
+Cell[CellGroupData[{
+Cell[2478, 76, 1908, 48, 271, "Input",ExpressionUUID->"a7e38b02-1e0e-46eb-9d1c-91f1ce2eaeb0"],
+Cell[4389, 126, 170, 4, 32, "Output",ExpressionUUID->"fcce03a2-3b7d-44d7-a12d-45f0aa9f515c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4596, 135, 183, 3, 28, "Input",ExpressionUUID->"19e474e9-c359-4a9b-9801-a99f4868fc54"],
+Cell[4782, 140, 529, 10, 71, "Output",ExpressionUUID->"a20276ba-d7fb-414c-adb1-2ef221e88f88"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5348, 155, 182, 3, 28, "Input",ExpressionUUID->"ada3da6f-2456-48ba-8124-dbed867a325a"],
+Cell[5533, 160, 361, 7, 32, "Output",ExpressionUUID->"e8e68562-bf38-4a87-bb34-baf63eedf9c3"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
