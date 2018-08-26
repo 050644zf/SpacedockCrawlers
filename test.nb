@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      7499,        206]
-NotebookOptionsPosition[      5910,        170]
-NotebookOutlinePosition[      6265,        186]
-CellTagsIndexPosition[      6222,        183]
+NotebookDataLength[    138171,       3508]
+NotebookOptionsPosition[    135807,       3459]
+NotebookOutlinePosition[    136162,       3475]
+CellTagsIndexPosition[    136119,       3472]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -166,6 +166,3295 @@ Cell[BoxData[
  CellChangeTimes->{3.74423756786852*^9},
  CellLabel->
   "Out[118]=",ExpressionUUID->"e8e68562-bf38-4a87-bb34-baf63eedf9c3"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"sdUrl", ":=", 
+   RowBox[{"TemplateApply", "[", 
+    RowBox[{
+    "\"\<http://www.spacedock.info/api/browse?page=`p`&count=`c`\>\"", ",", 
+     RowBox[{"<|", 
+      RowBox[{
+       RowBox[{"\"\<p\>\"", "\[Rule]", "1"}], ",", 
+       RowBox[{"\"\<c\>\"", "\[Rule]", "1"}]}], "|>"}]}], "]"}]}], ";", 
+  RowBox[{"raw", "=", 
+   RowBox[{"URLExecute", "[", "sdUrl", "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.7442389871484594`*^9, 3.744238990952112*^9}, {
+  3.7442390586483903`*^9, 3.7442390605274997`*^9}},
+ CellLabel->
+  "In[126]:=",ExpressionUUID->"7f6dded3-48d8-4000-a744-cf57e7101a83"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["raw"], "Input",
+ CellChangeTimes->{{3.7442389987513247`*^9, 3.744239000153747*^9}},
+ CellLabel->
+  "In[127]:=",ExpressionUUID->"c2f5558c-11f5-4bd8-be46-37c85975b49e"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"\<\"pages\"\>", "\[Rule]", "1560"}], ",", 
+   RowBox[{"\<\"count\"\>", "\[Rule]", "1"}], ",", 
+   RowBox[{"\<\"result\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"\<\"name\"\>", 
+        "\[Rule]", "\<\"Persistent Trails Continued...\"\>"}], ",", 
+       RowBox[{"\<\"short_description\"\>", 
+        "\[Rule]", "\<\"Document your epic journeys! Fly in formation! Race \
+your friends! Paint the skies!\"\>"}], ",", 
+       RowBox[{"\<\"default_version_id\"\>", "\[Rule]", "8217"}], ",", 
+       RowBox[{"\<\"author\"\>", "\[Rule]", "\<\"Jplrepo\"\>"}], ",", 
+       RowBox[{"\<\"donations\"\>", 
+        "\[Rule]", "\<\"https://www.patreon.com/JPLRepo\"\>"}], ",", 
+       RowBox[{"\<\"game\"\>", "\[Rule]", "\<\"Kerbal Space Program\"\>"}], 
+       ",", 
+       RowBox[{"\<\"shared_authors\"\>", "\[Rule]", 
+        RowBox[{"{", "}"}]}], ",", 
+       RowBox[{"\<\"website\"\>", 
+        "\[Rule]", \
+"\<\"http://forum.kerbalspaceprogram.com/index.php?/topic/161454-13\"\>"}], 
+       ",", 
+       RowBox[{"\<\"followers\"\>", "\[Rule]", "28"}], ",", 
+       RowBox[{"\<\"downloads\"\>", "\[Rule]", "966"}], ",", 
+       RowBox[{"\<\"id\"\>", "\[Rule]", "1398"}], ",", 
+       RowBox[{"\<\"game_id\"\>", "\[Rule]", "3102"}], ",", 
+       RowBox[{"\<\"background\"\>", 
+        "\[Rule]", \
+"\<\"/content/Jplrepo_405/Persistent_Trails_Continued/Persistent_Trails_\
+Continued-1496400853.8806963.png\"\>"}], ",", 
+       RowBox[{"\<\"versions\"\>", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"V1.7\"\>"}], 
+            ",", 
+            
+            RowBox[{"\<\"download_path\"\>", 
+             "\[Rule]", \
+"\<\"/mod/1398/Persistent%20Trails%20Continued.../download/V1.7\"\>"}], ",", 
+            RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.1\"\>"}], ",", 
+            RowBox[{"\<\"id\"\>", "\[Rule]", "8217"}], ",", 
+            
+            RowBox[{"\<\"changelog\"\>", 
+             "\[Rule]", "\<\"Fix and Re-compile for KSP 1.4.1\"\>"}]}], "}"}],
+           ",", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"V1.6\"\>"}], 
+            ",", 
+            
+            RowBox[{"\<\"download_path\"\>", 
+             "\[Rule]", \
+"\<\"/mod/1398/Persistent%20Trails%20Continued.../download/V1.6\"\>"}], ",", 
+            RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.3.1\"\>"}], ",", 
+            RowBox[{"\<\"id\"\>", "\[Rule]", "6962"}], ",", 
+            
+            RowBox[{"\<\"changelog\"\>", 
+             "\[Rule]", "\<\"Re-compile for KSP 1.3.1\"\>"}]}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"V1.5\"\>"}], 
+            ",", 
+            
+            RowBox[{"\<\"download_path\"\>", 
+             "\[Rule]", \
+"\<\"/mod/1398/Persistent%20Trails%20Continued.../download/V1.5\"\>"}], ",", 
+            RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.3.0\"\>"}], ",", 
+            RowBox[{"\<\"id\"\>", "\[Rule]", "6050"}], ",", 
+            
+            RowBox[{"\<\"changelog\"\>", 
+             "\[Rule]", "\<\"Changes and re-compiled for KSP 1.3   \
+\\r\\nFixed lights and Antennas so they don't deploy for ghost vessels.   \\r\
+\\nAdded 3 decimal point precision on distance readout in GUI.\"\>"}]}], 
+           "}"}]}], "}"}]}], ",", 
+       RowBox[{"\<\"url\"\>", 
+        "\[Rule]", "\<\"/mod/1398/Persistent%20Trails%20Continued...\"\>"}], 
+       ",", 
+       RowBox[{"\<\"bg_offset_y\"\>", "\[Rule]", "Null"}], ",", 
+       RowBox[{"\<\"source_code\"\>", 
+        "\[Rule]", "\<\"https://github.com/JPLRepo/KSPPersistentTrails\"\>"}],
+        ",", 
+       RowBox[{"\<\"license\"\>", "\[Rule]", "\<\"MIT\"\>"}]}], "}"}], 
+     "}"}]}], ",", 
+   RowBox[{"\<\"page\"\>", "\[Rule]", "1"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.74423900058576*^9, 3.744239065955419*^9},
+ CellLabel->
+  "Out[127]=",ExpressionUUID->"a8b622b0-0781-4db5-b8d4-64bcb8719c47"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"TreeForm", "[", "raw", "]"}]], "Input",
+ CellChangeTimes->{{3.7442390405821047`*^9, 3.744239046875157*^9}},
+ CellLabel->
+  "In[128]:=",ExpressionUUID->"db897810-e75b-4c72-819b-585499c9c08d"],
+
+Cell[BoxData[
+ GraphicsBox[
+  TagBox[GraphicsComplexBox[CompressedData["
+1:eJxlVV1IU2EY3ubfav5sc7rppm6D0ix/WqL2484pbVi5XZhQkUUlBWZ/SEYW
+XURFrZt+MNBuRFBmFhVSCypiF7oEC0ZpBHpT04i8CJ1YZGF1vvO845wNxsfD
+83x87/s83/sd26GT9YdVCoXi9L///3U4HKwORDQ8Wxc5bZeuItmfyNcleTbW
+tv3k5g5Gyk58SODHCscdoYV5rjhUsn7gThJhb9t17nLZctK3OI9VfWlYRrzv
+Qf9mu0FDWFUfV/t7MIX04ezprfvfJxNv9dq2372dGoP3ehoLd5+d5QJCnS84
+Vu8MpxB/TD8l8qMccKOw7xPpR4R1gnj56gxwdZWt30kfFFfwqAOY+bVAetQN
+3i32Ccz6/0N6+C49f4lw+5VzaxZ2qXjo2flKHnzny87ijoo4wshLWk88L603
+kTDygp7loiYe+QIjL2n9Gl7aXwrhh4vF+TMFWtKz/tKIrzI6C553agl/a25Z
+nf9VJ+tXx0v90BNe+dFX0uRLJz3zI514f8Rf6jAaCDe5ptZ1H8mQ+WOQ+ZdB
+uPuJtXJihZH0zL9M4tk8GGP6HxLvGfweEe8l8sG9xTwBw2/okQ94zBMwzoMe
++YDH/ADDb+iRD/g3Dvcqr1pHGH5Dj3zAq3u8RcOv9bJ+jNQ//Md+5AV9TVpw
+rfKqgTD8hx55gb94QVVe5cqMOQ965AX+1YxzQ3uCifBRwc8s0k/a920yTkf5
+X3vOO58OZcn8NpPedKuL39mbTXz5yLMts5fMhJmfVuqf5WGh/Q1L4zU3miyk
+by2fdxVV5xDOE/LKJf3N4/pto/Zc4h/1lu5oVuXFnAf92wmPO+lzlD/j9fve
+HbASZvnaSB/fN9zfE4ryHYGxe6d4G2GWd1RvnwwPcI+j/OCPufupVjth+Cl9
+T0w0H/AfGH5Cf024/9nEw39g+Cd9f8yy98lCGP5BrxTmJYd4+C1/j/B9wnzg
+Xcd8AP8FnUInKA==
+    "], {
+     {RGBColor[0.55, 0.45, 0.45], 
+      LineBox[{{1, 2}, {1, 5}, {1, 8}, {1, 114}, {2, 3}, {2, 4}, {5, 6}, {5, 
+       7}, {8, 9}, {8, 10}, {10, 11}, {11, 12}, {11, 15}, {11, 18}, {11, 
+       21}, {11, 24}, {11, 27}, {11, 30}, {11, 33}, {11, 36}, {11, 39}, {11, 
+       42}, {11, 45}, {11, 48}, {11, 51}, {11, 102}, {11, 105}, {11, 108}, {
+       11, 111}, {12, 13}, {12, 14}, {15, 16}, {15, 17}, {18, 19}, {18, 20}, {
+       21, 22}, {21, 23}, {24, 25}, {24, 26}, {27, 28}, {27, 29}, {30, 31}, {
+       30, 32}, {33, 34}, {33, 35}, {36, 37}, {36, 38}, {39, 40}, {39, 41}, {
+       42, 43}, {42, 44}, {45, 46}, {45, 47}, {48, 49}, {48, 50}, {51, 52}, {
+       51, 53}, {53, 54}, {53, 70}, {53, 86}, {54, 55}, {54, 58}, {54, 61}, {
+       54, 64}, {54, 67}, {55, 56}, {55, 57}, {58, 59}, {58, 60}, {61, 62}, {
+       61, 63}, {64, 65}, {64, 66}, {67, 68}, {67, 69}, {70, 71}, {70, 74}, {
+       70, 77}, {70, 80}, {70, 83}, {71, 72}, {71, 73}, {74, 75}, {74, 76}, {
+       77, 78}, {77, 79}, {80, 81}, {80, 82}, {83, 84}, {83, 85}, {86, 87}, {
+       86, 90}, {86, 93}, {86, 96}, {86, 99}, {87, 88}, {87, 89}, {90, 91}, {
+       90, 92}, {93, 94}, {93, 95}, {96, 97}, {96, 98}, {99, 100}, {99, 
+       101}, {102, 103}, {102, 104}, {105, 106}, {105, 107}, {108, 109}, {108,
+        110}, {111, 112}, {111, 113}, {114, 115}, {114, 116}}]}, {
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["List", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 1],
+        TagBox[
+         RowBox[{"{", 
+           RowBox[{
+             RowBox[{"\"pages\"", "\[Rule]", "1560"}], ",", 
+             RowBox[{"\"count\"", "\[Rule]", "1"}], ",", 
+             RowBox[{"\"result\"", "\[Rule]", 
+               RowBox[{"{", 
+                 RowBox[{"{", 
+                   RowBox[{
+                    
+                    RowBox[{
+                    "\"name\"", "\[Rule]", 
+                    "\"Persistent Trails Continued...\""}], ",", 
+                    
+                    RowBox[{
+                    "\"short_description\"", "\[Rule]", 
+                    "\"Document your epic journeys! Fly in formation! Race \
+your friends! Paint the skies!\""}], ",", 
+                    RowBox[{"\"default_version_id\"", "\[Rule]", "8217"}], 
+                    ",", 
+                    RowBox[{"\"author\"", "\[Rule]", "\"Jplrepo\""}], ",", 
+                    
+                    RowBox[{
+                    "\"donations\"", "\[Rule]", 
+                    "\"https://www.patreon.com/JPLRepo\""}], ",", 
+                    
+                    RowBox[{
+                    "\"game\"", "\[Rule]", "\"Kerbal Space Program\""}], ",", 
+                    RowBox[{"\"shared_authors\"", "\[Rule]", 
+                    RowBox[{"{", "}"}]}], ",", 
+                    
+                    RowBox[{
+                    "\"website\"", "\[Rule]", 
+                    "\"http://forum.kerbalspaceprogram.com/index.php?/topic/\
+161454-13\""}], ",", 
+                    RowBox[{"\"followers\"", "\[Rule]", "28"}], ",", 
+                    RowBox[{"\"downloads\"", "\[Rule]", "966"}], ",", 
+                    RowBox[{"\"id\"", "\[Rule]", "1398"}], ",", 
+                    RowBox[{"\"game_id\"", "\[Rule]", "3102"}], ",", 
+                    
+                    RowBox[{
+                    "\"background\"", "\[Rule]", 
+                    "\"/content/Jplrepo_405/Persistent_Trails_Continued/\
+Persistent_Trails_Continued-1496400853.8806963.png\""}], ",", 
+                    RowBox[{"\"versions\"", "\[Rule]", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"\"friendly_version\"", "\[Rule]", "\"V1.7\""}], 
+                    ",", 
+                    
+                    RowBox[{"\"download_path\"", "\[Rule]", 
+                    "\"/mod/1398/Persistent%20Trails%20Continued.../download/\
+V1.7\""}], ",", 
+                    RowBox[{"\"game_version\"", "\[Rule]", "\"1.4.1\""}], ",", 
+                    RowBox[{"\"id\"", "\[Rule]", "8217"}], ",", 
+                    
+                    RowBox[{"\"changelog\"", "\[Rule]", 
+                    "\"Fix and Re-compile for KSP 1.4.1\""}]}], "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"\"friendly_version\"", "\[Rule]", "\"V1.6\""}], 
+                    ",", 
+                    
+                    RowBox[{"\"download_path\"", "\[Rule]", 
+                    "\"/mod/1398/Persistent%20Trails%20Continued.../download/\
+V1.6\""}], ",", 
+                    RowBox[{"\"game_version\"", "\[Rule]", "\"1.3.1\""}], ",", 
+                    RowBox[{"\"id\"", "\[Rule]", "6962"}], ",", 
+                    
+                    RowBox[{"\"changelog\"", "\[Rule]", 
+                    "\"Re-compile for KSP 1.3.1\""}]}], "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"\"friendly_version\"", "\[Rule]", "\"V1.5\""}], 
+                    ",", 
+                    
+                    RowBox[{"\"download_path\"", "\[Rule]", 
+                    "\"/mod/1398/Persistent%20Trails%20Continued.../download/\
+V1.5\""}], ",", 
+                    RowBox[{"\"game_version\"", "\[Rule]", "\"1.3.0\""}], ",", 
+                    RowBox[{"\"id\"", "\[Rule]", "6050"}], ",", 
+                    
+                    RowBox[{"\"changelog\"", "\[Rule]", 
+                    "\"Changes and re-compiled for KSP 1.3   \\r\\nFixed \
+lights and Antennas so they don't deploy for ghost vessels.   \\r\\nAdded 3 \
+decimal point precision on distance readout in GUI.\""}]}], "}"}]}], "}"}]}], 
+                    ",", 
+                    
+                    RowBox[{
+                    "\"url\"", "\[Rule]", 
+                    "\"/mod/1398/Persistent%20Trails%20Continued...\""}], ",", 
+                    RowBox[{"\"bg_offset_y\"", "\[Rule]", "Null"}], ",", 
+                    
+                    RowBox[{
+                    "\"source_code\"", "\[Rule]", 
+                    "\"https://github.com/JPLRepo/KSPPersistentTrails\""}], 
+                    ",", 
+                    RowBox[{"\"license\"", "\[Rule]", "\"MIT\""}]}], "}"}], 
+                 "}"}]}], ",", 
+             RowBox[{"\"page\"", "\[Rule]", "1"}]}], "}"}], HoldForm]],
+       Annotation[#, 
+        HoldForm[{
+         "pages" -> 1560, "count" -> 1, 
+          "result" -> {{
+            "name" -> "Persistent Trails Continued...", "short_description" -> 
+             "Document your epic journeys! Fly in formation! Race your \
+friends! Paint the skies!", "default_version_id" -> 8217, "author" -> 
+             "Jplrepo", "donations" -> "https://www.patreon.com/JPLRepo", 
+             "game" -> "Kerbal Space Program", "shared_authors" -> {}, 
+             "website" -> 
+             "http://forum.kerbalspaceprogram.com/index.php?/topic/161454-13",
+              "followers" -> 28, "downloads" -> 966, "id" -> 1398, "game_id" -> 
+             3102, "background" -> 
+             "/content/Jplrepo_405/Persistent_Trails_Continued/Persistent_\
+Trails_Continued-1496400853.8806963.png", 
+             "versions" -> {{
+               "friendly_version" -> "V1.7", "download_path" -> 
+                "/mod/1398/Persistent%20Trails%20Continued.../download/V1.7", 
+                "game_version" -> "1.4.1", "id" -> 8217, "changelog" -> 
+                "Fix and Re-compile for KSP 1.4.1"}, {
+               "friendly_version" -> "V1.6", "download_path" -> 
+                "/mod/1398/Persistent%20Trails%20Continued.../download/V1.6", 
+                "game_version" -> "1.3.1", "id" -> 6962, "changelog" -> 
+                "Re-compile for KSP 1.3.1"}, {
+               "friendly_version" -> "V1.5", "download_path" -> 
+                "/mod/1398/Persistent%20Trails%20Continued.../download/V1.5", 
+                "game_version" -> "1.3.0", "id" -> 6050, "changelog" -> 
+                "Changes and re-compiled for KSP 1.3   \n\nFixed lights and \
+Antennas so they don't deploy for ghost vessels.   \n\nAdded 3 decimal point \
+precision on distance readout in GUI."}}, "url" -> 
+             "/mod/1398/Persistent%20Trails%20Continued...", "bg_offset_y" -> 
+             Null, "source_code" -> 
+             "https://github.com/JPLRepo/KSPPersistentTrails", "license" -> 
+             "MIT"}}, "page" -> 1}], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 2],
+        TagBox[
+         RowBox[{"\"pages\"", "\[Rule]", "1560"}], HoldForm]],
+       Annotation[#, 
+        HoldForm["pages" -> 1560], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"pages\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 3],
+        TagBox["\"pages\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["pages"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["1560",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 4],
+        TagBox["1560", HoldForm]],
+       Annotation[#, 
+        HoldForm[1560], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 5],
+        TagBox[
+         RowBox[{"\"count\"", "\[Rule]", "1"}], HoldForm]],
+       Annotation[#, 
+        HoldForm["count" -> 1], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"count\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 6],
+        TagBox["\"count\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["count"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["1",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 7],
+        TagBox["1", HoldForm]],
+       Annotation[#, 
+        HoldForm[1], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 8],
+        TagBox[
+         RowBox[{"\"result\"", "\[Rule]", 
+           RowBox[{"{", 
+             RowBox[{"{", 
+               RowBox[{
+                 
+                 RowBox[{
+                  "\"name\"", "\[Rule]", 
+                   "\"Persistent Trails Continued...\""}], ",", 
+                 
+                 RowBox[{
+                  "\"short_description\"", "\[Rule]", 
+                   "\"Document your epic journeys! Fly in formation! Race \
+your friends! Paint the skies!\""}], ",", 
+                 RowBox[{"\"default_version_id\"", "\[Rule]", "8217"}], ",", 
+                 RowBox[{"\"author\"", "\[Rule]", "\"Jplrepo\""}], ",", 
+                 
+                 RowBox[{
+                  "\"donations\"", "\[Rule]", 
+                   "\"https://www.patreon.com/JPLRepo\""}], ",", 
+                 RowBox[{"\"game\"", "\[Rule]", "\"Kerbal Space Program\""}], 
+                 ",", 
+                 RowBox[{"\"shared_authors\"", "\[Rule]", 
+                   RowBox[{"{", "}"}]}], ",", 
+                 
+                 RowBox[{
+                  "\"website\"", "\[Rule]", 
+                   "\"http://forum.kerbalspaceprogram.com/index.php?/topic/\
+161454-13\""}], ",", 
+                 RowBox[{"\"followers\"", "\[Rule]", "28"}], ",", 
+                 RowBox[{"\"downloads\"", "\[Rule]", "966"}], ",", 
+                 RowBox[{"\"id\"", "\[Rule]", "1398"}], ",", 
+                 RowBox[{"\"game_id\"", "\[Rule]", "3102"}], ",", 
+                 
+                 RowBox[{
+                  "\"background\"", "\[Rule]", 
+                   "\"/content/Jplrepo_405/Persistent_Trails_Continued/\
+Persistent_Trails_Continued-1496400853.8806963.png\""}], ",", 
+                 RowBox[{"\"versions\"", "\[Rule]", 
+                   RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"\"friendly_version\"", "\[Rule]", "\"V1.7\""}], 
+                    ",", 
+                    
+                    RowBox[{
+                    "\"download_path\"", "\[Rule]", 
+                    "\"/mod/1398/Persistent%20Trails%20Continued.../download/\
+V1.7\""}], ",", 
+                    RowBox[{"\"game_version\"", "\[Rule]", "\"1.4.1\""}], ",", 
+                    RowBox[{"\"id\"", "\[Rule]", "8217"}], ",", 
+                    
+                    RowBox[{
+                    "\"changelog\"", "\[Rule]", 
+                    "\"Fix and Re-compile for KSP 1.4.1\""}]}], "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"\"friendly_version\"", "\[Rule]", "\"V1.6\""}], 
+                    ",", 
+                    
+                    RowBox[{
+                    "\"download_path\"", "\[Rule]", 
+                    "\"/mod/1398/Persistent%20Trails%20Continued.../download/\
+V1.6\""}], ",", 
+                    RowBox[{"\"game_version\"", "\[Rule]", "\"1.3.1\""}], ",", 
+                    RowBox[{"\"id\"", "\[Rule]", "6962"}], ",", 
+                    
+                    RowBox[{
+                    "\"changelog\"", "\[Rule]", 
+                    "\"Re-compile for KSP 1.3.1\""}]}], "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"\"friendly_version\"", "\[Rule]", "\"V1.5\""}], 
+                    ",", 
+                    
+                    RowBox[{
+                    "\"download_path\"", "\[Rule]", 
+                    "\"/mod/1398/Persistent%20Trails%20Continued.../download/\
+V1.5\""}], ",", 
+                    RowBox[{"\"game_version\"", "\[Rule]", "\"1.3.0\""}], ",", 
+                    RowBox[{"\"id\"", "\[Rule]", "6050"}], ",", 
+                    
+                    RowBox[{
+                    "\"changelog\"", "\[Rule]", 
+                    "\"Changes and re-compiled for KSP 1.3   \\r\\nFixed \
+lights and Antennas so they don't deploy for ghost vessels.   \\r\\nAdded 3 \
+decimal point precision on distance readout in GUI.\""}]}], "}"}]}], "}"}]}], 
+                 ",", 
+                 
+                 RowBox[{
+                  "\"url\"", "\[Rule]", 
+                   "\"/mod/1398/Persistent%20Trails%20Continued...\""}], ",", 
+                 RowBox[{"\"bg_offset_y\"", "\[Rule]", "Null"}], ",", 
+                 
+                 RowBox[{
+                  "\"source_code\"", "\[Rule]", 
+                   "\"https://github.com/JPLRepo/KSPPersistentTrails\""}], 
+                 ",", 
+                 RowBox[{"\"license\"", "\[Rule]", "\"MIT\""}]}], "}"}], 
+             "}"}]}], HoldForm]],
+       Annotation[#, 
+        HoldForm[
+        "result" -> {{
+           "name" -> "Persistent Trails Continued...", "short_description" -> 
+            "Document your epic journeys! Fly in formation! Race your \
+friends! Paint the skies!", "default_version_id" -> 8217, "author" -> 
+            "Jplrepo", "donations" -> "https://www.patreon.com/JPLRepo", 
+            "game" -> "Kerbal Space Program", "shared_authors" -> {}, 
+            "website" -> 
+            "http://forum.kerbalspaceprogram.com/index.php?/topic/161454-13", 
+            "followers" -> 28, "downloads" -> 966, "id" -> 1398, "game_id" -> 
+            3102, "background" -> 
+            "/content/Jplrepo_405/Persistent_Trails_Continued/Persistent_\
+Trails_Continued-1496400853.8806963.png", 
+            "versions" -> {{
+              "friendly_version" -> "V1.7", "download_path" -> 
+               "/mod/1398/Persistent%20Trails%20Continued.../download/V1.7", 
+               "game_version" -> "1.4.1", "id" -> 8217, "changelog" -> 
+               "Fix and Re-compile for KSP 1.4.1"}, {
+              "friendly_version" -> "V1.6", "download_path" -> 
+               "/mod/1398/Persistent%20Trails%20Continued.../download/V1.6", 
+               "game_version" -> "1.3.1", "id" -> 6962, "changelog" -> 
+               "Re-compile for KSP 1.3.1"}, {
+              "friendly_version" -> "V1.5", "download_path" -> 
+               "/mod/1398/Persistent%20Trails%20Continued.../download/V1.5", 
+               "game_version" -> "1.3.0", "id" -> 6050, "changelog" -> 
+               "Changes and re-compiled for KSP 1.3   \n\nFixed lights and \
+Antennas so they don't deploy for ghost vessels.   \n\nAdded 3 decimal point \
+precision on distance readout in GUI."}}, "url" -> 
+            "/mod/1398/Persistent%20Trails%20Continued...", "bg_offset_y" -> 
+            Null, "source_code" -> 
+            "https://github.com/JPLRepo/KSPPersistentTrails", "license" -> 
+            "MIT"}}], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"result\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 9],
+        TagBox["\"result\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["result"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["List", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 10],
+        TagBox[
+         RowBox[{"{", 
+           RowBox[{"{", 
+             RowBox[{
+               
+               RowBox[{
+                "\"name\"", "\[Rule]", "\"Persistent Trails Continued...\""}],
+                ",", 
+               
+               RowBox[{
+                "\"short_description\"", "\[Rule]", 
+                 "\"Document your epic journeys! Fly in formation! Race your \
+friends! Paint the skies!\""}], ",", 
+               RowBox[{"\"default_version_id\"", "\[Rule]", "8217"}], ",", 
+               RowBox[{"\"author\"", "\[Rule]", "\"Jplrepo\""}], ",", 
+               
+               RowBox[{
+                "\"donations\"", "\[Rule]", 
+                 "\"https://www.patreon.com/JPLRepo\""}], ",", 
+               RowBox[{"\"game\"", "\[Rule]", "\"Kerbal Space Program\""}], 
+               ",", 
+               RowBox[{"\"shared_authors\"", "\[Rule]", 
+                 RowBox[{"{", "}"}]}], ",", 
+               
+               RowBox[{
+                "\"website\"", "\[Rule]", 
+                 "\"http://forum.kerbalspaceprogram.com/index.php?/topic/\
+161454-13\""}], ",", 
+               RowBox[{"\"followers\"", "\[Rule]", "28"}], ",", 
+               RowBox[{"\"downloads\"", "\[Rule]", "966"}], ",", 
+               RowBox[{"\"id\"", "\[Rule]", "1398"}], ",", 
+               RowBox[{"\"game_id\"", "\[Rule]", "3102"}], ",", 
+               
+               RowBox[{
+                "\"background\"", "\[Rule]", 
+                 "\"/content/Jplrepo_405/Persistent_Trails_Continued/\
+Persistent_Trails_Continued-1496400853.8806963.png\""}], ",", 
+               RowBox[{"\"versions\"", "\[Rule]", 
+                 RowBox[{"{", 
+                   RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"\"friendly_version\"", "\[Rule]", "\"V1.7\""}], 
+                    ",", 
+                    
+                    RowBox[{
+                    "\"download_path\"", "\[Rule]", 
+                    "\"/mod/1398/Persistent%20Trails%20Continued.../download/\
+V1.7\""}], ",", 
+                    RowBox[{"\"game_version\"", "\[Rule]", "\"1.4.1\""}], ",", 
+                    RowBox[{"\"id\"", "\[Rule]", "8217"}], ",", 
+                    
+                    RowBox[{
+                    "\"changelog\"", "\[Rule]", 
+                    "\"Fix and Re-compile for KSP 1.4.1\""}]}], "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"\"friendly_version\"", "\[Rule]", "\"V1.6\""}], 
+                    ",", 
+                    
+                    RowBox[{
+                    "\"download_path\"", "\[Rule]", 
+                    "\"/mod/1398/Persistent%20Trails%20Continued.../download/\
+V1.6\""}], ",", 
+                    RowBox[{"\"game_version\"", "\[Rule]", "\"1.3.1\""}], ",", 
+                    RowBox[{"\"id\"", "\[Rule]", "6962"}], ",", 
+                    
+                    RowBox[{
+                    "\"changelog\"", "\[Rule]", 
+                    "\"Re-compile for KSP 1.3.1\""}]}], "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"\"friendly_version\"", "\[Rule]", "\"V1.5\""}], 
+                    ",", 
+                    
+                    RowBox[{
+                    "\"download_path\"", "\[Rule]", 
+                    "\"/mod/1398/Persistent%20Trails%20Continued.../download/\
+V1.5\""}], ",", 
+                    RowBox[{"\"game_version\"", "\[Rule]", "\"1.3.0\""}], ",", 
+                    RowBox[{"\"id\"", "\[Rule]", "6050"}], ",", 
+                    
+                    RowBox[{
+                    "\"changelog\"", "\[Rule]", 
+                    "\"Changes and re-compiled for KSP 1.3   \\r\\nFixed \
+lights and Antennas so they don't deploy for ghost vessels.   \\r\\nAdded 3 \
+decimal point precision on distance readout in GUI.\""}]}], "}"}]}], "}"}]}], 
+               ",", 
+               
+               RowBox[{
+                "\"url\"", "\[Rule]", 
+                 "\"/mod/1398/Persistent%20Trails%20Continued...\""}], ",", 
+               RowBox[{"\"bg_offset_y\"", "\[Rule]", "Null"}], ",", 
+               
+               RowBox[{
+                "\"source_code\"", "\[Rule]", 
+                 "\"https://github.com/JPLRepo/KSPPersistentTrails\""}], ",", 
+               RowBox[{"\"license\"", "\[Rule]", "\"MIT\""}]}], "}"}], "}"}], 
+         HoldForm]],
+       Annotation[#, 
+        HoldForm[{{
+          "name" -> "Persistent Trails Continued...", "short_description" -> 
+           "Document your epic journeys! Fly in formation! Race your friends! \
+Paint the skies!", "default_version_id" -> 8217, "author" -> "Jplrepo", 
+           "donations" -> "https://www.patreon.com/JPLRepo", "game" -> 
+           "Kerbal Space Program", "shared_authors" -> {}, "website" -> 
+           "http://forum.kerbalspaceprogram.com/index.php?/topic/161454-13", 
+           "followers" -> 28, "downloads" -> 966, "id" -> 1398, "game_id" -> 
+           3102, "background" -> 
+           "/content/Jplrepo_405/Persistent_Trails_Continued/Persistent_\
+Trails_Continued-1496400853.8806963.png", 
+           "versions" -> {{
+             "friendly_version" -> "V1.7", "download_path" -> 
+              "/mod/1398/Persistent%20Trails%20Continued.../download/V1.7", 
+              "game_version" -> "1.4.1", "id" -> 8217, "changelog" -> 
+              "Fix and Re-compile for KSP 1.4.1"}, {
+             "friendly_version" -> "V1.6", "download_path" -> 
+              "/mod/1398/Persistent%20Trails%20Continued.../download/V1.6", 
+              "game_version" -> "1.3.1", "id" -> 6962, "changelog" -> 
+              "Re-compile for KSP 1.3.1"}, {
+             "friendly_version" -> "V1.5", "download_path" -> 
+              "/mod/1398/Persistent%20Trails%20Continued.../download/V1.5", 
+              "game_version" -> "1.3.0", "id" -> 6050, "changelog" -> 
+              "Changes and re-compiled for KSP 1.3   \n\nFixed lights and \
+Antennas so they don't deploy for ghost vessels.   \n\nAdded 3 decimal point \
+precision on distance readout in GUI."}}, "url" -> 
+           "/mod/1398/Persistent%20Trails%20Continued...", "bg_offset_y" -> 
+           Null, "source_code" -> 
+           "https://github.com/JPLRepo/KSPPersistentTrails", "license" -> 
+           "MIT"}}], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["List", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 11],
+        TagBox[
+         RowBox[{"{", 
+           RowBox[{
+             
+             RowBox[{"\"name\"", "\[Rule]", 
+               "\"Persistent Trails Continued...\""}], ",", 
+             
+             RowBox[{"\"short_description\"", "\[Rule]", 
+               "\"Document your epic journeys! Fly in formation! Race your \
+friends! Paint the skies!\""}], ",", 
+             RowBox[{"\"default_version_id\"", "\[Rule]", "8217"}], ",", 
+             RowBox[{"\"author\"", "\[Rule]", "\"Jplrepo\""}], ",", 
+             
+             RowBox[{"\"donations\"", "\[Rule]", 
+               "\"https://www.patreon.com/JPLRepo\""}], ",", 
+             RowBox[{"\"game\"", "\[Rule]", "\"Kerbal Space Program\""}], ",", 
+             RowBox[{"\"shared_authors\"", "\[Rule]", 
+               RowBox[{"{", "}"}]}], ",", 
+             
+             RowBox[{"\"website\"", "\[Rule]", 
+               
+               "\"http://forum.kerbalspaceprogram.com/index.php?/topic/161454-\
+13\""}], ",", 
+             RowBox[{"\"followers\"", "\[Rule]", "28"}], ",", 
+             RowBox[{"\"downloads\"", "\[Rule]", "966"}], ",", 
+             RowBox[{"\"id\"", "\[Rule]", "1398"}], ",", 
+             RowBox[{"\"game_id\"", "\[Rule]", "3102"}], ",", 
+             
+             RowBox[{"\"background\"", "\[Rule]", 
+               "\"/content/Jplrepo_405/Persistent_Trails_Continued/Persistent_\
+Trails_Continued-1496400853.8806963.png\""}], ",", 
+             RowBox[{"\"versions\"", "\[Rule]", 
+               RowBox[{"{", 
+                 RowBox[{
+                   RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"\"friendly_version\"", "\[Rule]", "\"V1.7\""}], 
+                    ",", 
+                    
+                    RowBox[{
+                    "\"download_path\"", "\[Rule]", 
+                    "\"/mod/1398/Persistent%20Trails%20Continued.../download/\
+V1.7\""}], ",", 
+                    RowBox[{"\"game_version\"", "\[Rule]", "\"1.4.1\""}], ",", 
+                    RowBox[{"\"id\"", "\[Rule]", "8217"}], ",", 
+                    
+                    RowBox[{
+                    "\"changelog\"", "\[Rule]", 
+                    "\"Fix and Re-compile for KSP 1.4.1\""}]}], "}"}], ",", 
+                   RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"\"friendly_version\"", "\[Rule]", "\"V1.6\""}], 
+                    ",", 
+                    
+                    RowBox[{
+                    "\"download_path\"", "\[Rule]", 
+                    "\"/mod/1398/Persistent%20Trails%20Continued.../download/\
+V1.6\""}], ",", 
+                    RowBox[{"\"game_version\"", "\[Rule]", "\"1.3.1\""}], ",", 
+                    RowBox[{"\"id\"", "\[Rule]", "6962"}], ",", 
+                    
+                    RowBox[{
+                    "\"changelog\"", "\[Rule]", 
+                    "\"Re-compile for KSP 1.3.1\""}]}], "}"}], ",", 
+                   RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"\"friendly_version\"", "\[Rule]", "\"V1.5\""}], 
+                    ",", 
+                    
+                    RowBox[{
+                    "\"download_path\"", "\[Rule]", 
+                    "\"/mod/1398/Persistent%20Trails%20Continued.../download/\
+V1.5\""}], ",", 
+                    RowBox[{"\"game_version\"", "\[Rule]", "\"1.3.0\""}], ",", 
+                    RowBox[{"\"id\"", "\[Rule]", "6050"}], ",", 
+                    
+                    RowBox[{
+                    "\"changelog\"", "\[Rule]", 
+                    "\"Changes and re-compiled for KSP 1.3   \\r\\nFixed \
+lights and Antennas so they don't deploy for ghost vessels.   \\r\\nAdded 3 \
+decimal point precision on distance readout in GUI.\""}]}], "}"}]}], "}"}]}], 
+             ",", 
+             
+             RowBox[{"\"url\"", "\[Rule]", 
+               "\"/mod/1398/Persistent%20Trails%20Continued...\""}], ",", 
+             RowBox[{"\"bg_offset_y\"", "\[Rule]", "Null"}], ",", 
+             
+             RowBox[{"\"source_code\"", "\[Rule]", 
+               "\"https://github.com/JPLRepo/KSPPersistentTrails\""}], ",", 
+             RowBox[{"\"license\"", "\[Rule]", "\"MIT\""}]}], "}"}], 
+         HoldForm]],
+       Annotation[#, 
+        HoldForm[{
+         "name" -> "Persistent Trails Continued...", "short_description" -> 
+          "Document your epic journeys! Fly in formation! Race your friends! \
+Paint the skies!", "default_version_id" -> 8217, "author" -> "Jplrepo", 
+          "donations" -> "https://www.patreon.com/JPLRepo", "game" -> 
+          "Kerbal Space Program", "shared_authors" -> {}, "website" -> 
+          "http://forum.kerbalspaceprogram.com/index.php?/topic/161454-13", 
+          "followers" -> 28, "downloads" -> 966, "id" -> 1398, "game_id" -> 
+          3102, "background" -> 
+          "/content/Jplrepo_405/Persistent_Trails_Continued/Persistent_Trails_\
+Continued-1496400853.8806963.png", 
+          "versions" -> {{
+            "friendly_version" -> "V1.7", "download_path" -> 
+             "/mod/1398/Persistent%20Trails%20Continued.../download/V1.7", 
+             "game_version" -> "1.4.1", "id" -> 8217, "changelog" -> 
+             "Fix and Re-compile for KSP 1.4.1"}, {
+            "friendly_version" -> "V1.6", "download_path" -> 
+             "/mod/1398/Persistent%20Trails%20Continued.../download/V1.6", 
+             "game_version" -> "1.3.1", "id" -> 6962, "changelog" -> 
+             "Re-compile for KSP 1.3.1"}, {
+            "friendly_version" -> "V1.5", "download_path" -> 
+             "/mod/1398/Persistent%20Trails%20Continued.../download/V1.5", 
+             "game_version" -> "1.3.0", "id" -> 6050, "changelog" -> 
+             "Changes and re-compiled for KSP 1.3   \n\nFixed lights and \
+Antennas so they don't deploy for ghost vessels.   \n\nAdded 3 decimal point \
+precision on distance readout in GUI."}}, "url" -> 
+          "/mod/1398/Persistent%20Trails%20Continued...", "bg_offset_y" -> 
+          Null, "source_code" -> 
+          "https://github.com/JPLRepo/KSPPersistentTrails", "license" -> 
+          "MIT"}], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 12],
+        TagBox[
+         RowBox[{
+          "\"name\"", "\[Rule]", "\"Persistent Trails Continued...\""}], 
+         HoldForm]],
+       Annotation[#, 
+        HoldForm["name" -> "Persistent Trails Continued..."], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"name\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 13],
+        TagBox["\"name\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["name"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"Persistent Trails Continued...\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 14],
+        TagBox["\"Persistent Trails Continued...\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["Persistent Trails Continued..."], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 15],
+        TagBox[
+         RowBox[{
+          "\"short_description\"", "\[Rule]", 
+           "\"Document your epic journeys! Fly in formation! Race your \
+friends! Paint the skies!\""}], HoldForm]],
+       Annotation[#, 
+        HoldForm[
+        "short_description" -> 
+         "Document your epic journeys! Fly in formation! Race your friends! \
+Paint the skies!"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"short_description\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 16],
+        TagBox["\"short_description\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["short_description"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           
+           TagBox["\<\"Document your epic journeys! Fly in formation! Race \
+your friends! Paint the skies!\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 17],
+        TagBox[
+        "\"Document your epic journeys! Fly in formation! Race your friends! \
+Paint the skies!\"", HoldForm]],
+       Annotation[#, 
+        HoldForm[
+        "Document your epic journeys! Fly in formation! Race your friends! \
+Paint the skies!"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 18],
+        TagBox[
+         RowBox[{"\"default_version_id\"", "\[Rule]", "8217"}], HoldForm]],
+       Annotation[#, 
+        HoldForm["default_version_id" -> 8217], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"default_version_id\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 19],
+        TagBox["\"default_version_id\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["default_version_id"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["8217",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 20],
+        TagBox["8217", HoldForm]],
+       Annotation[#, 
+        HoldForm[8217], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 21],
+        TagBox[
+         RowBox[{"\"author\"", "\[Rule]", "\"Jplrepo\""}], HoldForm]],
+       Annotation[#, 
+        HoldForm["author" -> "Jplrepo"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"author\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 22],
+        TagBox["\"author\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["author"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"Jplrepo\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 23],
+        TagBox["\"Jplrepo\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["Jplrepo"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 24],
+        TagBox[
+         RowBox[{
+          "\"donations\"", "\[Rule]", "\"https://www.patreon.com/JPLRepo\""}],
+          HoldForm]],
+       Annotation[#, 
+        HoldForm["donations" -> "https://www.patreon.com/JPLRepo"], 
+        "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"donations\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 25],
+        TagBox["\"donations\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["donations"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"https://www.patreon.com/JPLRepo\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 26],
+        TagBox["\"https://www.patreon.com/JPLRepo\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["https://www.patreon.com/JPLRepo"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 27],
+        TagBox[
+         RowBox[{"\"game\"", "\[Rule]", "\"Kerbal Space Program\""}], 
+         HoldForm]],
+       Annotation[#, 
+        HoldForm["game" -> "Kerbal Space Program"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"game\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 28],
+        TagBox["\"game\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["game"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"Kerbal Space Program\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 29],
+        TagBox["\"Kerbal Space Program\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["Kerbal Space Program"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 30],
+        TagBox[
+         RowBox[{"\"shared_authors\"", "\[Rule]", 
+           RowBox[{"{", "}"}]}], HoldForm]],
+       Annotation[#, 
+        HoldForm["shared_authors" -> {}], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"shared_authors\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 31],
+        TagBox["\"shared_authors\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["shared_authors"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox[
+            RowBox[{"{", "}"}],
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 32],
+        TagBox[
+         RowBox[{"{", "}"}], HoldForm]],
+       Annotation[#, 
+        HoldForm[{}], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 33],
+        TagBox[
+         RowBox[{
+          "\"website\"", "\[Rule]", 
+           "\"http://forum.kerbalspaceprogram.com/index.php?/topic/161454-13\"\
+"}], HoldForm]],
+       Annotation[#, 
+        HoldForm[
+        "website" -> 
+         "http://forum.kerbalspaceprogram.com/index.php?/topic/161454-13"], 
+        "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"website\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 34],
+        TagBox["\"website\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["website"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           
+           TagBox["\<\"http://forum.kerbalspaceprogram.com/index.php?/topic/\
+161454-13\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 35],
+        TagBox[
+        "\"http://forum.kerbalspaceprogram.com/index.php?/topic/161454-13\"", 
+         HoldForm]],
+       Annotation[#, 
+        HoldForm[
+        "http://forum.kerbalspaceprogram.com/index.php?/topic/161454-13"], 
+        "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 36],
+        TagBox[
+         RowBox[{"\"followers\"", "\[Rule]", "28"}], HoldForm]],
+       Annotation[#, 
+        HoldForm["followers" -> 28], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"followers\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 37],
+        TagBox["\"followers\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["followers"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["28",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 38],
+        TagBox["28", HoldForm]],
+       Annotation[#, 
+        HoldForm[28], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 39],
+        TagBox[
+         RowBox[{"\"downloads\"", "\[Rule]", "966"}], HoldForm]],
+       Annotation[#, 
+        HoldForm["downloads" -> 966], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"downloads\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 40],
+        TagBox["\"downloads\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["downloads"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["966",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 41],
+        TagBox["966", HoldForm]],
+       Annotation[#, 
+        HoldForm[966], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 42],
+        TagBox[
+         RowBox[{"\"id\"", "\[Rule]", "1398"}], HoldForm]],
+       Annotation[#, 
+        HoldForm["id" -> 1398], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"id\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 43],
+        TagBox["\"id\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["id"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["1398",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 44],
+        TagBox["1398", HoldForm]],
+       Annotation[#, 
+        HoldForm[1398], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 45],
+        TagBox[
+         RowBox[{"\"game_id\"", "\[Rule]", "3102"}], HoldForm]],
+       Annotation[#, 
+        HoldForm["game_id" -> 3102], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"game_id\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 46],
+        TagBox["\"game_id\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["game_id"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["3102",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 47],
+        TagBox["3102", HoldForm]],
+       Annotation[#, 
+        HoldForm[3102], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 48],
+        TagBox[
+         RowBox[{
+          "\"background\"", "\[Rule]", 
+           "\"/content/Jplrepo_405/Persistent_Trails_Continued/Persistent_\
+Trails_Continued-1496400853.8806963.png\""}], HoldForm]],
+       Annotation[#, 
+        HoldForm[
+        "background" -> 
+         "/content/Jplrepo_405/Persistent_Trails_Continued/Persistent_Trails_\
+Continued-1496400853.8806963.png"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"background\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 49],
+        TagBox["\"background\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["background"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           
+           TagBox["\<\"/content/Jplrepo_405/Persistent_Trails_Continued/\
+Persistent_Trails_Continued-1496400853.8806963.png\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 50],
+        TagBox[
+        "\"/content/Jplrepo_405/Persistent_Trails_Continued/Persistent_Trails_\
+Continued-1496400853.8806963.png\"", HoldForm]],
+       Annotation[#, 
+        HoldForm[
+        "/content/Jplrepo_405/Persistent_Trails_Continued/Persistent_Trails_\
+Continued-1496400853.8806963.png"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 51],
+        TagBox[
+         RowBox[{"\"versions\"", "\[Rule]", 
+           RowBox[{"{", 
+             RowBox[{
+               RowBox[{"{", 
+                 RowBox[{
+                   RowBox[{"\"friendly_version\"", "\[Rule]", "\"V1.7\""}], 
+                   ",", 
+                   
+                   RowBox[{
+                    "\"download_path\"", "\[Rule]", 
+                    "\"/mod/1398/Persistent%20Trails%20Continued.../download/\
+V1.7\""}], ",", 
+                   RowBox[{"\"game_version\"", "\[Rule]", "\"1.4.1\""}], ",", 
+                   RowBox[{"\"id\"", "\[Rule]", "8217"}], ",", 
+                   
+                   RowBox[{
+                    "\"changelog\"", "\[Rule]", 
+                    "\"Fix and Re-compile for KSP 1.4.1\""}]}], "}"}], ",", 
+               RowBox[{"{", 
+                 RowBox[{
+                   RowBox[{"\"friendly_version\"", "\[Rule]", "\"V1.6\""}], 
+                   ",", 
+                   
+                   RowBox[{
+                    "\"download_path\"", "\[Rule]", 
+                    "\"/mod/1398/Persistent%20Trails%20Continued.../download/\
+V1.6\""}], ",", 
+                   RowBox[{"\"game_version\"", "\[Rule]", "\"1.3.1\""}], ",", 
+                   RowBox[{"\"id\"", "\[Rule]", "6962"}], ",", 
+                   
+                   RowBox[{
+                    "\"changelog\"", "\[Rule]", 
+                    "\"Re-compile for KSP 1.3.1\""}]}], "}"}], ",", 
+               RowBox[{"{", 
+                 RowBox[{
+                   RowBox[{"\"friendly_version\"", "\[Rule]", "\"V1.5\""}], 
+                   ",", 
+                   
+                   RowBox[{
+                    "\"download_path\"", "\[Rule]", 
+                    "\"/mod/1398/Persistent%20Trails%20Continued.../download/\
+V1.5\""}], ",", 
+                   RowBox[{"\"game_version\"", "\[Rule]", "\"1.3.0\""}], ",", 
+                   RowBox[{"\"id\"", "\[Rule]", "6050"}], ",", 
+                   
+                   RowBox[{
+                    "\"changelog\"", "\[Rule]", 
+                    "\"Changes and re-compiled for KSP 1.3   \\r\\nFixed \
+lights and Antennas so they don't deploy for ghost vessels.   \\r\\nAdded 3 \
+decimal point precision on distance readout in GUI.\""}]}], "}"}]}], "}"}]}], 
+         HoldForm]],
+       Annotation[#, 
+        HoldForm[
+        "versions" -> {{
+           "friendly_version" -> "V1.7", "download_path" -> 
+            "/mod/1398/Persistent%20Trails%20Continued.../download/V1.7", 
+            "game_version" -> "1.4.1", "id" -> 8217, "changelog" -> 
+            "Fix and Re-compile for KSP 1.4.1"}, {
+           "friendly_version" -> "V1.6", "download_path" -> 
+            "/mod/1398/Persistent%20Trails%20Continued.../download/V1.6", 
+            "game_version" -> "1.3.1", "id" -> 6962, "changelog" -> 
+            "Re-compile for KSP 1.3.1"}, {
+           "friendly_version" -> "V1.5", "download_path" -> 
+            "/mod/1398/Persistent%20Trails%20Continued.../download/V1.5", 
+            "game_version" -> "1.3.0", "id" -> 6050, "changelog" -> 
+            "Changes and re-compiled for KSP 1.3   \n\nFixed lights and \
+Antennas so they don't deploy for ghost vessels.   \n\nAdded 3 decimal point \
+precision on distance readout in GUI."}}], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"versions\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 52],
+        TagBox["\"versions\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["versions"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["List", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 53],
+        TagBox[
+         RowBox[{"{", 
+           RowBox[{
+             RowBox[{"{", 
+               RowBox[{
+                 RowBox[{"\"friendly_version\"", "\[Rule]", "\"V1.7\""}], ",", 
+                 
+                 RowBox[{
+                  "\"download_path\"", "\[Rule]", 
+                   "\"/mod/1398/Persistent%20Trails%20Continued.../download/\
+V1.7\""}], ",", 
+                 RowBox[{"\"game_version\"", "\[Rule]", "\"1.4.1\""}], ",", 
+                 RowBox[{"\"id\"", "\[Rule]", "8217"}], ",", 
+                 
+                 RowBox[{
+                  "\"changelog\"", "\[Rule]", 
+                   "\"Fix and Re-compile for KSP 1.4.1\""}]}], "}"}], ",", 
+             RowBox[{"{", 
+               RowBox[{
+                 RowBox[{"\"friendly_version\"", "\[Rule]", "\"V1.6\""}], ",", 
+                 
+                 RowBox[{
+                  "\"download_path\"", "\[Rule]", 
+                   "\"/mod/1398/Persistent%20Trails%20Continued.../download/\
+V1.6\""}], ",", 
+                 RowBox[{"\"game_version\"", "\[Rule]", "\"1.3.1\""}], ",", 
+                 RowBox[{"\"id\"", "\[Rule]", "6962"}], ",", 
+                 
+                 RowBox[{
+                  "\"changelog\"", "\[Rule]", 
+                   "\"Re-compile for KSP 1.3.1\""}]}], "}"}], ",", 
+             RowBox[{"{", 
+               RowBox[{
+                 RowBox[{"\"friendly_version\"", "\[Rule]", "\"V1.5\""}], ",", 
+                 
+                 RowBox[{
+                  "\"download_path\"", "\[Rule]", 
+                   "\"/mod/1398/Persistent%20Trails%20Continued.../download/\
+V1.5\""}], ",", 
+                 RowBox[{"\"game_version\"", "\[Rule]", "\"1.3.0\""}], ",", 
+                 RowBox[{"\"id\"", "\[Rule]", "6050"}], ",", 
+                 
+                 RowBox[{
+                  "\"changelog\"", "\[Rule]", 
+                   "\"Changes and re-compiled for KSP 1.3   \\r\\nFixed \
+lights and Antennas so they don't deploy for ghost vessels.   \\r\\nAdded 3 \
+decimal point precision on distance readout in GUI.\""}]}], "}"}]}], "}"}], 
+         HoldForm]],
+       Annotation[#, 
+        HoldForm[{{
+          "friendly_version" -> "V1.7", "download_path" -> 
+           "/mod/1398/Persistent%20Trails%20Continued.../download/V1.7", 
+           "game_version" -> "1.4.1", "id" -> 8217, "changelog" -> 
+           "Fix and Re-compile for KSP 1.4.1"}, {
+          "friendly_version" -> "V1.6", "download_path" -> 
+           "/mod/1398/Persistent%20Trails%20Continued.../download/V1.6", 
+           "game_version" -> "1.3.1", "id" -> 6962, "changelog" -> 
+           "Re-compile for KSP 1.3.1"}, {
+          "friendly_version" -> "V1.5", "download_path" -> 
+           "/mod/1398/Persistent%20Trails%20Continued.../download/V1.5", 
+           "game_version" -> "1.3.0", "id" -> 6050, "changelog" -> 
+           "Changes and re-compiled for KSP 1.3   \n\nFixed lights and \
+Antennas so they don't deploy for ghost vessels.   \n\nAdded 3 decimal point \
+precision on distance readout in GUI."}}], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["List", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 54],
+        TagBox[
+         RowBox[{"{", 
+           RowBox[{
+             RowBox[{"\"friendly_version\"", "\[Rule]", "\"V1.7\""}], ",", 
+             
+             RowBox[{"\"download_path\"", "\[Rule]", 
+               "\"/mod/1398/Persistent%20Trails%20Continued.../download/V1.7\"\
+"}], ",", 
+             RowBox[{"\"game_version\"", "\[Rule]", "\"1.4.1\""}], ",", 
+             RowBox[{"\"id\"", "\[Rule]", "8217"}], ",", 
+             
+             RowBox[{"\"changelog\"", "\[Rule]", 
+               "\"Fix and Re-compile for KSP 1.4.1\""}]}], "}"}], HoldForm]],
+       Annotation[#, 
+        HoldForm[{
+         "friendly_version" -> "V1.7", "download_path" -> 
+          "/mod/1398/Persistent%20Trails%20Continued.../download/V1.7", 
+          "game_version" -> "1.4.1", "id" -> 8217, "changelog" -> 
+          "Fix and Re-compile for KSP 1.4.1"}], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 55],
+        TagBox[
+         RowBox[{"\"friendly_version\"", "\[Rule]", "\"V1.7\""}], HoldForm]],
+       Annotation[#, 
+        HoldForm["friendly_version" -> "V1.7"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"friendly_version\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 56],
+        TagBox["\"friendly_version\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["friendly_version"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"V1.7\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 57],
+        TagBox["\"V1.7\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["V1.7"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 58],
+        TagBox[
+         RowBox[{
+          "\"download_path\"", "\[Rule]", 
+           "\"/mod/1398/Persistent%20Trails%20Continued.../download/V1.7\""}],
+          HoldForm]],
+       Annotation[#, 
+        HoldForm[
+        "download_path" -> 
+         "/mod/1398/Persistent%20Trails%20Continued.../download/V1.7"], 
+        "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"download_path\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 59],
+        TagBox["\"download_path\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["download_path"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           
+           TagBox["\<\"/mod/1398/Persistent%20Trails%20Continued.../download/\
+V1.7\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 60],
+        TagBox[
+        "\"/mod/1398/Persistent%20Trails%20Continued.../download/V1.7\"", 
+         HoldForm]],
+       Annotation[#, 
+        HoldForm[
+        "/mod/1398/Persistent%20Trails%20Continued.../download/V1.7"], 
+        "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 61],
+        TagBox[
+         RowBox[{"\"game_version\"", "\[Rule]", "\"1.4.1\""}], HoldForm]],
+       Annotation[#, 
+        HoldForm["game_version" -> "1.4.1"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"game_version\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 62],
+        TagBox["\"game_version\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["game_version"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"1.4.1\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 63],
+        TagBox["\"1.4.1\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["1.4.1"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 64],
+        TagBox[
+         RowBox[{"\"id\"", "\[Rule]", "8217"}], HoldForm]],
+       Annotation[#, 
+        HoldForm["id" -> 8217], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"id\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 65],
+        TagBox["\"id\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["id"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["8217",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 66],
+        TagBox["8217", HoldForm]],
+       Annotation[#, 
+        HoldForm[8217], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 67],
+        TagBox[
+         RowBox[{
+          "\"changelog\"", "\[Rule]", 
+           "\"Fix and Re-compile for KSP 1.4.1\""}], HoldForm]],
+       Annotation[#, 
+        HoldForm["changelog" -> "Fix and Re-compile for KSP 1.4.1"], 
+        "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"changelog\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 68],
+        TagBox["\"changelog\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["changelog"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"Fix and Re-compile for KSP 1.4.1\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 69],
+        TagBox["\"Fix and Re-compile for KSP 1.4.1\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["Fix and Re-compile for KSP 1.4.1"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["List", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 70],
+        TagBox[
+         RowBox[{"{", 
+           RowBox[{
+             RowBox[{"\"friendly_version\"", "\[Rule]", "\"V1.6\""}], ",", 
+             
+             RowBox[{"\"download_path\"", "\[Rule]", 
+               "\"/mod/1398/Persistent%20Trails%20Continued.../download/V1.6\"\
+"}], ",", 
+             RowBox[{"\"game_version\"", "\[Rule]", "\"1.3.1\""}], ",", 
+             RowBox[{"\"id\"", "\[Rule]", "6962"}], ",", 
+             
+             RowBox[{"\"changelog\"", "\[Rule]", 
+               "\"Re-compile for KSP 1.3.1\""}]}], "}"}], HoldForm]],
+       Annotation[#, 
+        HoldForm[{
+         "friendly_version" -> "V1.6", "download_path" -> 
+          "/mod/1398/Persistent%20Trails%20Continued.../download/V1.6", 
+          "game_version" -> "1.3.1", "id" -> 6962, "changelog" -> 
+          "Re-compile for KSP 1.3.1"}], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 71],
+        TagBox[
+         RowBox[{"\"friendly_version\"", "\[Rule]", "\"V1.6\""}], HoldForm]],
+       Annotation[#, 
+        HoldForm["friendly_version" -> "V1.6"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"friendly_version\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 72],
+        TagBox["\"friendly_version\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["friendly_version"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"V1.6\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 73],
+        TagBox["\"V1.6\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["V1.6"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 74],
+        TagBox[
+         RowBox[{
+          "\"download_path\"", "\[Rule]", 
+           "\"/mod/1398/Persistent%20Trails%20Continued.../download/V1.6\""}],
+          HoldForm]],
+       Annotation[#, 
+        HoldForm[
+        "download_path" -> 
+         "/mod/1398/Persistent%20Trails%20Continued.../download/V1.6"], 
+        "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"download_path\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 75],
+        TagBox["\"download_path\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["download_path"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           
+           TagBox["\<\"/mod/1398/Persistent%20Trails%20Continued.../download/\
+V1.6\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 76],
+        TagBox[
+        "\"/mod/1398/Persistent%20Trails%20Continued.../download/V1.6\"", 
+         HoldForm]],
+       Annotation[#, 
+        HoldForm[
+        "/mod/1398/Persistent%20Trails%20Continued.../download/V1.6"], 
+        "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 77],
+        TagBox[
+         RowBox[{"\"game_version\"", "\[Rule]", "\"1.3.1\""}], HoldForm]],
+       Annotation[#, 
+        HoldForm["game_version" -> "1.3.1"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"game_version\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 78],
+        TagBox["\"game_version\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["game_version"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"1.3.1\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 79],
+        TagBox["\"1.3.1\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["1.3.1"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 80],
+        TagBox[
+         RowBox[{"\"id\"", "\[Rule]", "6962"}], HoldForm]],
+       Annotation[#, 
+        HoldForm["id" -> 6962], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"id\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 81],
+        TagBox["\"id\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["id"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["6962",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 82],
+        TagBox["6962", HoldForm]],
+       Annotation[#, 
+        HoldForm[6962], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 83],
+        TagBox[
+         RowBox[{"\"changelog\"", "\[Rule]", "\"Re-compile for KSP 1.3.1\""}],
+          HoldForm]],
+       Annotation[#, 
+        HoldForm["changelog" -> "Re-compile for KSP 1.3.1"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"changelog\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 84],
+        TagBox["\"changelog\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["changelog"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"Re-compile for KSP 1.3.1\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 85],
+        TagBox["\"Re-compile for KSP 1.3.1\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["Re-compile for KSP 1.3.1"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["List", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 86],
+        TagBox[
+         RowBox[{"{", 
+           RowBox[{
+             RowBox[{"\"friendly_version\"", "\[Rule]", "\"V1.5\""}], ",", 
+             
+             RowBox[{"\"download_path\"", "\[Rule]", 
+               "\"/mod/1398/Persistent%20Trails%20Continued.../download/V1.5\"\
+"}], ",", 
+             RowBox[{"\"game_version\"", "\[Rule]", "\"1.3.0\""}], ",", 
+             RowBox[{"\"id\"", "\[Rule]", "6050"}], ",", 
+             
+             RowBox[{"\"changelog\"", "\[Rule]", 
+               "\"Changes and re-compiled for KSP 1.3   \\r\\nFixed lights \
+and Antennas so they don't deploy for ghost vessels.   \\r\\nAdded 3 decimal \
+point precision on distance readout in GUI.\""}]}], "}"}], HoldForm]],
+       Annotation[#, 
+        HoldForm[{
+         "friendly_version" -> "V1.5", "download_path" -> 
+          "/mod/1398/Persistent%20Trails%20Continued.../download/V1.5", 
+          "game_version" -> "1.3.0", "id" -> 6050, "changelog" -> 
+          "Changes and re-compiled for KSP 1.3   \n\nFixed lights and \
+Antennas so they don't deploy for ghost vessels.   \n\nAdded 3 decimal point \
+precision on distance readout in GUI."}], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 87],
+        TagBox[
+         RowBox[{"\"friendly_version\"", "\[Rule]", "\"V1.5\""}], HoldForm]],
+       Annotation[#, 
+        HoldForm["friendly_version" -> "V1.5"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"friendly_version\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 88],
+        TagBox["\"friendly_version\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["friendly_version"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"V1.5\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 89],
+        TagBox["\"V1.5\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["V1.5"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 90],
+        TagBox[
+         RowBox[{
+          "\"download_path\"", "\[Rule]", 
+           "\"/mod/1398/Persistent%20Trails%20Continued.../download/V1.5\""}],
+          HoldForm]],
+       Annotation[#, 
+        HoldForm[
+        "download_path" -> 
+         "/mod/1398/Persistent%20Trails%20Continued.../download/V1.5"], 
+        "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"download_path\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 91],
+        TagBox["\"download_path\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["download_path"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           
+           TagBox["\<\"/mod/1398/Persistent%20Trails%20Continued.../download/\
+V1.5\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 92],
+        TagBox[
+        "\"/mod/1398/Persistent%20Trails%20Continued.../download/V1.5\"", 
+         HoldForm]],
+       Annotation[#, 
+        HoldForm[
+        "/mod/1398/Persistent%20Trails%20Continued.../download/V1.5"], 
+        "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 93],
+        TagBox[
+         RowBox[{"\"game_version\"", "\[Rule]", "\"1.3.0\""}], HoldForm]],
+       Annotation[#, 
+        HoldForm["game_version" -> "1.3.0"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"game_version\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 94],
+        TagBox["\"game_version\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["game_version"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"1.3.0\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 95],
+        TagBox["\"1.3.0\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["1.3.0"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 96],
+        TagBox[
+         RowBox[{"\"id\"", "\[Rule]", "6050"}], HoldForm]],
+       Annotation[#, 
+        HoldForm["id" -> 6050], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"id\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 97],
+        TagBox["\"id\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["id"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["6050",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 98],
+        TagBox["6050", HoldForm]],
+       Annotation[#, 
+        HoldForm[6050], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 99],
+        TagBox[
+         RowBox[{
+          "\"changelog\"", "\[Rule]", 
+           "\"Changes and re-compiled for KSP 1.3   \\r\\nFixed lights and \
+Antennas so they don't deploy for ghost vessels.   \\r\\nAdded 3 decimal \
+point precision on distance readout in GUI.\""}], HoldForm]],
+       Annotation[#, 
+        HoldForm[
+        "changelog" -> 
+         "Changes and re-compiled for KSP 1.3   \n\nFixed lights and Antennas \
+so they don't deploy for ghost vessels.   \n\nAdded 3 decimal point precision \
+on distance readout in GUI."], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"changelog\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 100],
+        TagBox["\"changelog\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["changelog"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           
+           TagBox["\<\"Changes and re-compiled for KSP 1.3   \\r\\nFixed \
+lights and Antennas so they don't deploy for ghost vessels.   \\r\\nAdded 3 \
+decimal point precision on distance readout in GUI.\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 101],
+        TagBox[
+        "\"Changes and re-compiled for KSP 1.3   \\r\\nFixed lights and \
+Antennas so they don't deploy for ghost vessels.   \\r\\nAdded 3 decimal \
+point precision on distance readout in GUI.\"", HoldForm]],
+       Annotation[#, 
+        HoldForm[
+        "Changes and re-compiled for KSP 1.3   \n\nFixed lights and Antennas \
+so they don't deploy for ghost vessels.   \n\nAdded 3 decimal point precision \
+on distance readout in GUI."], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 102],
+        TagBox[
+         RowBox[{
+          "\"url\"", "\[Rule]", 
+           "\"/mod/1398/Persistent%20Trails%20Continued...\""}], HoldForm]],
+       Annotation[#, 
+        HoldForm["url" -> "/mod/1398/Persistent%20Trails%20Continued..."], 
+        "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"url\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 103],
+        TagBox["\"url\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["url"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"/mod/1398/Persistent%20Trails%20Continued...\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 104],
+        TagBox["\"/mod/1398/Persistent%20Trails%20Continued...\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["/mod/1398/Persistent%20Trails%20Continued..."], 
+        "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 105],
+        TagBox[
+         RowBox[{"\"bg_offset_y\"", "\[Rule]", "Null"}], HoldForm]],
+       Annotation[#, 
+        HoldForm["bg_offset_y" -> Null], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"bg_offset_y\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 106],
+        TagBox["\"bg_offset_y\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["bg_offset_y"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["Null",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 107],
+        TagBox["Null", HoldForm]],
+       Annotation[#, 
+        HoldForm[Null], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 108],
+        TagBox[
+         RowBox[{
+          "\"source_code\"", "\[Rule]", 
+           "\"https://github.com/JPLRepo/KSPPersistentTrails\""}], HoldForm]],
+       Annotation[#, 
+        HoldForm[
+        "source_code" -> "https://github.com/JPLRepo/KSPPersistentTrails"], 
+        "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"source_code\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 109],
+        TagBox["\"source_code\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["source_code"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"https://github.com/JPLRepo/KSPPersistentTrails\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 110],
+        TagBox[
+        "\"https://github.com/JPLRepo/KSPPersistentTrails\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["https://github.com/JPLRepo/KSPPersistentTrails"], 
+        "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 111],
+        TagBox[
+         RowBox[{"\"license\"", "\[Rule]", "\"MIT\""}], HoldForm]],
+       Annotation[#, 
+        HoldForm["license" -> "MIT"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"license\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 112],
+        TagBox["\"license\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["license"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"MIT\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 113],
+        TagBox["\"MIT\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["MIT"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox["Rule", "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 114],
+        TagBox[
+         RowBox[{"\"page\"", "\[Rule]", "1"}], HoldForm]],
+       Annotation[#, 
+        HoldForm["page" -> 1], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["\<\"page\"\>",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 115],
+        TagBox["\"page\"", HoldForm]],
+       Annotation[#, 
+        HoldForm["page"], "Tooltip"]& ], 
+      TagBox[
+       TooltipBox[InsetBox[
+         FrameBox[
+          StyleBox[
+           TagBox["1",
+            HoldForm], "StandardForm", "Output",
+           StripOnInput->False,
+           LineColor->GrayLevel[0],
+           FrontFaceColor->GrayLevel[0],
+           BackFaceColor->GrayLevel[0],
+           GraphicsColor->GrayLevel[0],
+           FontSize->Scaled[0.01],
+           FontColor->GrayLevel[0]],
+          Background->RGBColor[1., 1., 0.871],
+          FrameMargins->0.16474464579901155`,
+          FrameStyle->GrayLevel[0.5],
+          StripOnInput->False], 116],
+        TagBox["1", HoldForm]],
+       Annotation[#, 
+        HoldForm[1], "Tooltip"]& ]}}],
+   Annotation[#, VertexCoordinateRules -> CompressedData["
+1:eJxlVV1IU2EY3ubfav5sc7rppm6D0ix/WqL2484pbVi5XZhQkUUlBWZ/SEYW
+XURFrZt+MNBuRFBmFhVSCypiF7oEC0ZpBHpT04i8CJ1YZGF1vvO845wNxsfD
+83x87/s83/sd26GT9YdVCoXi9L///3U4HKwORDQ8Wxc5bZeuItmfyNcleTbW
+tv3k5g5Gyk58SODHCscdoYV5rjhUsn7gThJhb9t17nLZctK3OI9VfWlYRrzv
+Qf9mu0FDWFUfV/t7MIX04ezprfvfJxNv9dq2372dGoP3ehoLd5+d5QJCnS84
+Vu8MpxB/TD8l8qMccKOw7xPpR4R1gnj56gxwdZWt30kfFFfwqAOY+bVAetQN
+3i32Ccz6/0N6+C49f4lw+5VzaxZ2qXjo2flKHnzny87ijoo4wshLWk88L603
+kTDygp7loiYe+QIjL2n9Gl7aXwrhh4vF+TMFWtKz/tKIrzI6C553agl/a25Z
+nf9VJ+tXx0v90BNe+dFX0uRLJz3zI514f8Rf6jAaCDe5ptZ1H8mQ+WOQ+ZdB
+uPuJtXJihZH0zL9M4tk8GGP6HxLvGfweEe8l8sG9xTwBw2/okQ94zBMwzoMe
++YDH/ADDb+iRD/g3Dvcqr1pHGH5Dj3zAq3u8RcOv9bJ+jNQ//Md+5AV9TVpw
+rfKqgTD8hx55gb94QVVe5cqMOQ965AX+1YxzQ3uCifBRwc8s0k/a920yTkf5
+X3vOO58OZcn8NpPedKuL39mbTXz5yLMts5fMhJmfVuqf5WGh/Q1L4zU3miyk
+by2fdxVV5xDOE/LKJf3N4/pto/Zc4h/1lu5oVuXFnAf92wmPO+lzlD/j9fve
+HbASZvnaSB/fN9zfE4ryHYGxe6d4G2GWd1RvnwwPcI+j/OCPufupVjth+Cl9
+T0w0H/AfGH5Cf024/9nEw39g+Cd9f8yy98lCGP5BrxTmJYd4+C1/j/B9wnzg
+Xcd8AP8FnUInKA==
+     "]]& ],
+  AspectRatio->NCache[3 Rational[2, 607]^Rational[1, 2], 0.17220347337908742`],
+  FormatType:>StandardForm,
+  FrameTicks->Automatic,
+  ImageSize->{1294., Automatic},
+  PlotRange->All,
+  PlotRangePadding->Scaled[0.1]]], "Output",
+ CellChangeTimes->{{3.7442390498558598`*^9, 3.744239068139098*^9}},
+ CellLabel->
+  "Out[128]//TreeForm=",ExpressionUUID->"dfea40de-37a9-409e-9389-\
+0f00ae7f9948"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Remove", "[", 
+  RowBox[{"a", "[", 
+   RowBox[{"[", "2", "]"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7442391837608457`*^9, 3.744239262553687*^9}},
+ CellLabel->
+  "In[133]:=",ExpressionUUID->"7254f092-90e8-49c3-b0c1-8d0aa20fab84"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Remove","ssym",
+   "\"\\!\\(\\*RowBox[{\\\"a\\\", \\\"\[LeftDoubleBracket]\\\", \\\"2\\\", \\\
+\"\[RightDoubleBracket]\\\"}]\\) \:4e0d\:662f\:4e00\:4e2a\:7b26\:53f7.\"",2,
+   133,25,23014072049491898271,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{{3.744239208390132*^9, 3.7442392193459196`*^9}, 
+   3.744239263312845*^9},
+ CellLabel->
+  "\:6b63\:5728\:8ba1\:7b97In[133]:=",ExpressionUUID->"8664dd66-dbb2-4172-\
+ad52-d7159c110584"]
 }, Open  ]]
 },
 WindowSize->{734, 812},
@@ -207,10 +3496,21 @@ Cell[4782, 140, 529, 10, 71, "Output",ExpressionUUID->"a20276ba-d7fb-414c-adb1-2
 Cell[CellGroupData[{
 Cell[5348, 155, 182, 3, 28, "Input",ExpressionUUID->"ada3da6f-2456-48ba-8124-dbed867a325a"],
 Cell[5533, 160, 361, 7, 32, "Output",ExpressionUUID->"e8e68562-bf38-4a87-bb34-baf63eedf9c3"]
+}, Open  ]],
+Cell[5909, 170, 625, 15, 101, "Input",ExpressionUUID->"7f6dded3-48d8-4000-a744-cf57e7101a83"],
+Cell[CellGroupData[{
+Cell[6559, 189, 180, 3, 28, "Input",ExpressionUUID->"c2f5558c-11f5-4bd8-be46-37c85975b49e"],
+Cell[6742, 194, 4139, 92, 470, "Output",ExpressionUUID->"a8b622b0-0781-4db5-b8d4-64bcb8719c47"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10918, 291, 214, 4, 45, "Input",ExpressionUUID->"db897810-e75b-4c72-819b-585499c9c08d"],
+Cell[11135, 297, 123866, 3135, 250, "Output",ExpressionUUID->"dfea40de-37a9-409e-9389-0f00ae7f9948"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[135038, 3437, 262, 6, 45, "Input",ExpressionUUID->"7254f092-90e8-49c3-b0c1-8d0aa20fab84"],
+Cell[135303, 3445, 488, 11, 24, "Message",ExpressionUUID->"8664dd66-dbb2-4172-ad52-d7159c110584"]
 }, Open  ]]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
