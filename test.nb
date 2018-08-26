@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    138171,       3508]
-NotebookOptionsPosition[    135807,       3459]
-NotebookOutlinePosition[    136162,       3475]
-CellTagsIndexPosition[    136119,       3472]
+NotebookDataLength[    229920,       5421]
+NotebookOptionsPosition[    226992,       5363]
+NotebookOutlinePosition[    227349,       5379]
+CellTagsIndexPosition[    227306,       5376]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -3455,10 +3455,1914 @@ Cell[BoxData[
  CellLabel->
   "\:6b63\:5728\:8ba1\:7b97In[133]:=",ExpressionUUID->"8664dd66-dbb2-4172-\
 ad52-d7159c110584"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"sdUrl", ":=", 
+   RowBox[{"TemplateApply", "[", 
+    RowBox[{"\"\<http://www.spacedock.info/api/browse/new?page=`p`\>\"", ",", 
+     RowBox[{"<|", 
+      RowBox[{"\"\<p\>\"", "->", "page"}], "|>"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"page", "=", "1"}], ";", 
+  RowBox[{"URLExecute", "[", 
+   RowBox[{"sdUrl", ",", "\"\<RawJSON\>\""}], "]"}]}]}], "Input",
+ CellChangeTimes->{{3.7442573532167473`*^9, 3.7442573710552006`*^9}, {
+  3.7442574227325306`*^9, 3.7442574346659927`*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"2bec9450-603d-485d-b767-e811fbec861e"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"bg_offset_y\"\>", "\[Rule]", 
+      RowBox[{"-", "277"}]}], ",", 
+     RowBox[{"\<\"game_id\"\>", "\[Rule]", "3102"}], ",", 
+     RowBox[{"\<\"name\"\>", "\[Rule]", "\<\"Moca Vehicle\"\>"}], ",", 
+     RowBox[{"\<\"default_version_id\"\>", "\[Rule]", "9627"}], ",", 
+     RowBox[{"\<\"website\"\>", 
+      "\[Rule]", \
+"\<\"https://greenrolf.wordpress.com/2018/08/25/new-release-moca/\"\>"}], ",", 
+     RowBox[{"\<\"downloads\"\>", "\[Rule]", "25"}], ",", 
+     RowBox[{"\<\"followers\"\>", "\[Rule]", "1"}], ",", 
+     RowBox[{"\<\"short_description\"\>", 
+      "\[Rule]", "\<\"The Green Rolf Moca is a vehicle for KSP. It was built \
+to accept the RoveMax Model M1 wheels.\"\>"}], ",", 
+     RowBox[{"\<\"license\"\>", "\[Rule]", "\<\"GPLv3\"\>"}], ",", 
+     RowBox[{"\<\"author\"\>", "\[Rule]", "\<\"greenrolf\"\>"}], ",", 
+     RowBox[{"\<\"donations\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+     RowBox[{"\<\"id\"\>", "\[Rule]", "1953"}], ",", 
+     RowBox[{"\<\"background\"\>", 
+      "\[Rule]", \
+"\<\"/content/greenrolf_21152/Moca_Vehicle/Moca_Vehicle-1535226552.7985528.\
+jpg\"\>"}], ",", 
+     RowBox[{"\<\"versions\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\[LeftAssociation]", 
+        RowBox[{
+         RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.5\"\>"}], ",", 
+         RowBox[{"\<\"changelog\"\>", "\[Rule]", "Null"}], ",", 
+         RowBox[{"\<\"id\"\>", "\[Rule]", "9627"}], ",", 
+         RowBox[{"\<\"download_path\"\>", 
+          "\[Rule]", "\<\"/mod/1953/Moca%20Vehicle/download/1.0\"\>"}], ",", 
+         RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"1.0\"\>"}]}], 
+        "\[RightAssociation]"}], "}"}]}], ",", 
+     RowBox[{"\<\"shared_authors\"\>", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\<\"url\"\>", "\[Rule]", "\<\"/mod/1953/Moca%20Vehicle\"\>"}], 
+     ",", 
+     RowBox[{"\<\"game\"\>", "\[Rule]", "\<\"Kerbal Space Program\"\>"}], ",", 
+     RowBox[{"\<\"source_code\"\>", "\[Rule]", "\<\"\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"bg_offset_y\"\>", "\[Rule]", 
+      RowBox[{"-", "68"}]}], ",", 
+     RowBox[{"\<\"game_id\"\>", "\[Rule]", "3102"}], ",", 
+     RowBox[{"\<\"name\"\>", "\[Rule]", "\<\"Kraken's Embodiment\"\>"}], ",", 
+     RowBox[{"\<\"default_version_id\"\>", "\[Rule]", "9616"}], ",", 
+     RowBox[{"\<\"website\"\>", 
+      "\[Rule]", \
+"\<\"https://forum.kerbalspaceprogram.com/index.php?/topic/177721-145-\
+systemflip-10-and-krakens-embodiment-10-muck-with-the-stock-solar-system/&tab=\
+comments#comment-3437631\"\>"}], ",", 
+     RowBox[{"\<\"downloads\"\>", "\[Rule]", "37"}], ",", 
+     RowBox[{"\<\"followers\"\>", "\[Rule]", "2"}], ",", 
+     RowBox[{"\<\"short_description\"\>", 
+      "\[Rule]", "\<\"Kraken-stricken planets\"\>"}], ",", 
+     RowBox[{"\<\"license\"\>", "\[Rule]", "\<\"MIT\"\>"}], ",", 
+     RowBox[{"\<\"author\"\>", "\[Rule]", "\<\"MythicalDonuts\"\>"}], ",", 
+     RowBox[{"\<\"donations\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+     RowBox[{"\<\"id\"\>", "\[Rule]", "1952"}], ",", 
+     RowBox[{"\<\"background\"\>", 
+      "\[Rule]", \
+"\<\"/content/MythicalDonuts_21282/Krakens_Embodiment/Krakens_Embodiment-\
+1534842435.814866.png\"\>"}], ",", 
+     RowBox[{"\<\"versions\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.5\"\>"}], ",", 
+          RowBox[{"\<\"changelog\"\>", "\[Rule]", "\<\"license stuff\"\>"}], 
+          ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9616"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", "\<\"/mod/1952/Kraken%27s%20Embodiment/download/1.000\"\
+\>"}], ",", 
+          RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"1.000\"\>"}]}], 
+         "\[RightAssociation]"}], ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.5\"\>"}], ",", 
+          RowBox[{"\<\"changelog\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9607"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1952/Kraken%27s%20Embodiment/download/1.00\"\>"}], ",", 
+          RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"1.00\"\>"}]}], 
+         "\[RightAssociation]"}], ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.5\"\>"}], ",", 
+          RowBox[{"\<\"changelog\"\>", "\[Rule]", "Null"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9605"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1952/Kraken%27s%20Embodiment/download/1\"\>"}], ",", 
+          RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"1\"\>"}]}], 
+         "\[RightAssociation]"}]}], "}"}]}], ",", 
+     RowBox[{"\<\"shared_authors\"\>", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\<\"url\"\>", 
+      "\[Rule]", "\<\"/mod/1952/Kraken%27s%20Embodiment\"\>"}], ",", 
+     RowBox[{"\<\"game\"\>", "\[Rule]", "\<\"Kerbal Space Program\"\>"}], ",", 
+     RowBox[{"\<\"source_code\"\>", "\[Rule]", "\<\"\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"bg_offset_y\"\>", "\[Rule]", "Null"}], ",", 
+     RowBox[{"\<\"game_id\"\>", "\[Rule]", "3102"}], ",", 
+     RowBox[{"\<\"name\"\>", "\[Rule]", "\<\"XD Horrible weapons mod\"\>"}], 
+     ",", 
+     RowBox[{"\<\"default_version_id\"\>", "\[Rule]", "9601"}], ",", 
+     RowBox[{"\<\"website\"\>", 
+      "\[Rule]", \
+"\<\"https://forum.kerbalspaceprogram.com/index.php?/topic/177690-pre-release-\
+145-xd-horrible-weapons-mod/\"\>"}], ",", 
+     RowBox[{"\<\"downloads\"\>", "\[Rule]", "67"}], ",", 
+     RowBox[{"\<\"followers\"\>", "\[Rule]", "1"}], ",", 
+     RowBox[{"\<\"short_description\"\>", 
+      "\[Rule]", "\<\"A horrible weapons mod\"\>"}], ",", 
+     RowBox[{"\<\"license\"\>", "\[Rule]", "\<\"CC BY-SA 4.0\"\>"}], ",", 
+     RowBox[{"\<\"author\"\>", "\[Rule]", "\<\"xdthegreat\"\>"}], ",", 
+     RowBox[{"\<\"donations\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+     RowBox[{"\<\"id\"\>", "\[Rule]", "1951"}], ",", 
+     RowBox[{"\<\"background\"\>", "\[Rule]", "Null"}], ",", 
+     RowBox[{"\<\"versions\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\[LeftAssociation]", 
+        RowBox[{
+         RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.5\"\>"}], ",", 
+         RowBox[{"\<\"changelog\"\>", "\[Rule]", "\<\"pre-release\"\>"}], ",", 
+         RowBox[{"\<\"id\"\>", "\[Rule]", "9601"}], ",", 
+         RowBox[{"\<\"download_path\"\>", 
+          "\[Rule]", \
+"\<\"/mod/1951/XD%20Horrible%20weapons%20mod/download/0.0.1\"\>"}], ",", 
+         RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"0.0.1\"\>"}]}], 
+        "\[RightAssociation]"}], "}"}]}], ",", 
+     RowBox[{"\<\"shared_authors\"\>", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\<\"url\"\>", 
+      "\[Rule]", "\<\"/mod/1951/XD%20Horrible%20weapons%20mod\"\>"}], ",", 
+     RowBox[{"\<\"game\"\>", "\[Rule]", "\<\"Kerbal Space Program\"\>"}], ",", 
+     RowBox[{"\<\"source_code\"\>", "\[Rule]", "\<\"\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"bg_offset_y\"\>", "\[Rule]", "Null"}], ",", 
+     RowBox[{"\<\"game_id\"\>", "\[Rule]", "3102"}], ",", 
+     RowBox[{"\<\"name\"\>", "\[Rule]", "\<\"SystemFlip\"\>"}], ",", 
+     RowBox[{"\<\"default_version_id\"\>", "\[Rule]", "9615"}], ",", 
+     RowBox[{"\<\"website\"\>", 
+      "\[Rule]", \
+"\<\"https://forum.kerbalspaceprogram.com/index.php?/topic/177721-145-\
+systemflip-10-and-krakens-embodiment-10-muck-with-the-stock-solar-system\"\>"}\
+], ",", 
+     RowBox[{"\<\"downloads\"\>", "\[Rule]", "35"}], ",", 
+     RowBox[{"\<\"followers\"\>", "\[Rule]", "0"}], ",", 
+     RowBox[{"\<\"short_description\"\>", 
+      "\[Rule]", "\<\"Mucks with the solar system and moves most of the \
+planets and moons, also makes a minor gravity change to one.\"\>"}], ",", 
+     RowBox[{"\<\"license\"\>", "\[Rule]", "\<\"MIT\"\>"}], ",", 
+     RowBox[{"\<\"author\"\>", "\[Rule]", "\<\"MythicalDonuts\"\>"}], ",", 
+     RowBox[{"\<\"donations\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+     RowBox[{"\<\"id\"\>", "\[Rule]", "1950"}], ",", 
+     RowBox[{"\<\"background\"\>", "\[Rule]", "Null"}], ",", 
+     RowBox[{"\<\"versions\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.5\"\>"}], ",", 
+          RowBox[{"\<\"changelog\"\>", "\[Rule]", "\<\"license stuff\"\>"}], 
+          ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9615"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", "\<\"/mod/1950/SystemFlip/download/1.1.1\"\>"}], ",", 
+          RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"1.1.1\"\>"}]}], 
+         "\[RightAssociation]"}], ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.5\"\>"}], ",", 
+          RowBox[{"\<\"changelog\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9606"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", "\<\"/mod/1950/SystemFlip/download/1.1\"\>"}], ",", 
+          RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"1.1\"\>"}]}], 
+         "\[RightAssociation]"}], ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.5\"\>"}], ",", 
+          RowBox[{"\<\"changelog\"\>", "\[Rule]", "Null"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9600"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", "\<\"/mod/1950/SystemFlip/download/1.0\"\>"}], ",", 
+          RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"1.0\"\>"}]}], 
+         "\[RightAssociation]"}]}], "}"}]}], ",", 
+     RowBox[{"\<\"shared_authors\"\>", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\<\"url\"\>", "\[Rule]", "\<\"/mod/1950/SystemFlip\"\>"}], ",", 
+     RowBox[{"\<\"game\"\>", "\[Rule]", "\<\"Kerbal Space Program\"\>"}], ",", 
+     RowBox[{"\<\"source_code\"\>", "\[Rule]", "\<\"\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"bg_offset_y\"\>", "\[Rule]", "0"}], ",", 
+     RowBox[{"\<\"game_id\"\>", "\[Rule]", "3102"}], ",", 
+     RowBox[{"\<\"name\"\>", "\[Rule]", "\<\"KerbalGPS Revived\"\>"}], ",", 
+     RowBox[{"\<\"default_version_id\"\>", "\[Rule]", "9613"}], ",", 
+     RowBox[{"\<\"website\"\>", 
+      "\[Rule]", \
+"\<\"https://forum.kerbalspaceprogram.com/index.php?/topic/177511-1\"\>"}], 
+     ",", 
+     RowBox[{"\<\"downloads\"\>", "\[Rule]", "520"}], ",", 
+     RowBox[{"\<\"followers\"\>", "\[Rule]", "9"}], ",", 
+     RowBox[{"\<\"short_description\"\>", 
+      "\[Rule]", "\<\"GPS Navigation for KSP\"\>"}], ",", 
+     RowBox[{"\<\"license\"\>", "\[Rule]", "\<\"CC-BY-NC-SA\"\>"}], ",", 
+     RowBox[{"\<\"author\"\>", "\[Rule]", "\<\"linuxgurugamer\"\>"}], ",", 
+     RowBox[{"\<\"donations\"\>", 
+      "\[Rule]", "\<\"https://www.patreon.com/linuxgurugamer\"\>"}], ",", 
+     RowBox[{"\<\"id\"\>", "\[Rule]", "1949"}], ",", 
+     RowBox[{"\<\"background\"\>", 
+      "\[Rule]", \
+"\<\"/content/linuxgurugamer_179/KerbalGPS_Revived/KerbalGPS_Revived-\
+1534632549.4571316.png\"\>"}], ",", 
+     RowBox[{"\<\"versions\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.5\"\>"}], ",", 
+          
+          RowBox[{"\<\"changelog\"\>", 
+           "\[Rule]", "\<\"Fixed missing icons\"\>"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9613"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1949/KerbalGPS%20Revived/download/1.1.0.7\"\>"}], ",", 
+          
+          RowBox[{"\<\"friendly_version\"\>", 
+           "\[Rule]", "\<\"1.1.0.7\"\>"}]}], "\[RightAssociation]"}], ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.5\"\>"}], ",", 
+          
+          RowBox[{"\<\"changelog\"\>", 
+           "\[Rule]", "\<\"\\tFixed bug where closing the Destination window \
+closed both windows\\r\\n\\tAdded display of EC usage\\r\\n\\tAdded planet \
+name to destination record\\r\\n\\tOnly display destinations on the current \
+body\"\>"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9612"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1949/KerbalGPS%20Revived/download/1.1.0.6\"\>"}], ",", 
+          
+          RowBox[{"\<\"friendly_version\"\>", 
+           "\[Rule]", "\<\"1.1.0.6\"\>"}]}], "\[RightAssociation]"}], ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.5\"\>"}], ",", 
+          
+          RowBox[{"\<\"changelog\"\>", 
+           "\[Rule]", "\<\"1.1.0.5\\r\\n\\tAdded EC usage to transmitter.  \
+Only works when satellite is active, or if a background processing mod is \
+installed\\r\\n\\tMerged lists together into a list of a class instead of \
+individual lists\\r\\n\\tAdded option to use Degrees/Minutes/Seconds instead \
+of  display/entry of Degrees/Minutes for locations\\r\\n\\tRedid the \
+Degrees/Minutes/Seconds for the current location into a common function used \
+by both the Latitude and Longitude formatters\\r\\n\\tAdded hiding of window \
+on game pause, with setting to control whether it hides on pause or not\\r\\n\
+\\tAdded Contracts for ContractConfigurator\\r\\n\\tMoved the icon directory \
+into the PluginData folder\\r\\n\\r\\n1.1.0.4\\r\\n\\tChanged dictionary to a \
+sorted dictionary, ignoring case for the \
+sort\\r\\n\\r\\n1.1.0.3\\r\\n\\tAdded saving and loading multiple \
+destinations \\r\\n\\tAdded hiding of UI\\r\\n\\tChanged text entry for NSEW \
+to toggle buttons\\r\\n\\tAdded saving window positions\\r\\n\\r\\n1.1.0.2\\r\
+\\n\\tReplaced foreach with for loops\\r\\n\\tChanged GUI.Dragwindow to do \
+the whole window\\r\\n\\tRewrite main module to use standard KSP part module \
+sections\\r\\n\\r\\n1.1.0.1\\r\\n\\tFixed nullrefs caused by AppLauncher not \
+setting Instnace properly\\r\\n\\r\\n1.1.0\\r\\n\\tAdoption by Linuxgurugamer\
+\\r\\n\\tUpdated for 1.4.x\\r\\n\\tAdded support for \
+ToolbarController\\r\\n\\tAdded support for \
+ClickThroughBlocker\\r\\n\\tUpdated part configs\"\>"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9598"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1949/KerbalGPS%20Revived/download/1.1.0.5\"\>"}], ",", 
+          
+          RowBox[{"\<\"friendly_version\"\>", 
+           "\[Rule]", "\<\"1.1.0.5\"\>"}]}], "\[RightAssociation]"}]}], 
+       "}"}]}], ",", 
+     RowBox[{"\<\"shared_authors\"\>", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\<\"url\"\>", 
+      "\[Rule]", "\<\"/mod/1949/KerbalGPS%20Revived\"\>"}], ",", 
+     RowBox[{"\<\"game\"\>", "\[Rule]", "\<\"Kerbal Space Program\"\>"}], ",", 
+     RowBox[{"\<\"source_code\"\>", 
+      "\[Rule]", "\<\"https://github.com/linuxgurugamer/KerbalGPS\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"bg_offset_y\"\>", "\[Rule]", 
+      RowBox[{"-", "274"}]}], ",", 
+     RowBox[{"\<\"game_id\"\>", "\[Rule]", "3102"}], ",", 
+     RowBox[{"\<\"name\"\>", 
+      "\[Rule]", "\<\"Real Solar System REMASTERED\"\>"}], ",", 
+     RowBox[{"\<\"default_version_id\"\>", "\[Rule]", "9618"}], ",", 
+     RowBox[{"\<\"website\"\>", 
+      "\[Rule]", \
+"\<\"https://forum.kerbalspaceprogram.com/index.php?/topic/177763-14x-real-\
+solar-system-remastered-by-xxledvin25xx/\"\>"}], ",", 
+     RowBox[{"\<\"downloads\"\>", "\[Rule]", "668"}], ",", 
+     RowBox[{"\<\"followers\"\>", "\[Rule]", "8"}], ",", 
+     RowBox[{"\<\"short_description\"\>", 
+      "\[Rule]", "\<\"This mod adds the real solar system to its kerbal space \
+program, where its orbits, sizes, real textures, real antenna sites and most \
+real launch sites are added.\"\>"}], ",", 
+     RowBox[{"\<\"license\"\>", "\[Rule]", "\<\"CC-BY-NC-SA\"\>"}], ",", 
+     RowBox[{"\<\"author\"\>", "\[Rule]", "\<\"XxLedvin25xX\"\>"}], ",", 
+     RowBox[{"\<\"donations\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+     RowBox[{"\<\"id\"\>", "\[Rule]", "1948"}], ",", 
+     RowBox[{"\<\"background\"\>", 
+      "\[Rule]", \
+"\<\"/content/XxLedvin25xX_21262/Real_Solar_System_REMASTERED/Real_Solar_\
+System_REMASTERED-1534628756.0896938.jpg\"\>"}], ",", 
+     RowBox[{"\<\"versions\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.5\"\>"}], ",", 
+          
+          RowBox[{"\<\"changelog\"\>", 
+           "\[Rule]", "\<\"\:25ba Fixed terrain textures and add all \
+functions of original RSS\"\>"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9618"}], ",", 
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1948/Real%20Solar%20System%20REMASTERED/download/1.4\"\>"}], ",", 
+          RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"1.4\"\>"}]}], 
+         "\[RightAssociation]"}], ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.5\"\>"}], ",", 
+          
+          RowBox[{"\<\"changelog\"\>", 
+           "\[Rule]", "\<\"\:25ba The Installation Simplified\"\>"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9599"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1948/Real%20Solar%20System%20REMASTERED/download/1.3\"\>"}], ",", 
+          RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"1.3\"\>"}]}], 
+         "\[RightAssociation]"}], ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.5\"\>"}], ",", 
+          
+          RowBox[{"\<\"changelog\"\>", 
+           "\[Rule]", "\<\"\:25ba Launch sites and resources have been \
+added\"\>"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9591"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1948/Real%20Solar%20System%20REMASTERED/download/1.2\"\>"}], ",", 
+          RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"1.2\"\>"}]}], 
+         "\[RightAssociation]"}], ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.5\"\>"}], ",", 
+          
+          RowBox[{"\<\"changelog\"\>", 
+           "\[Rule]", "\<\"\:25ba Fixed, Uranus Ring Not Encounter\"\>"}], 
+          ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9590"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1948/Real%20Solar%20System%20REMASTERED/download/1.1\"\>"}], ",", 
+          RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"1.1\"\>"}]}], 
+         "\[RightAssociation]"}], ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.5\"\>"}], ",", 
+          
+          RowBox[{"\<\"changelog\"\>", 
+           "\[Rule]", "\<\"\:25ba Remastered To KSP 1.4.x\"\>"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9584"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1948/Real%20Solar%20System%20REMASTERED/download/1.0\"\>"}], ",", 
+          RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"1.0\"\>"}]}], 
+         "\[RightAssociation]"}]}], "}"}]}], ",", 
+     RowBox[{"\<\"shared_authors\"\>", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\<\"url\"\>", 
+      "\[Rule]", "\<\"/mod/1948/Real%20Solar%20System%20REMASTERED\"\>"}], 
+     ",", 
+     RowBox[{"\<\"game\"\>", "\[Rule]", "\<\"Kerbal Space Program\"\>"}], ",", 
+     RowBox[{"\<\"source_code\"\>", "\[Rule]", "\<\"\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"bg_offset_y\"\>", "\[Rule]", 
+      RowBox[{"-", "289"}]}], ",", 
+     RowBox[{"\<\"game_id\"\>", "\[Rule]", "3102"}], ",", 
+     RowBox[{"\<\"name\"\>", 
+      "\[Rule]", "\<\"Dodo Labs - Stockalike Electron\"\>"}], ",", 
+     RowBox[{"\<\"default_version_id\"\>", "\[Rule]", "9567"}], ",", 
+     RowBox[{"\<\"website\"\>", 
+      "\[Rule]", \
+"\<\"https://forum.kerbalspaceprogram.com/index.php?/topic/177617-14x-dodo-\
+labs-v10-stockalike-electron/\"\>"}], ",", 
+     RowBox[{"\<\"downloads\"\>", "\[Rule]", "247"}], ",", 
+     RowBox[{"\<\"followers\"\>", "\[Rule]", "9"}], ",", 
+     RowBox[{"\<\"short_description\"\>", 
+      "\[Rule]", "\<\"Dodo Labs is a small parts pack that provides \
+stockalike parts to create the Electron rocket by Rocket Lab.\"\>"}], ",", 
+     RowBox[{"\<\"license\"\>", "\[Rule]", "\<\"All rights reserved\"\>"}], 
+     ",", 
+     RowBox[{"\<\"author\"\>", "\[Rule]", "\<\"tygoo7\"\>"}], ",", 
+     RowBox[{"\<\"donations\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+     RowBox[{"\<\"id\"\>", "\[Rule]", "1944"}], ",", 
+     RowBox[{"\<\"background\"\>", 
+      "\[Rule]", \
+"\<\"/content/tygoo7_912/Dodo_Labs_-_Stockalike_Electron/Dodo_Labs_-_\
+Stockalike_Electron-1534492983.1630726.png\"\>"}], ",", 
+     RowBox[{"\<\"versions\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\[LeftAssociation]", 
+        RowBox[{
+         RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.5\"\>"}], ",", 
+         RowBox[{"\<\"changelog\"\>", "\[Rule]", "Null"}], ",", 
+         RowBox[{"\<\"id\"\>", "\[Rule]", "9567"}], ",", 
+         RowBox[{"\<\"download_path\"\>", 
+          "\[Rule]", \
+"\<\"/mod/1944/Dodo%20Labs%20-%20Stockalike%20Electron/download/1.0\"\>"}], 
+         ",", 
+         RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"1.0\"\>"}]}], 
+        "\[RightAssociation]"}], "}"}]}], ",", 
+     RowBox[{"\<\"shared_authors\"\>", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\<\"url\"\>", 
+      "\[Rule]", \
+"\<\"/mod/1944/Dodo%20Labs%20-%20Stockalike%20Electron\"\>"}], ",", 
+     RowBox[{"\<\"game\"\>", "\[Rule]", "\<\"Kerbal Space Program\"\>"}], ",", 
+     RowBox[{"\<\"source_code\"\>", "\[Rule]", "\<\"\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"bg_offset_y\"\>", "\[Rule]", 
+      RowBox[{"-", "238"}]}], ",", 
+     RowBox[{"\<\"game_id\"\>", "\[Rule]", "3102"}], ",", 
+     RowBox[{"\<\"name\"\>", "\[Rule]", "\<\"Out of Galaxy Skybox\"\>"}], ",", 
+     RowBox[{"\<\"default_version_id\"\>", "\[Rule]", "9566"}], ",", 
+     RowBox[{"\<\"website\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+     RowBox[{"\<\"downloads\"\>", "\[Rule]", "103"}], ",", 
+     RowBox[{"\<\"followers\"\>", "\[Rule]", "1"}], ",", 
+     RowBox[{"\<\"short_description\"\>", 
+      "\[Rule]", "\<\"This is a 4K Skybox i made using SpaceEngine.\"\>"}], 
+     ",", 
+     RowBox[{"\<\"license\"\>", "\[Rule]", "\<\"GPLv3\"\>"}], ",", 
+     RowBox[{"\<\"author\"\>", "\[Rule]", "\<\"LOL221\"\>"}], ",", 
+     RowBox[{"\<\"donations\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+     RowBox[{"\<\"id\"\>", "\[Rule]", "1943"}], ",", 
+     RowBox[{"\<\"background\"\>", 
+      "\[Rule]", \
+"\<\"/content/LOL221_21252/Out_of_Galaxy_Skybox/Out_of_Galaxy_Skybox-\
+1534477443.7008002.png\"\>"}], ",", 
+     RowBox[{"\<\"versions\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.5\"\>"}], ",", 
+          
+          RowBox[{"\<\"changelog\"\>", 
+           "\[Rule]", "\<\"made the skybox brighter because i put the wrong \
+files in the .zip\"\>"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9566"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1943/Out%20of%20Galaxy%20Skybox/download/1.1\"\>"}], ",", 
+          RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"1.1\"\>"}]}], 
+         "\[RightAssociation]"}], ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.5\"\>"}], ",", 
+          RowBox[{"\<\"changelog\"\>", "\[Rule]", "Null"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9565"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1943/Out%20of%20Galaxy%20Skybox/download/1.0\"\>"}], ",", 
+          RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"1.0\"\>"}]}], 
+         "\[RightAssociation]"}]}], "}"}]}], ",", 
+     RowBox[{"\<\"shared_authors\"\>", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\<\"url\"\>", 
+      "\[Rule]", "\<\"/mod/1943/Out%20of%20Galaxy%20Skybox\"\>"}], ",", 
+     RowBox[{"\<\"game\"\>", "\[Rule]", "\<\"Kerbal Space Program\"\>"}], ",", 
+     RowBox[{"\<\"source_code\"\>", "\[Rule]", "\<\"\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"bg_offset_y\"\>", "\[Rule]", 
+      RowBox[{"-", "321"}]}], ",", 
+     RowBox[{"\<\"game_id\"\>", "\[Rule]", "3102"}], ",", 
+     RowBox[{"\<\"name\"\>", "\[Rule]", "\<\"VMar Vehicle\"\>"}], ",", 
+     RowBox[{"\<\"default_version_id\"\>", "\[Rule]", "9610"}], ",", 
+     RowBox[{"\<\"website\"\>", 
+      "\[Rule]", \
+"\<\"https://greenrolf.wordpress.com/2018/08/16/new-release-vmar/\"\>"}], ",", 
+     RowBox[{"\<\"downloads\"\>", "\[Rule]", "64"}], ",", 
+     RowBox[{"\<\"followers\"\>", "\[Rule]", "2"}], ",", 
+     RowBox[{"\<\"short_description\"\>", 
+      "\[Rule]", "\<\"The VMar is a car for KSP. It was built to accept the \
+RoveMax Model M1 wheels.\"\>"}], ",", 
+     RowBox[{"\<\"license\"\>", "\[Rule]", "\<\"GPLv3\"\>"}], ",", 
+     RowBox[{"\<\"author\"\>", "\[Rule]", "\<\"greenrolf\"\>"}], ",", 
+     RowBox[{"\<\"donations\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+     RowBox[{"\<\"id\"\>", "\[Rule]", "1942"}], ",", 
+     RowBox[{"\<\"background\"\>", 
+      "\[Rule]", \
+"\<\"/content/greenrolf_21152/VMar_Vehicle/VMar_Vehicle-1534431578.479045.jpg\
+\"\>"}], ",", 
+     RowBox[{"\<\"versions\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\[LeftAssociation]", 
+        RowBox[{
+         RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.5\"\>"}], ",", 
+         RowBox[{"\<\"changelog\"\>", 
+          "\[Rule]", "\<\"Added driver and front passenger seats\\r\\nFixed \
+lights error\\r\\nVehicle template (.craft) is now provided\"\>"}], ",", 
+         RowBox[{"\<\"id\"\>", "\[Rule]", "9610"}], ",", 
+         RowBox[{"\<\"download_path\"\>", 
+          "\[Rule]", "\<\"/mod/1942/VMar%20Vehicle/download/2.0\"\>"}], ",", 
+         RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"2.0\"\>"}]}], 
+        "\[RightAssociation]"}], "}"}]}], ",", 
+     RowBox[{"\<\"shared_authors\"\>", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\<\"url\"\>", "\[Rule]", "\<\"/mod/1942/VMar%20Vehicle\"\>"}], 
+     ",", 
+     RowBox[{"\<\"game\"\>", "\[Rule]", "\<\"Kerbal Space Program\"\>"}], ",", 
+     RowBox[{"\<\"source_code\"\>", 
+      "\[Rule]", "\<\"https://github.com/greenrolf/Green_Rolf_VMar\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"bg_offset_y\"\>", "\[Rule]", "Null"}], ",", 
+     RowBox[{"\<\"game_id\"\>", "\[Rule]", "3102"}], ",", 
+     RowBox[{"\<\"name\"\>", "\[Rule]", "\<\"SpecialProject125715\"\>"}], ",", 
+     RowBox[{"\<\"default_version_id\"\>", "\[Rule]", "9558"}], ",", 
+     RowBox[{"\<\"website\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+     RowBox[{"\<\"downloads\"\>", "\[Rule]", "38"}], ",", 
+     RowBox[{"\<\"followers\"\>", "\[Rule]", "4"}], ",", 
+     RowBox[{"\<\"short_description\"\>", 
+      "\[Rule]", "\<\"Block style Ship for KSP\"\>"}], ",", 
+     RowBox[{"\<\"license\"\>", "\[Rule]", "\<\"GPLv2\"\>"}], ",", 
+     RowBox[{"\<\"author\"\>", "\[Rule]", "\<\"SkunkWorksCommand\"\>"}], ",", 
+     RowBox[{"\<\"donations\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+     RowBox[{"\<\"id\"\>", "\[Rule]", "1941"}], ",", 
+     RowBox[{"\<\"background\"\>", 
+      "\[Rule]", \
+"\<\"/content/SkunkWorksCommand_10794/SpecialProject125715/\
+SpecialProject125715-1534344872.7530718.png\"\>"}], ",", 
+     RowBox[{"\<\"versions\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\[LeftAssociation]", 
+        RowBox[{
+         RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.2\"\>"}], ",", 
+         RowBox[{"\<\"changelog\"\>", "\[Rule]", "Null"}], ",", 
+         RowBox[{"\<\"id\"\>", "\[Rule]", "9558"}], ",", 
+         RowBox[{"\<\"download_path\"\>", 
+          "\[Rule]", \
+"\<\"/mod/1941/SpecialProject125715/download/0.0.0.1\"\>"}], ",", 
+         RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"0.0.0.1\"\>"}]}],
+         "\[RightAssociation]"}], "}"}]}], ",", 
+     RowBox[{"\<\"shared_authors\"\>", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\<\"url\"\>", 
+      "\[Rule]", "\<\"/mod/1941/SpecialProject125715\"\>"}], ",", 
+     RowBox[{"\<\"game\"\>", "\[Rule]", "\<\"Kerbal Space Program\"\>"}], ",", 
+     RowBox[{"\<\"source_code\"\>", "\[Rule]", "\<\"\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"bg_offset_y\"\>", "\[Rule]", 
+      RowBox[{"-", "416"}]}], ",", 
+     RowBox[{"\<\"game_id\"\>", "\[Rule]", "3102"}], ",", 
+     RowBox[{"\<\"name\"\>", 
+      "\[Rule]", "\<\"DF Skybox: Large Magellanic Cloud\"\>"}], ",", 
+     RowBox[{"\<\"default_version_id\"\>", "\[Rule]", "9535"}], ",", 
+     RowBox[{"\<\"website\"\>", 
+      "\[Rule]", \
+"\<\"https://forum.kerbalspaceprogram.com/index.php?/topic/177203-14x-\
+darkfighters-skyboxes-update/\"\>"}], ",", 
+     RowBox[{"\<\"downloads\"\>", "\[Rule]", "159"}], ",", 
+     RowBox[{"\<\"followers\"\>", "\[Rule]", "6"}], ",", 
+     RowBox[{"\<\"short_description\"\>", 
+      "\[Rule]", "\<\"In this 4k skybox you are situated in a nebula inside \
+the Large Magellanic Cloud.\"\>"}], ",", 
+     RowBox[{"\<\"license\"\>", "\[Rule]", "\<\"All Rights Reserved\"\>"}], 
+     ",", 
+     RowBox[{"\<\"author\"\>", "\[Rule]", "\<\"DarkFighter\"\>"}], ",", 
+     RowBox[{"\<\"donations\"\>", 
+      "\[Rule]", \
+"\<\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=\
+F3HN6Q7DPM54A\"\>"}], ",", 
+     RowBox[{"\<\"id\"\>", "\[Rule]", "1939"}], ",", 
+     RowBox[{"\<\"background\"\>", 
+      "\[Rule]", \
+"\<\"/content/DarkFighter_21023/DF_Skybox_Large_Magellanic_Cloud/DF_Skybox_\
+Large_Magellanic_Cloud-1533919512.8234901.png\"\>"}], ",", 
+     RowBox[{"\<\"versions\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\[LeftAssociation]", 
+        RowBox[{
+         RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.4\"\>"}], ",", 
+         RowBox[{"\<\"changelog\"\>", "\[Rule]", "\<\"Initial release\"\>"}], 
+         ",", 
+         RowBox[{"\<\"id\"\>", "\[Rule]", "9535"}], ",", 
+         RowBox[{"\<\"download_path\"\>", 
+          "\[Rule]", \
+"\<\"/mod/1939/DF%20Skybox:%20Large%20Magellanic%20Cloud/download/1.0\"\>"}], 
+         ",", 
+         RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"1.0\"\>"}]}], 
+        "\[RightAssociation]"}], "}"}]}], ",", 
+     RowBox[{"\<\"shared_authors\"\>", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\<\"url\"\>", 
+      "\[Rule]", \
+"\<\"/mod/1939/DF%20Skybox:%20Large%20Magellanic%20Cloud\"\>"}], ",", 
+     RowBox[{"\<\"game\"\>", "\[Rule]", "\<\"Kerbal Space Program\"\>"}], ",", 
+     RowBox[{"\<\"source_code\"\>", "\[Rule]", "\<\"\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"bg_offset_y\"\>", "\[Rule]", 
+      RowBox[{"-", "178"}]}], ",", 
+     RowBox[{"\<\"game_id\"\>", "\[Rule]", "3102"}], ",", 
+     RowBox[{"\<\"name\"\>", "\[Rule]", "\<\"The G vehicle\"\>"}], ",", 
+     RowBox[{"\<\"default_version_id\"\>", "\[Rule]", "9533"}], ",", 
+     RowBox[{"\<\"website\"\>", 
+      "\[Rule]", \
+"\<\"https://greenrolf.wordpress.com/2018/08/10/new-release-the-g/\"\>"}], 
+     ",", 
+     RowBox[{"\<\"downloads\"\>", "\[Rule]", "74"}], ",", 
+     RowBox[{"\<\"followers\"\>", "\[Rule]", "2"}], ",", 
+     RowBox[{"\<\"short_description\"\>", 
+      "\[Rule]", "\<\"The G vehicle is a vehicle for KSP.  It was built to \
+accept the RoveMax Model M1 wheels.\"\>"}], ",", 
+     RowBox[{"\<\"license\"\>", "\[Rule]", "\<\"GPLv3\"\>"}], ",", 
+     RowBox[{"\<\"author\"\>", "\[Rule]", "\<\"greenrolf\"\>"}], ",", 
+     RowBox[{"\<\"donations\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+     RowBox[{"\<\"id\"\>", "\[Rule]", "1938"}], ",", 
+     RowBox[{"\<\"background\"\>", 
+      "\[Rule]", \
+"\<\"/content/greenrolf_21152/The_G_vehicle/The_G_vehicle-1533892226.9074152.\
+jpg\"\>"}], ",", 
+     RowBox[{"\<\"versions\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\[LeftAssociation]", 
+        RowBox[{
+         RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.5\"\>"}], ",", 
+         RowBox[{"\<\"changelog\"\>", "\[Rule]", "Null"}], ",", 
+         RowBox[{"\<\"id\"\>", "\[Rule]", "9533"}], ",", 
+         RowBox[{"\<\"download_path\"\>", 
+          "\[Rule]", "\<\"/mod/1938/The%20G%20vehicle/download/1.0\"\>"}], 
+         ",", 
+         RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"1.0\"\>"}]}], 
+        "\[RightAssociation]"}], "}"}]}], ",", 
+     RowBox[{"\<\"shared_authors\"\>", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\<\"url\"\>", 
+      "\[Rule]", "\<\"/mod/1938/The%20G%20vehicle\"\>"}], ",", 
+     RowBox[{"\<\"game\"\>", "\[Rule]", "\<\"Kerbal Space Program\"\>"}], ",", 
+     RowBox[{"\<\"source_code\"\>", 
+      "\[Rule]", "\<\"https://github.com/greenrolf/Green_Rolf_The_G\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"bg_offset_y\"\>", "\[Rule]", "Null"}], ",", 
+     RowBox[{"\<\"game_id\"\>", "\[Rule]", "3102"}], ",", 
+     RowBox[{"\<\"name\"\>", "\[Rule]", "\<\"MEMECAT FLAG PACK\"\>"}], ",", 
+     RowBox[{"\<\"default_version_id\"\>", "\[Rule]", "9528"}], ",", 
+     RowBox[{"\<\"website\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+     RowBox[{"\<\"downloads\"\>", "\[Rule]", "47"}], ",", 
+     RowBox[{"\<\"followers\"\>", "\[Rule]", "1"}], ",", 
+     RowBox[{"\<\"short_description\"\>", 
+      "\[Rule]", "\<\"Meme Cat Flags! Includes: Busness Cat, Ceiling Cat, \
+Chemistry Cat, Grumpy Cat, I can has Cheezeburger, Keyboard Cat, and Nyan \
+Cat.\"\>"}], ",", 
+     RowBox[{"\<\"license\"\>", "\[Rule]", "\<\"MIT\"\>"}], ",", 
+     RowBox[{"\<\"author\"\>", "\[Rule]", "\<\"pencatpigpus\"\>"}], ",", 
+     RowBox[{"\<\"donations\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+     RowBox[{"\<\"id\"\>", "\[Rule]", "1937"}], ",", 
+     RowBox[{"\<\"background\"\>", "\[Rule]", "Null"}], ",", 
+     RowBox[{"\<\"versions\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\[LeftAssociation]", 
+        RowBox[{
+         RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.4\"\>"}], ",", 
+         RowBox[{"\<\"changelog\"\>", "\[Rule]", "Null"}], ",", 
+         RowBox[{"\<\"id\"\>", "\[Rule]", "9528"}], ",", 
+         RowBox[{"\<\"download_path\"\>", 
+          "\[Rule]", "\<\"/mod/1937/MEMECAT%20FLAG%20PACK/download/1\"\>"}], 
+         ",", 
+         RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"1\"\>"}]}], 
+        "\[RightAssociation]"}], "}"}]}], ",", 
+     RowBox[{"\<\"shared_authors\"\>", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\<\"url\"\>", 
+      "\[Rule]", "\<\"/mod/1937/MEMECAT%20FLAG%20PACK\"\>"}], ",", 
+     RowBox[{"\<\"game\"\>", "\[Rule]", "\<\"Kerbal Space Program\"\>"}], ",", 
+     RowBox[{"\<\"source_code\"\>", "\[Rule]", "\<\"\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"bg_offset_y\"\>", "\[Rule]", 
+      RowBox[{"-", "288"}]}], ",", 
+     RowBox[{"\<\"game_id\"\>", "\[Rule]", "3102"}], ",", 
+     RowBox[{"\<\"name\"\>", 
+      "\[Rule]", "\<\"CommNet Antennas Extension\"\>"}], ",", 
+     RowBox[{"\<\"default_version_id\"\>", "\[Rule]", "9552"}], ",", 
+     RowBox[{"\<\"website\"\>", 
+      "\[Rule]", \
+"\<\"https://forum.kerbalspaceprogram.com/index.php?/topic/177292-*\"\>"}], 
+     ",", 
+     RowBox[{"\<\"downloads\"\>", "\[Rule]", "427"}], ",", 
+     RowBox[{"\<\"followers\"\>", "\[Rule]", "17"}], ",", 
+     RowBox[{"\<\"short_description\"\>", 
+      "\[Rule]", "\<\"Add 6 new antennas and a little plugin for showing a \
+combinability exponent\"\>"}], ",", 
+     RowBox[{"\<\"license\"\>", "\[Rule]", "\<\"GPLv3\"\>"}], ",", 
+     RowBox[{"\<\"author\"\>", "\[Rule]", "\<\"flart\"\>"}], ",", 
+     RowBox[{"\<\"donations\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+     RowBox[{"\<\"id\"\>", "\[Rule]", "1935"}], ",", 
+     RowBox[{"\<\"background\"\>", 
+      "\[Rule]", \
+"\<\"/content/flart_17804/CommNet_Antennas_Extension/CommNet_Antennas_\
+Extension-1533763762.2220714.png\"\>"}], ",", 
+     RowBox[{"\<\"versions\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.4\"\>"}], ",", 
+          
+          RowBox[{"\<\"changelog\"\>", 
+           "\[Rule]", "\<\" * fix bug in the ja-localization\"\>"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9552"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1935/CommNet%20Antennas%20Extension/download/0.9.3\"\>"}], ",", 
+          RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"0.9.3\"\>"}]}], 
+         "\[RightAssociation]"}], ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.4\"\>"}], ",", 
+          RowBox[{"\<\"changelog\"\>", "\[Rule]", "Null"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9523"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1935/CommNet%20Antennas%20Extension/download/0.9.2\"\>"}], ",", 
+          RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"0.9.2\"\>"}]}], 
+         "\[RightAssociation]"}]}], "}"}]}], ",", 
+     RowBox[{"\<\"shared_authors\"\>", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\<\"url\"\>", 
+      "\[Rule]", "\<\"/mod/1935/CommNet%20Antennas%20Extension\"\>"}], ",", 
+     RowBox[{"\<\"game\"\>", "\[Rule]", "\<\"Kerbal Space Program\"\>"}], ",", 
+     RowBox[{"\<\"source_code\"\>", 
+      "\[Rule]", \
+"\<\"https://github.com/yalov/CommNetAntennasExtension\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"bg_offset_y\"\>", "\[Rule]", 
+      RowBox[{"-", "38"}]}], ",", 
+     RowBox[{"\<\"game_id\"\>", "\[Rule]", "3102"}], ",", 
+     RowBox[{"\<\"name\"\>", "\[Rule]", "\<\"Community Parts Titles\"\>"}], 
+     ",", 
+     RowBox[{"\<\"default_version_id\"\>", "\[Rule]", "9570"}], ",", 
+     RowBox[{"\<\"website\"\>", 
+      "\[Rule]", \
+"\<\"https://forum.kerbalspaceprogram.com/index.php?/topic/174189-*\"\>"}], 
+     ",", 
+     RowBox[{"\<\"downloads\"\>", "\[Rule]", "192"}], ",", 
+     RowBox[{"\<\"followers\"\>", "\[Rule]", "8"}], ",", 
+     RowBox[{"\<\"short_description\"\>", 
+      "\[Rule]", "\<\"parts grouping and sorting in the VAB-list by changing \
+titles\"\>"}], ",", 
+     RowBox[{"\<\"license\"\>", "\[Rule]", "\<\"GPLv3\"\>"}], ",", 
+     RowBox[{"\<\"author\"\>", "\[Rule]", "\<\"flart\"\>"}], ",", 
+     RowBox[{"\<\"donations\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+     RowBox[{"\<\"id\"\>", "\[Rule]", "1934"}], ",", 
+     RowBox[{"\<\"background\"\>", 
+      "\[Rule]", \
+"\<\"/content/flart_17804/Community_Parts_Titles/Community_Parts_Titles-\
+1533764160.6697247.jpg\"\>"}], ",", 
+     RowBox[{"\<\"versions\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.5\"\>"}], ",", 
+          
+          RowBox[{"\<\"changelog\"\>", 
+           "\[Rule]", "\<\" * new: KAX\\r\\n * updates: nf-electrical\\r\\n * \
+remove: KAS (until KAS 1.0)\"\>"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9570"}], ",", 
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1934/Community%20Parts%20Titles/download/0.2.6\"\>"}], ",", 
+          RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"0.2.6\"\>"}]}], 
+         "\[RightAssociation]"}], ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.4\"\>"}], ",", 
+          RowBox[{"\<\"changelog\"\>", "\[Rule]", "Null"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9522"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1934/Community%20Parts%20Titles/download/0.2.5\"\>"}], ",", 
+          RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"0.2.5\"\>"}]}], 
+         "\[RightAssociation]"}]}], "}"}]}], ",", 
+     RowBox[{"\<\"shared_authors\"\>", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\<\"url\"\>", 
+      "\[Rule]", "\<\"/mod/1934/Community%20Parts%20Titles\"\>"}], ",", 
+     RowBox[{"\<\"game\"\>", "\[Rule]", "\<\"Kerbal Space Program\"\>"}], ",", 
+     RowBox[{"\<\"source_code\"\>", 
+      "\[Rule]", "\<\"https://github.com/yalov/CommunityPartsTitles\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"bg_offset_y\"\>", "\[Rule]", 
+      RowBox[{"-", "2217"}]}], ",", 
+     RowBox[{"\<\"game_id\"\>", "\[Rule]", "3102"}], ",", 
+     RowBox[{"\<\"name\"\>", "\[Rule]", "\<\"Universal Storage II\"\>"}], ",", 
+     RowBox[{"\<\"default_version_id\"\>", "\[Rule]", "9586"}], ",", 
+     RowBox[{"\<\"website\"\>", 
+      "\[Rule]", "\<\"http://www.kingtiger.online/uvsii/\"\>"}], ",", 
+     RowBox[{"\<\"downloads\"\>", "\[Rule]", "2767"}], ",", 
+     RowBox[{"\<\"followers\"\>", "\[Rule]", "76"}], ",", 
+     RowBox[{"\<\"short_description\"\>", 
+      "\[Rule]", "\<\"Universal Storage is a modular parts mod, allowing you \
+to build custom service modules.  It is highly integrated with 3rd part life \
+support mods, DMagic Orbital Science and Kerbal Inventory System.\"\>"}], ",", 
+     RowBox[{"\<\"license\"\>", 
+      "\[Rule]", "\<\"Models and Animations, All rights reserved.  Code and \
+.CFG, MIT\"\>"}], ",", 
+     RowBox[{"\<\"author\"\>", "\[Rule]", "\<\"Paul_Kingtiger\"\>"}], ",", 
+     RowBox[{"\<\"donations\"\>", 
+      "\[Rule]", \
+"\<\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=\
+X3KZM72QHTXS4\"\>"}], ",", 
+     RowBox[{"\<\"id\"\>", "\[Rule]", "1933"}], ",", 
+     RowBox[{"\<\"background\"\>", 
+      "\[Rule]", \
+"\<\"/content/Paul_Kingtiger_1707/Universal_Storage_II/Universal_Storage_II-\
+1534107116.0681112.jpg\"\>"}], ",", 
+     RowBox[{"\<\"versions\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.5\"\>"}], ",", 
+          
+          RowBox[{"\<\"changelog\"\>", 
+           "\[Rule]", "\<\"* Fixed bug with Elektron\\r\\n* Fixed cost of USI \
+resource wedges\"\>"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9586"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1933/Universal%20Storage%20II/download/1.4.5.4\"\>"}], ",", 
+          
+          RowBox[{"\<\"friendly_version\"\>", 
+           "\[Rule]", "\<\"1.4.5.4\"\>"}]}], "\[RightAssociation]"}], ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.3.1\"\>"}], ",", 
+          
+          RowBox[{"\<\"changelog\"\>", 
+           "\[Rule]", "\<\"* Fixed bug with Elektron\\r\\n* Fixed cost of USI \
+resource wedges\"\>"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9585"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1933/Universal%20Storage%20II/download/1.3.1.4\"\>"}], ",", 
+          
+          RowBox[{"\<\"friendly_version\"\>", 
+           "\[Rule]", "\<\"1.3.1.4\"\>"}]}], "\[RightAssociation]"}], ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.5\"\>"}], ",", 
+          
+          RowBox[{"\<\"changelog\"\>", 
+           "\[Rule]", "\<\"* Added community resource back to simplify \
+install\\r\\n* Bug in the Elektron stopped it working. Fixed\"\>"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9539"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1933/Universal%20Storage%20II/download/1.4.5.3\"\>"}], ",", 
+          
+          RowBox[{"\<\"friendly_version\"\>", 
+           "\[Rule]", "\<\"1.4.5.3\"\>"}]}], "\[RightAssociation]"}], ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.3.1\"\>"}], ",", 
+          
+          RowBox[{"\<\"changelog\"\>", 
+           "\[Rule]", "\<\"* Added community resource back to simplify \
+install\\r\\n* Bug in the Elektron stopped it working. Fixed\"\>"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9538"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1933/Universal%20Storage%20II/download/1.3.1.3\"\>"}], ",", 
+          
+          RowBox[{"\<\"friendly_version\"\>", 
+           "\[Rule]", "\<\"1.3.1.3\"\>"}]}], "\[RightAssociation]"}], ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.4\"\>"}], ",", 
+          
+          RowBox[{"\<\"changelog\"\>", 
+           "\[Rule]", "\<\"* Really small code error caused a problem with \
+the Water Purifier when running Kerbalism.  Fixed.\"\>"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9526"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1933/Universal%20Storage%20II/download/1.4.5.2\"\>"}], ",", 
+          
+          RowBox[{"\<\"friendly_version\"\>", 
+           "\[Rule]", "\<\"1.4.5.2\"\>"}]}], "\[RightAssociation]"}], ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.3.1\"\>"}], ",", 
+          
+          RowBox[{"\<\"changelog\"\>", 
+           "\[Rule]", "\<\"* Really small code error caused a problem with \
+the Water Purifier when running Kerbalism.  Fixed.\"\>"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9525"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1933/Universal%20Storage%20II/download/1.3.1.2\"\>"}], ",", 
+          
+          RowBox[{"\<\"friendly_version\"\>", 
+           "\[Rule]", "\<\"1.3.1.2\"\>"}]}], "\[RightAssociation]"}]}], 
+       "}"}]}], ",", 
+     RowBox[{"\<\"shared_authors\"\>", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\<\"url\"\>", 
+      "\[Rule]", "\<\"/mod/1933/Universal%20Storage%20II\"\>"}], ",", 
+     RowBox[{"\<\"game\"\>", "\[Rule]", "\<\"Kerbal Space Program\"\>"}], ",", 
+     RowBox[{"\<\"source_code\"\>", 
+      "\[Rule]", \
+"\<\"http://www.kingtiger.online/wp-content/uploads/2018/08/Universal-Storage-\
+Source-Code.zip\"\>"}]}], "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"bg_offset_y\"\>", "\[Rule]", 
+      RowBox[{"-", "350"}]}], ",", 
+     RowBox[{"\<\"game_id\"\>", "\[Rule]", "3102"}], ",", 
+     RowBox[{"\<\"name\"\>", "\[Rule]", "\<\"KSP Profile Manager\"\>"}], ",", 
+     RowBox[{"\<\"default_version_id\"\>", "\[Rule]", "9488"}], ",", 
+     RowBox[{"\<\"website\"\>", 
+      "\[Rule]", "\<\"https://github.com/Aree-Vanier/KSP-Profile-Manager/wiki\
+\"\>"}], ",", 
+     RowBox[{"\<\"downloads\"\>", "\[Rule]", "49"}], ",", 
+     RowBox[{"\<\"followers\"\>", "\[Rule]", "4"}], ",", 
+     RowBox[{"\<\"short_description\"\>", 
+      "\[Rule]", "\<\"A software utility to allow users to have multiple KSP \
+profiles, with separate mods and saves.\"\>"}], ",", 
+     RowBox[{"\<\"license\"\>", "\[Rule]", "\<\"MIT\"\>"}], ",", 
+     RowBox[{"\<\"author\"\>", "\[Rule]", "\<\"AreeVanier\"\>"}], ",", 
+     RowBox[{"\<\"donations\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+     RowBox[{"\<\"id\"\>", "\[Rule]", "1932"}], ",", 
+     RowBox[{"\<\"background\"\>", "\[Rule]", "Null"}], ",", 
+     RowBox[{"\<\"versions\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\[LeftAssociation]", 
+        RowBox[{
+         RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.4\"\>"}], ",", 
+         RowBox[{"\<\"changelog\"\>", "\[Rule]", "Null"}], ",", 
+         RowBox[{"\<\"id\"\>", "\[Rule]", "9488"}], ",", 
+         RowBox[{"\<\"download_path\"\>", 
+          "\[Rule]", \
+"\<\"/mod/1932/KSP%20Profile%20Manager/download/1.1\"\>"}], ",", 
+         RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"1.1\"\>"}]}], 
+        "\[RightAssociation]"}], "}"}]}], ",", 
+     RowBox[{"\<\"shared_authors\"\>", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\<\"url\"\>", 
+      "\[Rule]", "\<\"/mod/1932/KSP%20Profile%20Manager\"\>"}], ",", 
+     RowBox[{"\<\"game\"\>", "\[Rule]", "\<\"Kerbal Space Program\"\>"}], ",", 
+     RowBox[{"\<\"source_code\"\>", 
+      "\[Rule]", \
+"\<\"https://github.com/Aree-Vanier/KSP-Profile-Manager/tree/production\"\>"}]\
+}], "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"bg_offset_y\"\>", "\[Rule]", "Null"}], ",", 
+     RowBox[{"\<\"game_id\"\>", "\[Rule]", "3102"}], ",", 
+     RowBox[{"\<\"name\"\>", "\[Rule]", "\<\"ToolbarController\"\>"}], ",", 
+     RowBox[{"\<\"default_version_id\"\>", "\[Rule]", "9608"}], ",", 
+     RowBox[{"\<\"website\"\>", 
+      "\[Rule]", \
+"\<\"https://forum.kerbalspaceprogram.com/index.php?/topic/169509-141-toolbar-\
+controller-for-modders/\"\>"}], ",", 
+     RowBox[{"\<\"downloads\"\>", "\[Rule]", "15242"}], ",", 
+     RowBox[{"\<\"followers\"\>", "\[Rule]", "17"}], ",", 
+     RowBox[{"\<\"short_description\"\>", 
+      "\[Rule]", "\<\"Common controller for both Blizzy and stock \
+toolbar\"\>"}], ",", 
+     RowBox[{"\<\"license\"\>", "\[Rule]", "\<\"GPLv3\"\>"}], ",", 
+     RowBox[{"\<\"author\"\>", "\[Rule]", "\<\"linuxgurugamer\"\>"}], ",", 
+     RowBox[{"\<\"donations\"\>", 
+      "\[Rule]", "\<\"https://www.patreon.com/linuxgurugamer\"\>"}], ",", 
+     RowBox[{"\<\"id\"\>", "\[Rule]", "1931"}], ",", 
+     RowBox[{"\<\"background\"\>", "\[Rule]", "Null"}], ",", 
+     RowBox[{"\<\"versions\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.5\"\>"}], ",", 
+          
+          RowBox[{"\<\"changelog\"\>", 
+           "\[Rule]", "\<\"\\tFixed timing issue on toolbar \
+registration\\r\\n\\tAdded log warning in case RegisterToolbar is called too \
+late\"\>"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9608"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1931/ToolbarController/download/0.1.6.14\"\>"}], ",", 
+          
+          RowBox[{"\<\"friendly_version\"\>", 
+           "\[Rule]", "\<\"0.1.6.14\"\>"}]}], "\[RightAssociation]"}], ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.4\"\>"}], ",", 
+          
+          RowBox[{"\<\"changelog\"\>", 
+           "\[Rule]", "\<\"Reimplemented the Log.Debug, using a local file to \
+store the debug value\"\>"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9493"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1931/ToolbarController/download/0.1.6.13\"\>"}], ",", 
+          
+          RowBox[{"\<\"friendly_version\"\>", 
+           "\[Rule]", "\<\"0.1.6.13\"\>"}]}], "\[RightAssociation]"}], ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.4\"\>"}], ",", 
+          RowBox[{"\<\"changelog\"\>", "\[Rule]", "Null"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9486"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1931/ToolbarController/download/0.1.6.12\"\>"}], ",", 
+          
+          RowBox[{"\<\"friendly_version\"\>", 
+           "\[Rule]", "\<\"0.1.6.12\"\>"}]}], "\[RightAssociation]"}]}], 
+       "}"}]}], ",", 
+     RowBox[{"\<\"shared_authors\"\>", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\<\"url\"\>", 
+      "\[Rule]", "\<\"/mod/1931/ToolbarController\"\>"}], ",", 
+     RowBox[{"\<\"game\"\>", "\[Rule]", "\<\"Kerbal Space Program\"\>"}], ",", 
+     RowBox[{"\<\"source_code\"\>", 
+      "\[Rule]", \
+"\<\"https://github.com/linuxgurugamer/ToolbarControl/\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"bg_offset_y\"\>", "\[Rule]", 
+      RowBox[{"-", "302"}]}], ",", 
+     RowBox[{"\<\"game_id\"\>", "\[Rule]", "3102"}], ",", 
+     RowBox[{"\<\"name\"\>", 
+      "\[Rule]", "\<\"Capsule Corp. L.R.E. (Long Range Exploration)\"\>"}], 
+     ",", 
+     RowBox[{"\<\"default_version_id\"\>", "\[Rule]", "9485"}], ",", 
+     RowBox[{"\<\"website\"\>", 
+      "\[Rule]", \
+"\<\"https://forum.kerbalspaceprogram.com/index.php?/topic/177327-143-capsule-\
+corp-lre-long-range-exploration/\"\>"}], ",", 
+     RowBox[{"\<\"downloads\"\>", "\[Rule]", "524"}], ",", 
+     RowBox[{"\<\"followers\"\>", "\[Rule]", "18"}], ",", 
+     RowBox[{"\<\"short_description\"\>", 
+      "\[Rule]", "\<\"Long Range Exploration\"\>"}], ",", 
+     RowBox[{"\<\"license\"\>", "\[Rule]", "\<\"GPLv3\"\>"}], ",", 
+     RowBox[{"\<\"author\"\>", "\[Rule]", "\<\"SirGabu\"\>"}], ",", 
+     RowBox[{"\<\"donations\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+     RowBox[{"\<\"id\"\>", "\[Rule]", "1930"}], ",", 
+     RowBox[{"\<\"background\"\>", 
+      "\[Rule]", \
+"\<\"/content/SirGabu_17322/Capsule_Corp._L.R.E._Long_Range_Exploration/\
+Capsule_Corp._L.R.E._Long_Range_Exploration-1533486528.1378129.png\"\>"}], 
+     ",", 
+     RowBox[{"\<\"versions\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\[LeftAssociation]", 
+        RowBox[{
+         RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.4\"\>"}], ",", 
+         RowBox[{"\<\"changelog\"\>", "\[Rule]", "Null"}], ",", 
+         RowBox[{"\<\"id\"\>", "\[Rule]", "9485"}], ",", 
+         RowBox[{"\<\"download_path\"\>", 
+          "\[Rule]", \
+"\<\"/mod/1930/Capsule%20Corp.%20L.R.E.%20%28Long%20Range%20Exploration%29/\
+download/0.1\"\>"}], ",", 
+         RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"0.1\"\>"}]}], 
+        "\[RightAssociation]"}], "}"}]}], ",", 
+     RowBox[{"\<\"shared_authors\"\>", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\<\"url\"\>", 
+      "\[Rule]", \
+"\<\"/mod/1930/Capsule%20Corp.%20L.R.E.%20%28Long%20Range%20Exploration%29\"\>\
+"}], ",", 
+     RowBox[{"\<\"game\"\>", "\[Rule]", "\<\"Kerbal Space Program\"\>"}], ",", 
+     RowBox[{"\<\"source_code\"\>", "\[Rule]", "\<\"\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"bg_offset_y\"\>", "\[Rule]", 
+      RowBox[{"-", "494"}]}], ",", 
+     RowBox[{"\<\"game_id\"\>", "\[Rule]", "3102"}], ",", 
+     RowBox[{"\<\"name\"\>", "\[Rule]", "\<\"RemoteTech Redev Antennas\"\>"}],
+      ",", 
+     RowBox[{"\<\"default_version_id\"\>", "\[Rule]", "9475"}], ",", 
+     RowBox[{"\<\"website\"\>", 
+      "\[Rule]", \
+"\<\"https://forum.kerbalspaceprogram.com/index.php?/topic/139167-144\"\>"}], 
+     ",", 
+     RowBox[{"\<\"downloads\"\>", "\[Rule]", "1160"}], ",", 
+     RowBox[{"\<\"followers\"\>", "\[Rule]", "6"}], ",", 
+     RowBox[{"\<\"short_description\"\>", 
+      "\[Rule]", "\<\"Standalone and optional antenna package of RemoteTech \
+Redev for Kerbal Space Program's stock CommNet\"\>"}], ",", 
+     RowBox[{"\<\"license\"\>", "\[Rule]", "\<\"GPLv3\"\>"}], ",", 
+     RowBox[{"\<\"author\"\>", "\[Rule]", "\<\"TaxiService\"\>"}], ",", 
+     RowBox[{"\<\"donations\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+     RowBox[{"\<\"id\"\>", "\[Rule]", "1929"}], ",", 
+     RowBox[{"\<\"background\"\>", 
+      "\[Rule]", \
+"\<\"/content/TaxiService_12023/RemoteTech_Redev_Antennas/RemoteTech_Redev_\
+Antennas-1533451078.0075202.png\"\>"}], ",", 
+     RowBox[{"\<\"versions\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\[LeftAssociation]", 
+        RowBox[{
+         RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.3.0\"\>"}], ",", 
+         RowBox[{"\<\"changelog\"\>", 
+          "\[Rule]", "\<\"Standalone and optional antenna package of \
+RemoteTech Redev for Kerbal Space Program's stock CommNet.\\r\\n\\r\\nThe art \
+assets are **not** licensed to the general public and may not be \
+redistributed without permission from their original creators.\\r\\n\\r\\n# \
+Requirements\\r\\n- Kerbal Space Program 1.3 and above\\r\\n- ModuleManager\"\
+\>"}], ",", 
+         RowBox[{"\<\"id\"\>", "\[Rule]", "9475"}], ",", 
+         RowBox[{"\<\"download_path\"\>", 
+          "\[Rule]", \
+"\<\"/mod/1929/RemoteTech%20Redev%20Antennas/download/0.1\"\>"}], ",", 
+         RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"0.1\"\>"}]}], 
+        "\[RightAssociation]"}], "}"}]}], ",", 
+     RowBox[{"\<\"shared_authors\"\>", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\<\"url\"\>", 
+      "\[Rule]", "\<\"/mod/1929/RemoteTech%20Redev%20Antennas\"\>"}], ",", 
+     RowBox[{"\<\"game\"\>", "\[Rule]", "\<\"Kerbal Space Program\"\>"}], ",", 
+     RowBox[{"\<\"source_code\"\>", 
+      "\[Rule]", \
+"\<\"https://github.com/RemoteTechnologiesGroup/RemoteTech-Antennas\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"bg_offset_y\"\>", "\[Rule]", 
+      RowBox[{"-", "172"}]}], ",", 
+     RowBox[{"\<\"game_id\"\>", "\[Rule]", "3102"}], ",", 
+     RowBox[{"\<\"name\"\>", "\[Rule]", "\<\"Kerbal Wind Tunnel\"\>"}], ",", 
+     RowBox[{"\<\"default_version_id\"\>", "\[Rule]", "9480"}], ",", 
+     RowBox[{"\<\"website\"\>", 
+      "\[Rule]", \
+"\<\"https://forum.kerbalspaceprogram.com/index.php?/topic/177302-ksp-142-\
+kerbal-wind-tunnel/\"\>"}], ",", 
+     RowBox[{"\<\"downloads\"\>", "\[Rule]", "519"}], ",", 
+     RowBox[{"\<\"followers\"\>", "\[Rule]", "31"}], ",", 
+     RowBox[{"\<\"short_description\"\>", 
+      "\[Rule]", "\<\"This mod lets you see the flight envelope and \
+performance graphs for your spaceplanes.\"\>"}], ",", 
+     RowBox[{"\<\"license\"\>", "\[Rule]", "\<\"MIT\"\>"}], ",", 
+     RowBox[{"\<\"author\"\>", "\[Rule]", "\<\"Booots\"\>"}], ",", 
+     RowBox[{"\<\"donations\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+     RowBox[{"\<\"id\"\>", "\[Rule]", "1927"}], ",", 
+     RowBox[{"\<\"background\"\>", 
+      "\[Rule]", \
+"\<\"/content/Booots_6292/Kerbal_Wind_Tunnel/Kerbal_Wind_Tunnel-1533363615.\
+2261407.png\"\>"}], ",", 
+     RowBox[{"\<\"versions\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.4\"\>"}], ",", 
+          
+          RowBox[{"\<\"changelog\"\>", 
+           "\[Rule]", "\<\"Added auto-axes and axis labels.\"\>"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9480"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1927/Kerbal%20Wind%20Tunnel/download/1.0.1\"\>"}], ",", 
+          RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"1.0.1\"\>"}]}], 
+         "\[RightAssociation]"}], ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.2\"\>"}], ",", 
+          RowBox[{"\<\"changelog\"\>", "\[Rule]", "Null"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9471"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1927/Kerbal%20Wind%20Tunnel/download/1.0\"\>"}], ",", 
+          RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"1.0\"\>"}]}], 
+         "\[RightAssociation]"}]}], "}"}]}], ",", 
+     RowBox[{"\<\"shared_authors\"\>", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\<\"url\"\>", 
+      "\[Rule]", "\<\"/mod/1927/Kerbal%20Wind%20Tunnel\"\>"}], ",", 
+     RowBox[{"\<\"game\"\>", "\[Rule]", "\<\"Kerbal Space Program\"\>"}], ",", 
+     RowBox[{"\<\"source_code\"\>", 
+      "\[Rule]", "\<\"https://github.com/DBooots/KerbalWindTunnel\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"bg_offset_y\"\>", "\[Rule]", 
+      RowBox[{"-", "242"}]}], ",", 
+     RowBox[{"\<\"game_id\"\>", "\[Rule]", "3102"}], ",", 
+     RowBox[{"\<\"name\"\>", 
+      "\[Rule]", "\<\"[MNWS]Modern Naval Weapon System - WEAPON pack\"\>"}], 
+     ",", 
+     RowBox[{"\<\"default_version_id\"\>", "\[Rule]", "9463"}], ",", 
+     RowBox[{"\<\"website\"\>", 
+      "\[Rule]", \
+"\<\"https://forum.kerbalspaceprogram.com/index.php?/topic/173339-144mnws-\
+modern-naval-weapon-system-bdac-addon/\"\>"}], ",", 
+     RowBox[{"\<\"downloads\"\>", "\[Rule]", "681"}], ",", 
+     RowBox[{"\<\"followers\"\>", "\[Rule]", "9"}], ",", 
+     RowBox[{"\<\"short_description\"\>", 
+      "\[Rule]", "\<\"MNWS weapon pack\"\>"}], ",", 
+     RowBox[{"\<\"license\"\>", "\[Rule]", "\<\"CC BY SA 4.0\"\>"}], ",", 
+     RowBox[{"\<\"author\"\>", "\[Rule]", "\<\"Johnny005611\"\>"}], ",", 
+     RowBox[{"\<\"donations\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+     RowBox[{"\<\"id\"\>", "\[Rule]", "1926"}], ",", 
+     RowBox[{"\<\"background\"\>", 
+      "\[Rule]", \
+"\<\"/content/Johnny005611_19327/MNWSModern_Naval_Weapon_System_-_WEAPON_pack/\
+MNWSModern_Naval_Weapon_System_-_WEAPON_pack-1533200108.1919837.png\"\>"}], 
+     ",", 
+     RowBox[{"\<\"versions\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\[LeftAssociation]", 
+        RowBox[{
+         RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.4\"\>"}], ",", 
+         RowBox[{"\<\"changelog\"\>", "\[Rule]", "Null"}], ",", 
+         RowBox[{"\<\"id\"\>", "\[Rule]", "9463"}], ",", 
+         RowBox[{"\<\"download_path\"\>", 
+          "\[Rule]", \
+"\<\"/mod/1926/%5BMNWS%5DModern%20Naval%20Weapon%20System%20-%20WEAPON%20pack/\
+download/V1.0\"\>"}], ",", 
+         RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"V1.0\"\>"}]}], 
+        "\[RightAssociation]"}], "}"}]}], ",", 
+     RowBox[{"\<\"shared_authors\"\>", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\<\"url\"\>", 
+      "\[Rule]", \
+"\<\"/mod/1926/%5BMNWS%5DModern%20Naval%20Weapon%20System%20-%20WEAPON%20pack\
+\"\>"}], ",", 
+     RowBox[{"\<\"game\"\>", "\[Rule]", "\<\"Kerbal Space Program\"\>"}], ",", 
+     RowBox[{"\<\"source_code\"\>", "\[Rule]", "\<\"\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"bg_offset_y\"\>", "\[Rule]", "Null"}], ",", 
+     RowBox[{"\<\"game_id\"\>", "\[Rule]", "3102"}], ",", 
+     RowBox[{"\<\"name\"\>", "\[Rule]", "\<\"Kerbal heatshield\"\>"}], ",", 
+     RowBox[{"\<\"default_version_id\"\>", "\[Rule]", "9551"}], ",", 
+     RowBox[{"\<\"website\"\>", 
+      "\[Rule]", \
+"\<\"https://forum.kerbalspaceprogram.com/index.php?/topic/177240-14x-kerbal-\
+heatshield/\"\>"}], ",", 
+     RowBox[{"\<\"downloads\"\>", "\[Rule]", "168"}], ",", 
+     RowBox[{"\<\"followers\"\>", "\[Rule]", "6"}], ",", 
+     RowBox[{"\<\"short_description\"\>", 
+      "\[Rule]", "\<\"A heatshield for EVA kerbals\"\>"}], ",", 
+     RowBox[{"\<\"license\"\>", "\[Rule]", "\<\"CC-BY-SA 2.0\"\>"}], ",", 
+     RowBox[{"\<\"author\"\>", "\[Rule]", "\<\"xdthegreat\"\>"}], ",", 
+     RowBox[{"\<\"donations\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+     RowBox[{"\<\"id\"\>", "\[Rule]", "1925"}], ",", 
+     RowBox[{"\<\"background\"\>", "\[Rule]", "Null"}], ",", 
+     RowBox[{"\<\"versions\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.5\"\>"}], ",", 
+          
+          RowBox[{"\<\"changelog\"\>", 
+           "\[Rule]", "\<\"Recompiled for 1.4.5. Somehow I cannot set it to \
+1.4.5 in the thread\"\>"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9551"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1925/Kerbal%20heatshield/download/0.0.0.2\"\>"}], ",", 
+          
+          RowBox[{"\<\"friendly_version\"\>", 
+           "\[Rule]", "\<\"0.0.0.2\"\>"}]}], "\[RightAssociation]"}], ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.4\"\>"}], ",", 
+          RowBox[{"\<\"changelog\"\>", "\[Rule]", "Null"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9462"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1925/Kerbal%20heatshield/download/0.0.1\"\>"}], ",", 
+          RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"0.0.1\"\>"}]}], 
+         "\[RightAssociation]"}]}], "}"}]}], ",", 
+     RowBox[{"\<\"shared_authors\"\>", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\<\"url\"\>", 
+      "\[Rule]", "\<\"/mod/1925/Kerbal%20heatshield\"\>"}], ",", 
+     RowBox[{"\<\"game\"\>", "\[Rule]", "\<\"Kerbal Space Program\"\>"}], ",", 
+     RowBox[{"\<\"source_code\"\>", "\[Rule]", "\<\"\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"bg_offset_y\"\>", "\[Rule]", 
+      RowBox[{"-", "445"}]}], ",", 
+     RowBox[{"\<\"game_id\"\>", "\[Rule]", "3102"}], ",", 
+     RowBox[{"\<\"name\"\>", 
+      "\[Rule]", "\<\"[MNWS]Modern Naval Weapon System - SHIP pack\"\>"}], 
+     ",", 
+     RowBox[{"\<\"default_version_id\"\>", "\[Rule]", "9460"}], ",", 
+     RowBox[{"\<\"website\"\>", 
+      "\[Rule]", \
+"\<\"https://forum.kerbalspaceprogram.com/index.php?/topic/173339-144mnws-\
+modern-naval-weapon-system-bdac-addon/\"\>"}], ",", 
+     RowBox[{"\<\"downloads\"\>", "\[Rule]", "728"}], ",", 
+     RowBox[{"\<\"followers\"\>", "\[Rule]", "11"}], ",", 
+     RowBox[{"\<\"short_description\"\>", 
+      "\[Rule]", "\<\"MNWS all ships pack\"\>"}], ",", 
+     RowBox[{"\<\"license\"\>", "\[Rule]", "\<\"CC BY SA 4.0\"\>"}], ",", 
+     RowBox[{"\<\"author\"\>", "\[Rule]", "\<\"Johnny005611\"\>"}], ",", 
+     RowBox[{"\<\"donations\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+     RowBox[{"\<\"id\"\>", "\[Rule]", "1924"}], ",", 
+     RowBox[{"\<\"background\"\>", 
+      "\[Rule]", \
+"\<\"/content/Johnny005611_19327/MNWSModern_Naval_Weapon_System_-_SHIP_pack/\
+MNWSModern_Naval_Weapon_System_-_SHIP_pack-1533183804.0824654.png\"\>"}], ",", 
+     RowBox[{"\<\"versions\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\[LeftAssociation]", 
+        RowBox[{
+         RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.4\"\>"}], ",", 
+         RowBox[{"\<\"changelog\"\>", "\[Rule]", "Null"}], ",", 
+         RowBox[{"\<\"id\"\>", "\[Rule]", "9460"}], ",", 
+         RowBox[{"\<\"download_path\"\>", 
+          "\[Rule]", \
+"\<\"/mod/1924/%5BMNWS%5DModern%20Naval%20Weapon%20System%20-%20SHIP%20pack/\
+download/V1.0\"\>"}], ",", 
+         RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"V1.0\"\>"}]}], 
+        "\[RightAssociation]"}], "}"}]}], ",", 
+     RowBox[{"\<\"shared_authors\"\>", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\<\"url\"\>", 
+      "\[Rule]", \
+"\<\"/mod/1924/%5BMNWS%5DModern%20Naval%20Weapon%20System%20-%20SHIP%20pack\"\
+\>"}], ",", 
+     RowBox[{"\<\"game\"\>", "\[Rule]", "\<\"Kerbal Space Program\"\>"}], ",", 
+     RowBox[{"\<\"source_code\"\>", "\[Rule]", "\<\"\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"bg_offset_y\"\>", "\[Rule]", 
+      RowBox[{"-", "452"}]}], ",", 
+     RowBox[{"\<\"game_id\"\>", "\[Rule]", "3102"}], ",", 
+     RowBox[{"\<\"name\"\>", 
+      "\[Rule]", "\<\"[MNWS]Modern Naval Weapon System - AERO pack\"\>"}], 
+     ",", 
+     RowBox[{"\<\"default_version_id\"\>", "\[Rule]", "9459"}], ",", 
+     RowBox[{"\<\"website\"\>", 
+      "\[Rule]", \
+"\<\"https://forum.kerbalspaceprogram.com/index.php?/topic/173339-144mnws-\
+modern-naval-weapon-system-bdac-addon/\"\>"}], ",", 
+     RowBox[{"\<\"downloads\"\>", "\[Rule]", "796"}], ",", 
+     RowBox[{"\<\"followers\"\>", "\[Rule]", "13"}], ",", 
+     RowBox[{"\<\"short_description\"\>", 
+      "\[Rule]", "\<\"MNWS all single-part fighters\"\>"}], ",", 
+     RowBox[{"\<\"license\"\>", "\[Rule]", "\<\"CC BY SA 4.0\"\>"}], ",", 
+     RowBox[{"\<\"author\"\>", "\[Rule]", "\<\"Johnny005611\"\>"}], ",", 
+     RowBox[{"\<\"donations\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+     RowBox[{"\<\"id\"\>", "\[Rule]", "1923"}], ",", 
+     RowBox[{"\<\"background\"\>", 
+      "\[Rule]", \
+"\<\"/content/Johnny005611_19327/MNWSModern_Naval_Weapon_System_-_AERO_pack/\
+MNWSModern_Naval_Weapon_System_-_AERO_pack-1533183904.7076576.png\"\>"}], ",", 
+     RowBox[{"\<\"versions\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\[LeftAssociation]", 
+        RowBox[{
+         RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.5\"\>"}], ",", 
+         RowBox[{"\<\"changelog\"\>", "\[Rule]", "Null"}], ",", 
+         RowBox[{"\<\"id\"\>", "\[Rule]", "9459"}], ",", 
+         RowBox[{"\<\"download_path\"\>", 
+          "\[Rule]", \
+"\<\"/mod/1923/%5BMNWS%5DModern%20Naval%20Weapon%20System%20-%20AERO%20pack/\
+download/V1.0\"\>"}], ",", 
+         RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"V1.0\"\>"}]}], 
+        "\[RightAssociation]"}], "}"}]}], ",", 
+     RowBox[{"\<\"shared_authors\"\>", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\<\"url\"\>", 
+      "\[Rule]", \
+"\<\"/mod/1923/%5BMNWS%5DModern%20Naval%20Weapon%20System%20-%20AERO%20pack\"\
+\>"}], ",", 
+     RowBox[{"\<\"game\"\>", "\[Rule]", "\<\"Kerbal Space Program\"\>"}], ",", 
+     RowBox[{"\<\"source_code\"\>", "\[Rule]", "\<\"\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"bg_offset_y\"\>", "\[Rule]", 
+      RowBox[{"-", "360"}]}], ",", 
+     RowBox[{"\<\"game_id\"\>", "\[Rule]", "3102"}], ",", 
+     RowBox[{"\<\"name\"\>", "\[Rule]", "\<\"DF Skybox: SN 1006 Nebula\"\>"}],
+      ",", 
+     RowBox[{"\<\"default_version_id\"\>", "\[Rule]", "9453"}], ",", 
+     RowBox[{"\<\"website\"\>", 
+      "\[Rule]", \
+"\<\"https://forum.kerbalspaceprogram.com/index.php?/topic/177203-14x-\
+darkfighters-skyboxes-update/\"\>"}], ",", 
+     RowBox[{"\<\"downloads\"\>", "\[Rule]", "155"}], ",", 
+     RowBox[{"\<\"followers\"\>", "\[Rule]", "4"}], ",", 
+     RowBox[{"\<\"short_description\"\>", 
+      "\[Rule]", "\<\"In this 4k skybox you orbit a star in the SN 1006 \
+nebula.\"\>"}], ",", 
+     RowBox[{"\<\"license\"\>", "\[Rule]", "\<\"All Rights Reserved\"\>"}], 
+     ",", 
+     RowBox[{"\<\"author\"\>", "\[Rule]", "\<\"DarkFighter\"\>"}], ",", 
+     RowBox[{"\<\"donations\"\>", 
+      "\[Rule]", \
+"\<\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=\
+F3HN6Q7DPM54A\"\>"}], ",", 
+     RowBox[{"\<\"id\"\>", "\[Rule]", "1922"}], ",", 
+     RowBox[{"\<\"background\"\>", 
+      "\[Rule]", \
+"\<\"/content/DarkFighter_21023/DF_Skybox_SN_1006_Nebula/DF_Skybox_SN_1006_\
+Nebula-1533068406.490838.png\"\>"}], ",", 
+     RowBox[{"\<\"versions\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\[LeftAssociation]", 
+        RowBox[{
+         RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.4\"\>"}], ",", 
+         RowBox[{"\<\"changelog\"\>", "\[Rule]", "Null"}], ",", 
+         RowBox[{"\<\"id\"\>", "\[Rule]", "9453"}], ",", 
+         RowBox[{"\<\"download_path\"\>", 
+          "\[Rule]", \
+"\<\"/mod/1922/DF%20Skybox:%20SN%201006%20Nebula/download/1.0\"\>"}], ",", 
+         RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"1.0\"\>"}]}], 
+        "\[RightAssociation]"}], "}"}]}], ",", 
+     RowBox[{"\<\"shared_authors\"\>", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\<\"url\"\>", 
+      "\[Rule]", "\<\"/mod/1922/DF%20Skybox:%20SN%201006%20Nebula\"\>"}], ",", 
+     RowBox[{"\<\"game\"\>", "\[Rule]", "\<\"Kerbal Space Program\"\>"}], ",", 
+     RowBox[{"\<\"source_code\"\>", "\[Rule]", "\<\"\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"bg_offset_y\"\>", "\[Rule]", 
+      RowBox[{"-", "360"}]}], ",", 
+     RowBox[{"\<\"game_id\"\>", "\[Rule]", "3102"}], ",", 
+     RowBox[{"\<\"name\"\>", 
+      "\[Rule]", "\<\"DF Skybox: Between the Stars\"\>"}], ",", 
+     RowBox[{"\<\"default_version_id\"\>", "\[Rule]", "9450"}], ",", 
+     RowBox[{"\<\"website\"\>", 
+      "\[Rule]", \
+"\<\"https://forum.kerbalspaceprogram.com/index.php?/topic/177203-14x-\
+darkfighters-skyboxes-update/\"\>"}], ",", 
+     RowBox[{"\<\"downloads\"\>", "\[Rule]", "89"}], ",", 
+     RowBox[{"\<\"followers\"\>", "\[Rule]", "5"}], ",", 
+     RowBox[{"\<\"short_description\"\>", 
+      "\[Rule]", "\<\"In this 4k skybox you orbit a lonely star which ended \
+up in the vast expanses of space between the Milky Way galaxy.\"\>"}], ",", 
+     RowBox[{"\<\"license\"\>", "\[Rule]", "\<\"All Rights Reserved\"\>"}], 
+     ",", 
+     RowBox[{"\<\"author\"\>", "\[Rule]", "\<\"DarkFighter\"\>"}], ",", 
+     RowBox[{"\<\"donations\"\>", 
+      "\[Rule]", \
+"\<\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=\
+F3HN6Q7DPM54A\"\>"}], ",", 
+     RowBox[{"\<\"id\"\>", "\[Rule]", "1921"}], ",", 
+     RowBox[{"\<\"background\"\>", 
+      "\[Rule]", \
+"\<\"/content/DarkFighter_21023/DF_Skybox_Between_the_Stars/DF_Skybox_Between_\
+the_Stars-1533047651.4203908.png\"\>"}], ",", 
+     RowBox[{"\<\"versions\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\[LeftAssociation]", 
+        RowBox[{
+         RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.4\"\>"}], ",", 
+         RowBox[{"\<\"changelog\"\>", 
+          "\[Rule]", "\<\"* Initial Release\"\>"}], ",", 
+         RowBox[{"\<\"id\"\>", "\[Rule]", "9450"}], ",", 
+         RowBox[{"\<\"download_path\"\>", 
+          "\[Rule]", \
+"\<\"/mod/1921/DF%20Skybox:%20Between%20the%20Stars/download/1.0\"\>"}], ",", 
+         RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"1.0\"\>"}]}], 
+        "\[RightAssociation]"}], "}"}]}], ",", 
+     RowBox[{"\<\"shared_authors\"\>", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\<\"url\"\>", 
+      "\[Rule]", "\<\"/mod/1921/DF%20Skybox:%20Between%20the%20Stars\"\>"}], 
+     ",", 
+     RowBox[{"\<\"game\"\>", "\[Rule]", "\<\"Kerbal Space Program\"\>"}], ",", 
+     RowBox[{"\<\"source_code\"\>", "\[Rule]", "\<\"\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"bg_offset_y\"\>", "\[Rule]", 
+      RowBox[{"-", "414"}]}], ",", 
+     RowBox[{"\<\"game_id\"\>", "\[Rule]", "3102"}], ",", 
+     RowBox[{"\<\"name\"\>", "\[Rule]", "\<\"DF Skybox: NGC 3115\"\>"}], ",", 
+     RowBox[{"\<\"default_version_id\"\>", "\[Rule]", "9449"}], ",", 
+     RowBox[{"\<\"website\"\>", 
+      "\[Rule]", \
+"\<\"https://forum.kerbalspaceprogram.com/index.php?/topic/177203-14x-\
+darkfighters-skyboxes-update/\"\>"}], ",", 
+     RowBox[{"\<\"downloads\"\>", "\[Rule]", "94"}], ",", 
+     RowBox[{"\<\"followers\"\>", "\[Rule]", "4"}], ",", 
+     RowBox[{"\<\"short_description\"\>", 
+      "\[Rule]", "\<\"In this 4k skybox you orbit a star near the Central \
+Black Hole of the galaxy NGC 3115.\"\>"}], ",", 
+     RowBox[{"\<\"license\"\>", "\[Rule]", "\<\"All Rights Reserved\"\>"}], 
+     ",", 
+     RowBox[{"\<\"author\"\>", "\[Rule]", "\<\"DarkFighter\"\>"}], ",", 
+     RowBox[{"\<\"donations\"\>", 
+      "\[Rule]", \
+"\<\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=\
+F3HN6Q7DPM54A\"\>"}], ",", 
+     RowBox[{"\<\"id\"\>", "\[Rule]", "1920"}], ",", 
+     RowBox[{"\<\"background\"\>", 
+      "\[Rule]", \
+"\<\"/content/DarkFighter_21023/DF_Skybox_NGC_3115/DF_Skybox_NGC_3115-\
+1533043975.1784024.png\"\>"}], ",", 
+     RowBox[{"\<\"versions\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\[LeftAssociation]", 
+        RowBox[{
+         RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.4\"\>"}], ",", 
+         RowBox[{"\<\"changelog\"\>", 
+          "\[Rule]", "\<\"* Initial Release\"\>"}], ",", 
+         RowBox[{"\<\"id\"\>", "\[Rule]", "9449"}], ",", 
+         RowBox[{"\<\"download_path\"\>", 
+          "\[Rule]", \
+"\<\"/mod/1920/DF%20Skybox:%20NGC%203115/download/1.0\"\>"}], ",", 
+         RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"1.0\"\>"}]}], 
+        "\[RightAssociation]"}], "}"}]}], ",", 
+     RowBox[{"\<\"shared_authors\"\>", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\<\"url\"\>", 
+      "\[Rule]", "\<\"/mod/1920/DF%20Skybox:%20NGC%203115\"\>"}], ",", 
+     RowBox[{"\<\"game\"\>", "\[Rule]", "\<\"Kerbal Space Program\"\>"}], ",", 
+     RowBox[{"\<\"source_code\"\>", "\[Rule]", "\<\"\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"bg_offset_y\"\>", "\[Rule]", "Null"}], ",", 
+     RowBox[{"\<\"game_id\"\>", "\[Rule]", "3102"}], ",", 
+     RowBox[{"\<\"name\"\>", "\[Rule]", "\<\"Mk3 High Ground Plates\"\>"}], 
+     ",", 
+     RowBox[{"\<\"default_version_id\"\>", "\[Rule]", "9468"}], ",", 
+     RowBox[{"\<\"website\"\>", 
+      "\[Rule]", \
+"\<\"https://forum.kerbalspaceprogram.com/index.php?/topic/177142-mk3-cargo-\
+bays-with-high-ground-plates\"\>"}], ",", 
+     RowBox[{"\<\"downloads\"\>", "\[Rule]", "158"}], ",", 
+     RowBox[{"\<\"followers\"\>", "\[Rule]", "4"}], ",", 
+     RowBox[{"\<\"short_description\"\>", 
+      "\[Rule]", "\<\"It's just Mk3 cargo bays but with raised floors. That's \
+pretty much it. Even though it says 1.2.2, it's actually usable in every \
+version of the game because it's only parts!\"\>"}], ",", 
+     RowBox[{"\<\"license\"\>", "\[Rule]", "\<\"MIT\"\>"}], ",", 
+     RowBox[{"\<\"author\"\>", "\[Rule]", "\<\"KebabKerman\"\>"}], ",", 
+     RowBox[{"\<\"donations\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+     RowBox[{"\<\"id\"\>", "\[Rule]", "1919"}], ",", 
+     RowBox[{"\<\"background\"\>", "\[Rule]", "Null"}], ",", 
+     RowBox[{"\<\"versions\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.5\"\>"}], ",", 
+          
+          RowBox[{"\<\"changelog\"\>", 
+           "\[Rule]", "\<\"New parts! DS (Double-stacked) Cargo bays!\"\>"}], 
+          ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9468"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1919/Mk3%20High%20Ground%20Plates/download/0.0.7\"\>"}], ",", 
+          RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"0.0.7\"\>"}]}], 
+         "\[RightAssociation]"}], ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.4\"\>"}], ",", 
+          
+          RowBox[{"\<\"changelog\"\>", 
+           "\[Rule]", "\<\"Finally, the parts now have the right collision \
+boxes! The parts are finally, actually usable now. Sorry that the other \
+versions didn't work!\"\>"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9464"}], ",", 
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1919/Mk3%20High%20Ground%20Plates/download/0.0.6\"\>"}], ",", 
+          RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"0.0.6\"\>"}]}], 
+         "\[RightAssociation]"}], ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.4\"\>"}], ",", 
+          
+          RowBox[{"\<\"changelog\"\>", 
+           "\[Rule]", "\<\"Yeah, parts still aren't usable. But I'll be \
+fixing collision boxes later.\"\>"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9451"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1919/Mk3%20High%20Ground%20Plates/download/0.0.5\"\>"}], ",", 
+          RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"0.0.5\"\>"}]}], 
+         "\[RightAssociation]"}], ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.4\"\>"}], ",", 
+          
+          RowBox[{"\<\"changelog\"\>", 
+           "\[Rule]", "\<\"No more annoying offsets on parts! And the \
+textures aren't as blinding, but that's less important.\"\>"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9448"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1919/Mk3%20High%20Ground%20Plates/download/0.0.4\"\>"}], ",", 
+          RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"0.0.4\"\>"}]}], 
+         "\[RightAssociation]"}], ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.4\"\>"}], ",", 
+          
+          RowBox[{"\<\"changelog\"\>", 
+           "\[Rule]", "\<\"Offsets have been fixed!\"\>"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9444"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1919/Mk3%20High%20Ground%20Plates/download/0.0.3\"\>"}], ",", 
+          RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"0.0.3\"\>"}]}], 
+         "\[RightAssociation]"}], ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.4\"\>"}], ",", 
+          
+          RowBox[{"\<\"changelog\"\>", 
+           "\[Rule]", "\<\"Actually works now, so that's a thing. Also new \
+textures and models.\"\>"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9442"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1919/Mk3%20High%20Ground%20Plates/download/0.0.2\"\>"}], ",", 
+          RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"0.0.2\"\>"}]}], 
+         "\[RightAssociation]"}], ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.4\"\>"}], ",", 
+          RowBox[{"\<\"changelog\"\>", "\[Rule]", "Null"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9441"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", \
+"\<\"/mod/1919/Mk3%20High%20Ground%20Plates/download/0.0.1\"\>"}], ",", 
+          RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"0.0.1\"\>"}]}], 
+         "\[RightAssociation]"}]}], "}"}]}], ",", 
+     RowBox[{"\<\"shared_authors\"\>", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\<\"url\"\>", 
+      "\[Rule]", "\<\"/mod/1919/Mk3%20High%20Ground%20Plates\"\>"}], ",", 
+     RowBox[{"\<\"game\"\>", "\[Rule]", "\<\"Kerbal Space Program\"\>"}], ",", 
+     RowBox[{"\<\"source_code\"\>", "\[Rule]", "\<\"\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"bg_offset_y\"\>", "\[Rule]", 
+      RowBox[{"-", "410"}]}], ",", 
+     RowBox[{"\<\"game_id\"\>", "\[Rule]", "3102"}], ",", 
+     RowBox[{"\<\"name\"\>", "\[Rule]", "\<\"VST\"\>"}], ",", 
+     RowBox[{"\<\"default_version_id\"\>", "\[Rule]", "9505"}], ",", 
+     RowBox[{"\<\"website\"\>", 
+      "\[Rule]", \
+"\<\"https://forum.kerbalspaceprogram.com/index.php?/topic/92389-wip145-vst-\
+vectura-space-technologies/\"\>"}], ",", 
+     RowBox[{"\<\"downloads\"\>", "\[Rule]", "380"}], ",", 
+     RowBox[{"\<\"followers\"\>", "\[Rule]", "9"}], ",", 
+     RowBox[{"\<\"short_description\"\>", 
+      "\[Rule]", "\<\"Vectura Space Technologies- a miscellaneous part pack \
+of odds and ends.\"\>"}], ",", 
+     RowBox[{"\<\"license\"\>", "\[Rule]", "\<\"GPLv3\"\>"}], ",", 
+     RowBox[{"\<\"author\"\>", "\[Rule]", "\<\"CMDR_Vectura\"\>"}], ",", 
+     RowBox[{"\<\"donations\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+     RowBox[{"\<\"id\"\>", "\[Rule]", "1918"}], ",", 
+     RowBox[{"\<\"background\"\>", 
+      "\[Rule]", \
+"\<\"/content/CMDR_Vectura_20967/VST/VST-1532902281.2158241.jpg\"\>"}], ",", 
+     RowBox[{"\<\"versions\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.4\"\>"}], ",", 
+          
+          RowBox[{"\<\"changelog\"\>", 
+           "\[Rule]", "\<\"Included a side part set - containers with \
+built-in probe core functionality and also RCS. Also added some simple little \
+radial probe cores. Hid the escape pod stuff because I'm not happy with it in \
+its current state. Included a highly WIP vacuum engine loosely based on the \
+RD-0110.\"\>"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9505"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", "\<\"/mod/1918/VST/download/V0.something\"\>"}], ",", 
+          
+          RowBox[{"\<\"friendly_version\"\>", 
+           "\[Rule]", "\<\"V0.something\"\>"}]}], "\[RightAssociation]"}], 
+        ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.4\"\>"}], ",", 
+          
+          RowBox[{"\<\"changelog\"\>", 
+           "\[Rule]", "\<\"Added the Integral and Derivative, a pair of \
+powerful, gimballed, expensive engines for atmopheric or vacuum use.\"\>"}], 
+          ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9477"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", "\<\"/mod/1918/VST/download/V0.0.4\"\>"}], ",", 
+          RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"V0.0.4\"\>"}]}],
+          "\[RightAssociation]"}], ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.4\"\>"}], ",", 
+          
+          RowBox[{"\<\"changelog\"\>", 
+           "\[Rule]", "\<\"Added the escape pod, still WIP though! No iva....\
+\"\>"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9457"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", "\<\"/mod/1918/VST/download/V0.0.3\"\>"}], ",", 
+          RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"V0.0.3\"\>"}]}],
+          "\[RightAssociation]"}], ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.4\"\>"}], ",", 
+          
+          RowBox[{"\<\"changelog\"\>", 
+           "\[Rule]", "\<\"Added a 15m LF tank with 3.75m bulkhead \
+connections at each end.\"\>"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9447"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", "\<\"/mod/1918/VST/download/V0.0.2\"\>"}], ",", 
+          RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"V0.0.2\"\>"}]}],
+          "\[RightAssociation]"}], ",", 
+        RowBox[{"\[LeftAssociation]", 
+         RowBox[{
+          RowBox[{"\<\"game_version\"\>", "\[Rule]", "\<\"1.4.4\"\>"}], ",", 
+          RowBox[{"\<\"changelog\"\>", "\[Rule]", "Null"}], ",", 
+          RowBox[{"\<\"id\"\>", "\[Rule]", "9440"}], ",", 
+          
+          RowBox[{"\<\"download_path\"\>", 
+           "\[Rule]", "\<\"/mod/1918/VST/download/V0.0.1\"\>"}], ",", 
+          RowBox[{"\<\"friendly_version\"\>", "\[Rule]", "\<\"V0.0.1\"\>"}]}],
+          "\[RightAssociation]"}]}], "}"}]}], ",", 
+     RowBox[{"\<\"shared_authors\"\>", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\<\"url\"\>", "\[Rule]", "\<\"/mod/1918/VST\"\>"}], ",", 
+     RowBox[{"\<\"game\"\>", "\[Rule]", "\<\"Kerbal Space Program\"\>"}], ",", 
+     RowBox[{"\<\"source_code\"\>", "\[Rule]", "\<\"\"\>"}]}], 
+    "\[RightAssociation]"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.7442574468577957`*^9},
+ CellLabel->"Out[2]=",ExpressionUUID->"7c9eb837-b43b-4b3d-aedc-d2b84742b729"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Flatten", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"a", ",", "b", ",", "c"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"{", 
+       RowBox[{"d", ",", "e", ",", "f"}], "}"}], "}"}]}], "}"}], ",", 
+   RowBox[{"-", "1"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.7442611772845325`*^9, 3.744261225486563*^9}},
+ CellLabel->"In[39]:=",ExpressionUUID->"280af023-2f8a-4107-b953-6d97a04323f2"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Flatten","flev",
+   "\"\\!\\(\\*RowBox[{\\\"Flatten\\\", \\\"[\\\", RowBox[{RowBox[{\\\"{\\\", \
+RowBox[{RowBox[{\\\"{\\\", RowBox[{\\\"a\\\", \\\",\\\", \\\"b\\\", \
+\\\",\\\", \\\"c\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\
+\"{\\\", RowBox[{\\\"d\\\", \\\",\\\", \\\"e\\\", \\\",\\\", \\\"f\\\"}], \
+\\\"}\\\"}], \\\"}\\\"}]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"-\\\", \
+\\\"1\\\"}]}], \\\"]\\\"}]\\) \:7684\:4f4d\:7f6e \\!\\(\\*RowBox[{\\\"2\\\"}]\
+\\) \:5904\:7684\:5c42\:53d8\:91cf \\!\\(\\*RowBox[{\\\"-\\\", \\\"1\\\"}]\\) \
+\:5e94\:8be5\:662f\:4e00\:4e2a\:7ed9\:51fa\:9700\:8981\:5c55\:5e73\:7684\:5c42\
+\:7684\:975e\:8d1f\:6574\:6570\:6216\:8005 Infinity\:ff0c\:6216\:8005\:662f\
+\:4e00\:4e2a\:8981\:5c55\:5e73\:7684\:5c42\:7ec4\:6210\:7684\:5217\:8868\:6240\
+\:6784\:6210\:7684\:5217\:8868.\"",2,39,9,23014217264913541358,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.744261227544496*^9},
+ CellLabel->
+  "\:6b63\:5728\:8ba1\:7b97In[39]:=",ExpressionUUID->"bb0eeb06-38f1-4186-ae69-\
+bf67721fcd02"],
+
+Cell[BoxData[
+ RowBox[{"Flatten", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"a", ",", "b", ",", "c"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"{", 
+       RowBox[{"d", ",", "e", ",", "f"}], "}"}], "}"}]}], "}"}], ",", 
+   RowBox[{"-", "1"}]}], "]"}]], "Output",
+ CellChangeTimes->{{3.744261214062937*^9, 3.744261227600319*^9}},
+ CellLabel->"Out[39]=",ExpressionUUID->"7280d5a0-0104-46fc-a323-e0abaf393ac4"]
 }, Open  ]]
 },
-WindowSize->{734, 812},
-WindowMargins->{{Automatic, -7}, {Automatic, 0}},
+WindowSize->{1472, 821},
+WindowMargins->{{-8, Automatic}, {Automatic, -8}},
 FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (2018\:5e743\:670828\
 \:65e5)",
 StyleDefinitions->"Default.nb"
@@ -3500,7 +5404,7 @@ Cell[5533, 160, 361, 7, 32, "Output",ExpressionUUID->"e8e68562-bf38-4a87-bb34-ba
 Cell[5909, 170, 625, 15, 101, "Input",ExpressionUUID->"7f6dded3-48d8-4000-a744-cf57e7101a83"],
 Cell[CellGroupData[{
 Cell[6559, 189, 180, 3, 28, "Input",ExpressionUUID->"c2f5558c-11f5-4bd8-be46-37c85975b49e"],
-Cell[6742, 194, 4139, 92, 470, "Output",ExpressionUUID->"a8b622b0-0781-4db5-b8d4-64bcb8719c47"]
+Cell[6742, 194, 4139, 92, 242, "Output",ExpressionUUID->"a8b622b0-0781-4db5-b8d4-64bcb8719c47"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[10918, 291, 214, 4, 45, "Input",ExpressionUUID->"db897810-e75b-4c72-819b-585499c9c08d"],
@@ -3509,6 +5413,15 @@ Cell[11135, 297, 123866, 3135, 250, "Output",ExpressionUUID->"dfea40de-37a9-409e
 Cell[CellGroupData[{
 Cell[135038, 3437, 262, 6, 45, "Input",ExpressionUUID->"7254f092-90e8-49c3-b0c1-8d0aa20fab84"],
 Cell[135303, 3445, 488, 11, 24, "Message",ExpressionUUID->"8664dd66-dbb2-4172-ad52-d7159c110584"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[135828, 3461, 622, 14, 82, "Input",ExpressionUUID->"2bec9450-603d-485d-b767-e811fbec861e"],
+Cell[136453, 3477, 88491, 1832, 5505, "Output",ExpressionUUID->"7c9eb837-b43b-4b3d-aedc-d2b84742b729"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[224981, 5314, 452, 12, 45, "Input",ExpressionUUID->"280af023-2f8a-4107-b953-6d97a04323f2"],
+Cell[225436, 5328, 1086, 18, 24, "Message",ExpressionUUID->"bb0eeb06-38f1-4186-ae69-bf67721fcd02"],
+Cell[226525, 5348, 451, 12, 32, "Output",ExpressionUUID->"7280d5a0-0104-46fc-a323-e0abaf393ac4"]
 }, Open  ]]
 }
 ]
