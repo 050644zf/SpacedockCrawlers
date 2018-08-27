@@ -1,0 +1,56 @@
+﻿<XtraSerializer version="18.1.5.0">
+  <Items>
+    <Item1 ItemKind="DiagramRoot" SelectedStencils="BasicShapes, BasicFlowchartShapes">
+      <Children>
+        <Item1 Position="430,120" Size="100,75" Shape="BasicShapes.Rectangle" Content="aexcel[[-1,3]]&#xD;&#xA;&#xD;&#xA;bexcel[[-1,3]]" ItemKind="DiagramShape" />
+        <Item2 Position="310,250" Size="100,75" Shape="BasicShapes.Rectangle" Content="==" ItemKind="DiagramShape" />
+        <Item3 Position="550,250" Size="100,75" Shape="BasicShapes.Rectangle" Content="！=" ItemKind="DiagramShape" />
+        <Item4 BeginItemPointIndex="2" EndItemPointIndex="0" Points="480,233 360,233" ItemKind="DiagramConnector" BeginItem="0" EndItem="1" BeginPoint="470,235" EndPoint="350,290" />
+        <Item5 BeginItemPointIndex="2" EndItemPointIndex="0" Points="480,233 600,233" ItemKind="DiagramConnector" BeginItem="0" EndItem="2" BeginPoint="470,235" EndPoint="590,290" />
+        <Item6 Position="415,350" Size="370,75" BackgroundId="Dark" Shape="BasicShapes.Rectangle" Content="Table[Append[bexcel,{i,0,0,0}],{i,bexcel[[-1,3]],aexcel[[-1,3]]}]" ItemKind="DiagramShape" />
+        <Item7 BeginItemPointIndex="2" EndItemPointIndex="0" Points="(Empty)" ItemKind="DiagramConnector" BeginItem="2" EndItem="5" BeginPoint="600,325" EndPoint="600,350" />
+        <Item8 Position="430,510" Size="100,75" Shape="BasicShapes.Rectangle" Content="aexcel[[i,3]]&#xD;&#xA;&#xD;&#xA;bexcel[[i,3]]" ItemKind="DiagramShape" />
+        <Item9 BeginItemPointIndex="2" EndItemPointIndex="-1" Points="360,493 480,493" ItemKind="DiagramConnector" BeginItem="1" EndItem="7" BeginPoint="360,325" EndPoint="480,510" />
+        <Item10 BeginItemPointIndex="2" EndItemPointIndex="0" Points="600,493 480,493" ItemKind="DiagramConnector" BeginItem="5" EndItem="7" BeginPoint="600,425" EndPoint="480,510" />
+        <Item11 Position="280,640" Size="100,75" Shape="BasicShapes.Rectangle" Content="==" ItemKind="DiagramShape" />
+        <Item12 Position="280,800" Size="100,75" Shape="BasicShapes.Rectangle" Content="aexcel[[i,4]]&#xD;&#xA;&#xD;&#xA;bexcel[[i,4]]" ItemKind="DiagramShape" />
+        <Item13 Position="70,930" Size="100,75" Shape="BasicShapes.Rectangle" Content="==" ItemKind="DiagramShape" />
+        <Item14 Position="415,930" Size="100,75" Shape="BasicShapes.Rectangle" Content="!=" ItemKind="DiagramShape" />
+        <Item15 BeginItemPointIndex="2" EndItemPointIndex="0" Points="330,910 120,910" ItemKind="DiagramConnector" BeginItem="11" EndItem="12" BeginPoint="330,875" EndPoint="200,930" KeepMiddlePoints="true" />
+        <Item16 BeginItemPointIndex="2" EndItemPointIndex="0" Points="330,913 465,913" ItemKind="DiagramConnector" BeginItem="11" EndItem="13" BeginPoint="330,875" EndPoint="465,930" />
+        <Item17 BeginItemPointIndex="2" EndItemPointIndex="0" Points="480,623 330,623" ItemKind="DiagramConnector" BeginItem="7" EndItem="10" BeginPoint="480,585" EndPoint="330,640" />
+        <Item18 BeginItemPointIndex="2" EndItemPointIndex="0" Points="(Empty)" ItemKind="DiagramConnector" BeginItem="10" EndItem="11" BeginPoint="330,715" EndPoint="330,800" />
+        <Item19 Position="70,1290" Size="100,75" BackgroundId="Dark" Shape="BasicShapes.Rectangle" Content="Nothing" ItemKind="DiagramShape" />
+        <Item20 BeginItemPointIndex="2" EndItemPointIndex="0" Points="(Empty)" ItemKind="DiagramConnector" BeginItem="12" EndItem="18" BeginPoint="200,1005" EndPoint="200,1050" />
+        <Item21 Position="415,1050" Size="100,75" Shape="BasicShapes.Rectangle" Content="aexcel[[i,2]]&#xD;&#xA;&#xD;&#xA;bexcel[[i,2]]" ItemKind="DiagramShape" />
+        <Item22 BeginItemPointIndex="2" EndItemPointIndex="0" Points="(Empty)" ItemKind="DiagramConnector" BeginItem="13" EndItem="20" BeginPoint="465,1005" EndPoint="465,1050" />
+        <Item23 Position="300,1180" Size="100,75" Shape="BasicShapes.Rectangle" Content="==" ItemKind="DiagramShape" />
+        <Item24 Position="520,1180" Size="100,75" Shape="BasicShapes.Rectangle" Content="!=" ItemKind="DiagramShape" />
+        <Item25 BeginItemPointIndex="2" EndItemPointIndex="0" Points="465,1163 350,1163" ItemKind="DiagramConnector" BeginItem="20" EndItem="22" BeginPoint="465,1125" EndPoint="350,1180" />
+        <Item26 BeginItemPointIndex="2" EndItemPointIndex="0" Points="465,1163 570,1163" ItemKind="DiagramConnector" BeginItem="20" EndItem="23" BeginPoint="465,1125" EndPoint="570,1180" />
+        <Item27 Position="300,1290" Size="100,75" BackgroundId="Dark" Shape="BasicShapes.Rectangle" Content="Join[aexcel[[i]], bexcel[[i, {2, 4}]],{&quot;Update&quot;}]" ItemKind="DiagramShape" />
+        <Item28 BeginItemPointIndex="2" EndItemPointIndex="0" Points="(Empty)" ItemKind="DiagramConnector" BeginItem="22" EndItem="26" BeginPoint="350,1255" EndPoint="350,1290" />
+        <Item29 Position="520,1290" Size="100,75" BackgroundId="Dark" Shape="BasicShapes.Rectangle" Content="Join[aexcel[[i]], bexcel[[i, {2, 4}]],{&quot;Game Ver Update&quot;}]" ItemKind="DiagramShape" />
+        <Item30 BeginItemPointIndex="2" EndItemPointIndex="0" Points="(Empty)" ItemKind="DiagramConnector" BeginItem="23" EndItem="28" BeginPoint="570,1255" EndPoint="570,1290" />
+        <Item31 Position="665,640" Size="100,75" Shape="BasicShapes.Rectangle" Content="!=" ItemKind="DiagramShape" />
+        <Item32 BeginItemPointIndex="2" EndItemPointIndex="0" Points="480,623 715,623" ItemKind="DiagramConnector" BeginItem="7" EndItem="30" BeginPoint="480,585" EndPoint="600,640" />
+        <Item33 Position="550,930" Size="330,75" BackgroundId="Dark" Shape="BasicShapes.Rectangle" Content="aexcel = Insert[aexcel, &#xD;&#xA;   Join[{bexcel[[i, 1]]}, {&quot;#N/A&quot;}, bexcel[[i,3]], {&quot;#N/A&quot;}], i];" ItemKind="DiagramShape" />
+        <Item34 Position="665,1290" Size="100,75" BackgroundId="Dark" Shape="BasicShapes.Rectangle" Content="Join[aexcel[[i]], bexcel[[i, {2, 4}]],{&quot;Deleted&quot;}]" ItemKind="DiagramShape" />
+        <Item35 BeginItemPointIndex="2" EndItemPointIndex="0" Points="(Empty)" ItemKind="DiagramConnector" BeginItem="32" EndItem="33" BeginPoint="715,875" EndPoint="715,1290" />
+        <Item36 Position="665,770" Size="100,75" Shape="BasicShapes.Rectangle" Content="&gt;" ItemKind="DiagramShape" />
+        <Item37 Position="910,770" Size="100,75" Shape="BasicShapes.Rectangle" Content="&lt;" ItemKind="DiagramShape" />
+        <Item38 BeginItemPointIndex="2" EndItemPointIndex="0" Points="(Empty)" ItemKind="DiagramConnector" BeginItem="30" EndItem="35" BeginPoint="715,715" EndPoint="715,770" />
+        <Item39 BeginItemPointIndex="2" EndItemPointIndex="0" Points="715,753 960,753" ItemKind="DiagramConnector" BeginItem="30" EndItem="36" BeginPoint="715,715" EndPoint="960,770" />
+        <Item40 BeginItemPointIndex="2" EndItemPointIndex="0" Points="(Empty)" ItemKind="DiagramConnector" BeginItem="35" EndItem="32" BeginPoint="715,845" EndPoint="715,930" />
+        <Item41 Position="795,1010" Size="330,75" BackgroundId="Dark" Shape="BasicShapes.Rectangle" Content="bexcel = Insert[bexcel, &#xD;&#xA;   Join[{aexcel[[i, 1]]}, {&quot;#N/A&quot;, &quot;#N/A&quot;, &quot;#N/A&quot;}], i];" ItemKind="DiagramShape" />
+        <Item42 BeginItemPointIndex="2" EndItemPointIndex="0" Points="(Empty)" ItemKind="DiagramConnector" BeginItem="36" EndItem="40" BeginPoint="960,845" EndPoint="960,1110" />
+        <Item43 Position="910,1290" Size="100,75" BackgroundId="Dark" Shape="BasicShapes.Rectangle" Content="Join[aexcel[[i]], bexcel[[i, {2, 4}]],{&quot;New&quot;}]" ItemKind="DiagramShape" />
+        <Item44 Position="910,1140" Size="100,75" Shape="BasicShapes.Rectangle" Content="aexcel[[i,3]]&#xD;&#xA;!=&#xD;&#xA;aexcel[[i+1,3]]" ItemKind="DiagramShape" />
+        <Item45 BeginItemPointIndex="2" EndItemPointIndex="0" Points="(Empty)" ItemKind="DiagramConnector" BeginItem="40" EndItem="43" BeginPoint="960,1085" EndPoint="960,1140" />
+        <Item46 BeginItemPointIndex="2" EndItemPointIndex="0" Points="(Empty)" ItemKind="DiagramConnector" BeginItem="43" EndItem="42" BeginPoint="960,1215" EndPoint="960,1290" />
+        <Item47 Position="1090,1290" Size="100,75" BackgroundId="Dark" Shape="BasicShapes.Rectangle" Content="Nothing" ItemKind="DiagramShape" />
+        <Item48 BeginItemPointIndex="1" EndItemPointIndex="0" Points="1140,1177.5" ItemKind="DiagramConnector" BeginItem="43" EndItem="46" BeginPoint="1010,1177.5" EndPoint="1140,1290" />
+      </Children>
+    </Item1>
+  </Items>
+</XtraSerializer>
