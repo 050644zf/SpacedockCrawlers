@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     22151,        564]
-NotebookOptionsPosition[     21078,        537]
-NotebookOutlinePosition[     21434,        553]
-CellTagsIndexPosition[     21391,        550]
+NotebookDataLength[     20916,        532]
+NotebookOptionsPosition[     20321,        515]
+NotebookOutlinePosition[     20677,        531]
+CellTagsIndexPosition[     20634,        528]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -159,11 +159,8 @@ Cell[BoxData[{
    3.7442831909179115`*^9, 3.7442832051612196`*^9}, {3.7442834569261274`*^9, 
    3.7442835363445015`*^9}, {3.7442839937609897`*^9, 
    3.7442840630024366`*^9}, {3.7442892137304864`*^9, 
-   3.7442892461774836`*^9}, {3.744346519988152*^9, 
-   3.744346525296649*^9}},ExpressionUUID->"abffb216-686f-41c3-82a3-\
-36c0d58f59f6"],
-
-Cell[CellGroupData[{
+   3.7442892461774836`*^9}, {3.744346519988152*^9, 3.744346525296649*^9}},
+ CellLabel->"In[90]:=",ExpressionUUID->"abffb216-686f-41c3-82a3-36c0d58f59f6"],
 
 Cell[BoxData[{
  RowBox[{"\"\<\:5bfc\:51fa\:6700\:65b0mod\:5217\:8868\>\"", 
@@ -182,20 +179,12 @@ Cell[BoxData[{
    3.7442835395381527`*^9, 3.744283548545927*^9}, {3.7442840418110313`*^9, 
    3.744284046716919*^9}, {3.744289252944*^9, 3.74428926991371*^9}, 
    3.744289784020297*^9},
- CellLabel->"In[10]:=",ExpressionUUID->"d7859eee-df30-4709-b07d-079440417255"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\59138\\\\Documents\\\\mod20180827.xlsx\"\>"],\
- "Output",
- CellChangeTimes->{3.744290711199647*^9, 3.7443456200430317`*^9},
- CellLabel->"Out[11]=",ExpressionUUID->"88384f8a-d3cf-44ff-a165-0dc045286ad0"]
-}, Open  ]],
+ CellLabel->"In[57]:=",ExpressionUUID->"d7859eee-df30-4709-b07d-079440417255"],
 
 Cell[BoxData["\[IndentingNewLine]"], "Input",
  CellChangeTimes->{
   3.744360890277521*^9},ExpressionUUID->"69207f91-7d59-4cc5-bdee-\
 b6f266121177"],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[{
  RowBox[{"\"\<\:6bd4\:5bf9\:5df2\:6709mod\:5217\:8868\:ff0c\:5bfc\:51famod\
@@ -439,29 +428,46 @@ Cell[BoxData[{
         RowBox[{"Length", "[", "newid", "]"}]}], "}"}]}], "]"}]}], "]"}], 
   ";"}], "\[IndentingNewLine]", 
  RowBox[{
-  RowBox[{
-   RowBox[{"PrependTo", "[", 
-    RowBox[{"nexcel", ",", 
-     RowBox[{"{", 
-      RowBox[{
-      "\"\<Name\>\"", ",", "\"\<New Game Ver.\>\"", ",", "\"\<Mod ID\>\"", 
-       ",", "\"\<New verID\>\"", ",", "\"\<Old Game Ver.\>\"", ",", 
-       "\"\<Old verID\>\"", ",", "\"\<Status\>\""}], "}"}]}], "]"}], ";"}], 
-  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+  RowBox[{"If", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"Length", "[", "nexcel", "]"}], ">", "1"}], ",", 
+    RowBox[{"nexcel", "=", 
+     RowBox[{"Sort", "[", 
+      RowBox[{"nexcel", ",", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"#1", "[", 
+          RowBox[{"[", "3", "]"}], "]"}], "<", 
+         RowBox[{"#2", "[", 
+          RowBox[{"[", "3", "]"}], "]"}]}], "&"}]}], "]"}]}], ",", 
+    "Nothing"}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"PrependTo", "[", 
+   RowBox[{"nexcel", ",", 
+    RowBox[{"{", 
+     RowBox[{
+     "\"\<Name\>\"", ",", "\"\<New Game Ver.\>\"", ",", "\"\<Mod ID\>\"", 
+      ",", "\"\<New verID\>\"", ",", "\"\<Old Game Ver.\>\"", ",", 
+      "\"\<Old verID\>\"", ",", "\"\<Status\>\""}], "}"}]}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
  RowBox[{"If", "[", 
   RowBox[{
    RowBox[{
     RowBox[{"Length", "[", "nexcel", "]"}], "\[NotEqual]", "1"}], ",", 
-   RowBox[{"Export", "[", 
-    RowBox[{
-     RowBox[{"SystemDialogInput", "[", 
-      RowBox[{"\"\<FileSave\>\"", ",", 
-       RowBox[{"\"\<modchangelog\>\"", "<>", 
-        RowBox[{"DateString", "[", 
-         RowBox[{"{", 
-          RowBox[{"\"\<Year\>\"", ",", "\"\<Month\>\"", ",", "\"\<Day\>\""}], 
-          "}"}], "]"}], "<>", "\"\<.xlsx\>\""}]}], "]"}], ",", "nexcel"}], 
-    "]"}], ",", "\"\<No mod change yet\>\""}], "]"}]}], "Input",
+   RowBox[{
+    RowBox[{"Print", "[", 
+     RowBox[{"Grid", "[", "nexcel", "]"}], "]"}], ";", 
+    RowBox[{"Export", "[", 
+     RowBox[{
+      RowBox[{"SystemDialogInput", "[", 
+       RowBox[{"\"\<FileSave\>\"", ",", 
+        RowBox[{"\"\<modchangelog\>\"", "<>", 
+         RowBox[{"DateString", "[", 
+          RowBox[{"{", 
+           RowBox[{"\"\<Year\>\"", ",", "\"\<Month\>\"", ",", "\"\<Day\>\""}],
+            "}"}], "]"}], "<>", "\"\<.xlsx\>\""}]}], "]"}], ",", "nexcel"}], 
+     "]"}]}], ",", "\"\<No mod change yet\>\""}], "]"}]}], "Input",
  CellChangeTimes->{{3.7443477483668456`*^9, 3.744347793341647*^9}, {
    3.7443478271347733`*^9, 3.7443478735741425`*^9}, {3.7443479065378804`*^9, 
    3.7443479131488094`*^9}, {3.7443479617808895`*^9, 
@@ -502,38 +508,10 @@ Cell[BoxData[{
    3.7443603377398853`*^9}, {3.7443603943553505`*^9, 3.744360405922579*^9}, 
    3.7443604675486736`*^9, {3.744360507130372*^9, 3.744360639738826*^9}, {
    3.744360895266225*^9, 3.744360929335168*^9}, {3.7443610450199246`*^9, 
-   3.744361100865007*^9}},
- CellLabel->
-  "In[407]:=",ExpressionUUID->"2d6a3bcf-b019-4911-9b94-ac1e167e0899"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\59138\\\\Documents\\\\modchangelog20180827.\
-xlsx\"\>"], "Output",
- CellChangeTimes->{
-  3.7443574121235785`*^9, 3.744357860212776*^9, 3.744358130957675*^9, 
-   3.7443582306115723`*^9, {3.744358321139168*^9, 3.744358345634598*^9}, {
-   3.744358383021207*^9, 3.7443584010298953`*^9}, 3.7443584721968555`*^9, 
-   3.744358699432251*^9, 3.744359689177471*^9, 3.7443597656445227`*^9, 
-   3.7443599077147083`*^9, 3.7443600875555844`*^9, 3.7443601358322167`*^9, 
-   3.7443601771856904`*^9, 3.744360291387227*^9, 3.744360348509201*^9, {
-   3.7443604244533515`*^9, 3.744360451458703*^9}, 3.744360487889595*^9, 
-   3.744360651233552*^9, {3.744360951587453*^9, 3.744360967829787*^9}, 
-   3.7443611072930703`*^9, 3.7443613961355486`*^9},
- CellLabel->
-  "Out[416]=",ExpressionUUID->"bcfef6b0-4d6a-4787-8aa2-767ec87f6882"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[""], "Input",
- CellChangeTimes->{{3.7443610264073772`*^9, 
-  3.7443610387222714`*^9}},ExpressionUUID->"002a1b10-28d5-4fa6-b1e1-\
-850f90285954"],
-
-Cell[BoxData["1"], "Output",
- CellChangeTimes->{3.744361035409554*^9},
- CellLabel->
-  "Out[396]=",ExpressionUUID->"c2b484cb-bd15-4ce3-8b76-00f113c7c130"]
-}, Open  ]]
+   3.744361100865007*^9}, {3.744530249722617*^9, 3.7445302633506455`*^9}, {
+   3.74453035735283*^9, 3.744530531661171*^9}, {3.744530568903881*^9, 
+   3.744530572556657*^9}, {3.7445390206959033`*^9, 3.7445390400448866`*^9}},
+ CellLabel->"In[99]:=",ExpressionUUID->"2d6a3bcf-b019-4911-9b94-ac1e167e0899"]
 },
 WindowSize->{1466, 809},
 WindowMargins->{{Automatic, -4}, {Automatic, 1}},
@@ -552,20 +530,10 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 5617, 143, 604, "Input",ExpressionUUID->"abffb216-686f-41c3-82a3-36c0d58f59f6"],
-Cell[CellGroupData[{
-Cell[6200, 167, 797, 17, 64, "Input",ExpressionUUID->"d7859eee-df30-4709-b07d-079440417255"],
-Cell[7000, 186, 235, 3, 32, "Output",ExpressionUUID->"88384f8a-d3cf-44ff-a165-0dc045286ad0"]
-}, Open  ]],
-Cell[7250, 192, 147, 3, 48, "Input",ExpressionUUID->"69207f91-7d59-4cc5-bdee-b6f266121177"],
-Cell[CellGroupData[{
-Cell[7422, 199, 12447, 307, 771, "Input",ExpressionUUID->"2d6a3bcf-b019-4911-9b94-ac1e167e0899"],
-Cell[19872, 508, 841, 13, 32, "Output",ExpressionUUID->"bcfef6b0-4d6a-4787-8aa2-767ec87f6882"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[20750, 526, 156, 3, 28, "Input",ExpressionUUID->"002a1b10-28d5-4fa6-b1e1-850f90285954"],
-Cell[20909, 531, 153, 3, 32, "Output",ExpressionUUID->"c2b484cb-bd15-4ce3-8b76-00f113c7c130"]
-}, Open  ]]
+Cell[558, 20, 5635, 142, 604, "Input",ExpressionUUID->"abffb216-686f-41c3-82a3-36c0d58f59f6"],
+Cell[6196, 164, 797, 17, 64, "Input",ExpressionUUID->"d7859eee-df30-4709-b07d-079440417255"],
+Cell[6996, 183, 147, 3, 48, "Input",ExpressionUUID->"69207f91-7d59-4cc5-bdee-b6f266121177"],
+Cell[7146, 188, 13171, 325, 826, "Input",ExpressionUUID->"2d6a3bcf-b019-4911-9b94-ac1e167e0899"]
 }
 ]
 *)
